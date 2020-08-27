@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="129px" viewBox="0 0 128 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>前20大</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 63 64 63 64 0 0 0"></polygon>
+    </defs>
+    <g id="1.-首頁" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.Index" transform="translate(-554.000000, -756.000000)">
+            <g id="世界頂級防水工程品質-copy-3" transform="translate(0.000000, 545.000000)">
+                <g id="世界頂級防水工程品質(展開前)" transform="translate(102.000000, 174.000000)">
+                    <g id="前20大" transform="translate(426.000000, 0.000000)">
+                        <g id="icon_50" transform="translate(59.000000, 38.000000)">
+                            <g id="Group-9">
+                                <path d="M8.57288889,37.2676056 C7.06488889,33.9897022 6.22222222,30.3372583 6.22222222,26.4854187 C6.22222222,12.348534 17.5648889,0.887323944 31.5555556,0.887323944 C45.5462222,0.887323944 56.8888889,12.348534 56.8888889,26.4854187 C56.8888889,30.3345638 56.0475556,33.9870077 54.5408889,37.2622166" id="Stroke-1" stroke="#FFFFFF" stroke-width="3"></path>
+                                <polyline id="Stroke-3" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" points="16 42.5915493 16 39.9295775 0.888888889 39.9295775 7.75757576 47.915493 0.888888889 55.9014085 10.5050505 55.9014085"></polyline>
+                                <polyline id="Stroke-5" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" points="48 42.5915493 48 39.9295775 63.1111111 39.9295775 56.2424242 47.915493 63.1111111 55.9014085 53.4949495 55.9014085"></polyline>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-8"></g>
+                                <polygon id="Stroke-7" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" mask="url(#mask-2)" points="13.3333333 61.2253521 50.6666667 61.2253521 50.6666667 45.2535211 13.3333333 45.2535211"></polygon>
+                            </g>
+                            <text id="20" font-family="Helvetica" font-size="26" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="18.5400391" y="40">20</tspan>
+                            </text>
+                        </g>
+                        <text id="與世界前20大-化工企業品牌合作" font-family="NotoSansCJKtc-Medium, Noto Sans CJK TC" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="40.88" y="140">與世界前20大</tspan>
+                            <tspan x="26" y="164">化工企業品牌合作</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

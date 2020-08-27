@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button_left</title>
+    <g id="3.-服務項目" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-2.-防水/拜鐵膜" transform="translate(-40.000000, -1606.000000)" stroke="#FFFFFF">
+            <g id="Part-4" transform="translate(0.000000, 1446.000000)">
+                <g id="button_left" transform="translate(41.000000, 161.523422)">
+                    <polygon id="icon_left-button&lt;&gt;" stroke-opacity="0.203699449" fill="#006AC6" opacity="0.356576493" stroke-linecap="square" points="37.0191778 0 74.0383556 36.497919 37.0191778 72.9958379 2.84217094e-14 36.497919"></polygon>
+                    <polyline id="icon_left-button&lt;" stroke-width="2" transform="translate(34.280394, 35.998876) scale(-1, 1) translate(-34.280394, -35.998876) " points="29.6529968 26.729563 38.9077913 35.9988758 29.6529968 45.2681885"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

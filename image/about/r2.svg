@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L11.3993 0L11.3993 11.3992L0 11.3992L0 0Z" transform="translate(0.00075 0.600825)" id="path_1" />
+    <path d="M0 0L14.3999 0L14.3999 14.3993L0 14.3993L0 0Z" transform="translate(7.5E-05 0.600525)" id="path_2" />
+    <path d="M0 47L45 47L45 0L0 0L0 47Z" id="path_3" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="mask_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+    <clipPath id="mask_3">
+      <use xlink:href="#path_3" />
+    </clipPath>
+  </defs>
+  <g id="ICON" transform="translate(1.5 1.5)">
+    <path d="M44 88C68.3005 88 88 68.3005 88 44C88 19.6995 68.3005 0 44 0C19.6995 0 0 19.6995 0 44C0 68.3005 19.6995 88 44 88Z" id="Oval-Copy" fill="none" stroke="#C0C6D3" stroke-width="3" stroke-linecap="round" stroke-dasharray="0 11" />
+    <path d="M38.5 77C59.763 77 77 59.763 77 38.5C77 17.237 59.763 0 38.5 0C17.237 0 0 17.237 0 38.5C0 59.763 17.237 77 38.5 77Z" transform="translate(5.5 5.5)" id="Oval-Copy-2" fill="#FFFFFF" fill-opacity="0.698039234" stroke="none" />
+    <g id="Group-28" transform="translate(24 19)">
+      <g id="Group-3" transform="translate(0 36)">
+        <path d="M0 0L11.3993 0L11.3993 11.3992L0 11.3992L0 0Z" transform="translate(0.00075 0.600825)" id="Clip-2" fill="none" stroke="none" />
+        <g clip-path="url(#mask_1)">
+          <path d="M9.351 11.0475C9.5775 11.2747 9.879 11.3993 10.1993 11.3993C10.8608 11.3993 11.3993 10.8608 11.3993 10.1993L11.3993 1.19925C11.3993 0.53775 10.8608 0 10.1993 0L1.19925 0C0.879 0 0.5775 0.1245 0.351 0.351C-0.117 0.819 -0.117 1.58025 0.351 2.0475L9.351 11.0475ZM8.99925 2.39925L8.99925 7.30275L4.0965 2.39925L8.99925 2.39925Z" transform="translate(0.00075 0.600825)" id="Fill-1" fill="#006AC6" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+      <path d="M9.96992 47C9.6569 47 9.3622 46.8803 9.14081 46.6619L0.343816 38.0116C0.121692 37.7939 0 37.5048 0 37.1963L0 1.15337C0 0.517577 0.526353 0 1.17293 0L37.8271 0C38.4736 0 39 0.517577 39 1.15337L39 34.0245L36.6541 34.0245L36.6541 2.30675L2.34586 2.30675L2.34586 36.7191L10.456 44.694L37.5338 44.694L37.5338 47L9.96992 47Z" id="Fill-4" fill="#006AC6" stroke="none" />
+      <g id="Group-8" transform="translate(31 33)">
+        <path d="M0 0L14.3999 0L14.3999 14.3993L0 14.3993L0 0Z" transform="translate(7.5E-05 0.600525)" id="Clip-7" fill="none" stroke="none" />
+        <g clip-path="url(#mask_2)">
+          <path d="M8.60175 14.0483C8.82825 14.2747 9.129 14.3993 9.45 14.3993C9.771 14.3993 10.0717 14.2747 10.2983 14.0483L14.0483 10.2983C14.2755 10.0717 14.4 9.77025 14.4 9.45C14.4 9.129 14.2755 8.82825 14.0483 8.60175L5.79825 0.35175C5.57175 0.1245 5.271 0 4.95 0C4.629 0 4.32825 0.1245 4.10175 0.35175L0.35175 4.10175C0.1245 4.32825 0 4.629 0 4.95C0 5.27025 0.1245 5.57175 0.35175 5.79825L8.60175 14.0483ZM11.5028 9.45L9.45 11.5028L2.89725 4.95L4.95 2.8965L11.5028 9.45Z" transform="translate(7.5E-05 0.600525)" id="Fill-6" fill="#006AC6" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+      <path d="M0 1.73848L1.73867 0L7 5.26152L5.26133 7L0 1.73848Z" transform="translate(28 32)" id="Fill-9" fill="#006AC6" stroke="none" />
+      <path d="M0 1.73924L1.73867 0L7 5.26152L5.26133 7L0 1.73924Z" transform="translate(30 30)" id="Fill-11" fill="#006AC6" stroke="none" />
+      <path d="M0 4.32618L4.32672 0L6 1.67382L1.67402 6L0 4.32618Z" transform="translate(33 36)" id="Fill-13" fill="#006AC6" stroke="none" />
+      <path d="M0 15.5C0 24.0465 7.17778 31 16 31C24.8119 30.99 31.9896 24.0365 32 15.5C32 6.95347 24.8222 0 16 0C7.17778 0 0 6.95347 0 15.5ZM2.37037 15.5C2.37037 8.21931 8.48445 2.2963 16 2.2963C23.5067 2.30419 29.6215 8.22792 29.6296 15.5C29.6296 22.7807 23.5156 28.7037 16 28.7037C8.48445 28.7037 2.37037 22.7807 2.37037 15.5Z" transform="translate(4 7)" id="Fill-15" fill="#006AC6" fill-rule="evenodd" stroke="none" />
+      <path d="M0 12C0 18.6166 5.60768 24 12.5 24C19.3848 23.992 24.9917 18.6087 25 12C25 5.38337 19.3923 0 12.5 0C5.60768 0 0 5.38337 0 12ZM2.40964 12C2.40964 6.65855 6.93599 2.31325 12.5 2.31325C18.058 2.31904 22.5851 6.66506 22.5904 12C22.5904 17.3414 18.064 21.6867 12.5 21.6867C6.93599 21.6867 2.40964 17.3414 2.40964 12Z" transform="translate(7 10)" id="Fill-17" fill="#006AC6" fill-rule="evenodd" stroke="none" />
+      <path d="M0 47L45 47L45 0L0 0L0 47Z" id="Clip-20" fill="none" stroke="none" />
+      <g clip-path="url(#mask_3)">
+        <path d="M0 5.78261C0 6.45446 0.512857 7 1.14286 7L6.85714 7C7.48714 7 8 6.45446 8 5.78261L8 1.21739C8 0.546304 7.48714 0 6.85714 0L1.14286 0C0.512857 0 0 0.546304 0 1.21739L0 5.78261ZM5.71429 4.56522L2.28571 4.56522L2.28571 2.43478L5.71429 2.43478L5.71429 4.56522Z" transform="translate(3 3)" id="Fill-19" fill="#006AC6" fill-rule="evenodd" stroke="none" />
+        <path d="M1.29032 7C0.579032 7 0 6.4537 0 5.78261L0 1.21739C0 0.546304 0.579032 0 1.29032 0L5 0L5 2.43478L2.58065 2.43478L2.58065 7L1.29032 7Z" transform="translate(3 10)" id="Fill-21" fill="#006AC6" stroke="none" />
+        <path d="M0 2L2 2L2 0L0 0L0 2Z" transform="translate(12 3)" id="Fill-22" fill="#006AC6" stroke="none" />
+        <path d="M0 2L21 2L21 0L0 0L0 2Z" transform="translate(15 3)" id="Fill-23" fill="#006AC6" stroke="none" />
+        <path d="M0 2L2 2L2 0L0 0L0 2Z" transform="translate(12 42)" id="Fill-24" fill="#006AC6" stroke="none" />
+        <path d="M0 2L14 2L14 0L0 0L0 2Z" transform="translate(15 42)" id="Fill-25" fill="#006AC6" stroke="none" />
+        <path d="M0 2L14 2L14 0L0 0L0 2Z" transform="translate(12 39)" id="Fill-26" fill="#006AC6" stroke="none" />
+        <path d="M3.9869 12.6455C4.20713 12.8738 4.50028 13 4.81166 13C5.12304 13 5.4162 12.8738 5.63643 12.6455L13.658 4.33157C13.8789 4.10331 14 3.79948 14 3.47674C14 3.15326 13.8789 2.85017 13.658 2.62116L11.4703 0.353721C11.2501 0.125465 10.9569 0 10.6455 0C10.3341 0 10.041 0.125465 9.82076 0.353721L4.81166 5.54541L4.17796 4.8886C3.95773 4.66035 3.66458 4.53488 3.3532 4.53488C3.04181 4.53488 2.74866 4.66035 2.52843 4.8886L0.340734 7.1568C-0.113578 7.62767 -0.113578 8.39483 0.340734 8.86645L3.9869 12.6455ZM11.183 3.47674L4.81166 10.0803L2.81575 8.01163L3.3532 7.45384L3.9869 8.11064C4.20713 8.3389 4.50028 8.46436 4.81166 8.46436C5.12304 8.46436 5.4162 8.3389 5.63643 8.11064L10.6455 2.91895L11.183 3.47674Z" transform="translate(13 16)" id="Fill-27" fill="#006AC6" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L13.4211 0L13.4211 13.4211L0 13.4211L0 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group-15-Copy-9" transform="translate(1.5 1.5)">
+    <g id="Rectangle">
+      <g clip-path="url(#clip_1)">
+        <use xlink:href="#path_1" fill="none" stroke="#006AC6" stroke-width="2" />
+      </g>
+    </g>
+    <path d="M0 5.49667L3.35075 9.40275L11.23 2.67242e-13" transform="translate(3.157715 0)" id="Path-4" fill="none" stroke="#006AC6" stroke-width="3" />
+  </g>
+</svg>
