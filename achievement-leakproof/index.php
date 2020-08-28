@@ -15,7 +15,7 @@
         </div>
         <div class="wrapper">
             <div class="content">
-                <a href="../achievement-baytecPmB-sub-menu.php" class="item">
+                <a href="../achievement-baytecPmB-sub-menu" class="item">
                     <div class="photo">
                         <img src="../image/icon-25.png" alt="">
                     </div>
@@ -23,7 +23,7 @@
                         <p>隧道、地下室大湧水灌注</p>
                     </div>
                 </a>
-                <a href="../achievement-baytecPmB-sub-menu.php" class="item">
+                <a href="../achievement-baytecPmB-sub-menu" class="item">
                     <div class="photo">
                         <img src="../image/icon-26.png" alt="">
                     </div>
@@ -31,7 +31,7 @@
                         <p>隧道、地下室、蓄水槽漏水灌注</p>
                     </div>
                 </a>
-                <a href="../achievement-baytecPmB-sub-menu.php" class="item">
+                <a href="../achievement-baytecPmB-sub-menu" class="item">
                     <div class="photo">
                         <img src="../image/icon-27.png" alt="">
                     </div>
@@ -39,7 +39,7 @@
                         <p>伸縮縫、施工縫、裂縫漏水灌注</p>
                     </div>
                 </a>
-                <a href="../achievement-baytecPmB-sub-menu.php" class="item">
+                <a href="../achievement-baytecPmB-sub-menu" class="item">
                     <div class="photo">
                         <img src="../image/icon-28.png" alt="">
                     </div>
@@ -60,7 +60,7 @@
                     <div class="view">
                         <h4>日本</h4>
                         <p>實績建立 99件</p>
-                        <a href="">查看實績</a>
+                        <a href="../achievement-planning/">查看實績</a>
                     </div>
                 </div>
                 <div id="kr" class="item coordinate">
@@ -68,7 +68,7 @@
                     <div class="view">
                         <h4>韓國</h4>
                         <p>實績建立 99件</p>
-                        <a href="">查看實績</a>
+                        <a href="../achievement-planning/">查看實績</a>
                     </div>
                 </div>
                 <div id="tw" class="item coordinate">
@@ -76,7 +76,7 @@
                     <div class="view">
                         <h4>台灣</h4>
                         <p>實績建立 99件</p>
-                        <a href="">查看實績</a>
+                        <a href="../achievement-planning/">查看實績</a>
                     </div>
                 </div>
                 <div id="cn" class="item coordinate">
@@ -84,7 +84,7 @@
                     <div class="view">
                         <h4>大陸</h4>
                         <p>實績建立 99件</p>
-                        <a href="">查看實績</a>
+                        <a href="../achievement-planning/">查看實績</a>
                     </div>
                 </div>
                 <div id="sg" class="item coordinate">
@@ -92,7 +92,7 @@
                     <div class="view">
                         <h4>新加玻</h4>
                         <p>實績建立 99件</p>
-                        <a href="">查看實績</a>
+                        <a href="../achievement-planning/">查看實績</a>
                     </div>
                 </div>
             </div>

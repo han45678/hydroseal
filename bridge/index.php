@@ -52,7 +52,7 @@
                     <p>現場使用10年後取樣驗證<br />本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務。</p>
                     <p>司於2003年取得德國BZB之IRP(Injection, Repair and Protection)認證。</p>
                     <p>為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。</p>
-                    <a href="">Read More</a>
+                    <a href="../certification/">Read More</a>
                 </div>
                 <div class="photo">
                     <div class="img imgLiquidCCF">
@@ -134,7 +134,7 @@
                     <img src="../image/about/d1.png" alt="photo">
                 </div>
                 <div class="tc">
-                    <a href="">
+                    <a href="../connection/">
                         預約工程
                     </a>
                 </div>
@@ -316,7 +316,7 @@
                             </span>
                             <img src="../image/about/qr.png" alt="photo">
                             <span class="tc or">or</span>
-                            <a href="">填寫表單</a>
+                            <a href="../connection">填寫表單</a>
                         </div>
                     </div>
                     <div class="item" id="assessment">
@@ -338,7 +338,7 @@
                             </span>
                             <img src="../image/about/qr.png" alt="photo">
                             <span class="tc or">or</span>
-                            <a href="">填寫表單</a>
+                            <a href="../connection">填寫表單</a>
                         </div>
                     </div>
                     <div class="item" id="offer">
@@ -360,7 +360,7 @@
                             </span>
                             <img src="../image/about/qr.png" alt="photo">
                             <span class="tc or">or</span>
-                            <a href="">填寫表單</a>
+                            <a href="../connection">填寫表單</a>
                         </div>
                     </div>
                 </div>
@@ -371,7 +371,7 @@
                 <h3 class="tc">相關產品</h3>
                 <div class="content">
                     <div class="item">
-                        <a href="">
+                        <a href="../product/">
                             <div class="imgLiquidCC">
                                 <img src="../image/about/H601-Isocyanate.jpg" alt="photo">
                             </div>
@@ -379,7 +379,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="../product/">
                             <div class="imgLiquidCC">
                                 <img src="../image/about/H601-Isocyanate.jpg" alt="photo">
                             </div>
@@ -387,7 +387,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="../product/">
                             <div class="imgLiquidCC">
                                 <img src="../image/about/H601-Isocyanate.jpg" alt="photo">
                             </div>
@@ -396,7 +396,7 @@
                     </div>
                 </div>
                 <div class="tc">
-                    <a class="more" href="">了解更多產品</a>
+                    <a class="more" href="../productList">了解更多產品</a>
                 </div>
             </div>
         </div>

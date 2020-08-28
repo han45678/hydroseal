@@ -413,10 +413,7 @@ $(function () {
     });
 
 
-    $("#baytecPmB #map .item").click(function () {
-        $(this).toggleClass('active');
-    });
-    $("#achievement #map .item").click(function () {
+    $("#map .item").click(function () {
         $(this).toggleClass('active');
     });
 

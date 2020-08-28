@@ -10,9 +10,9 @@
     <main id="product">
         <div id="page">
             <div class="wrapper">
-                <a class="active" href="../productList.php">產品</a>
-                <a href="../productList.php">防水系列</a>
-                <a href="../productList.php"><u>拜鐵膜52BC003 POLYOL</u></a>
+                <a class="active" href="../productList">產品</a>
+                <a href="../productList">防水系列</a>
+                <a href="../productList"><u>拜鐵膜52BC003 POLYOL</u></a>
             </div>
         </div>
         <div id="introduction" class="wrapper">
@@ -210,19 +210,19 @@
             <div class="wrapper">
                 <h3>相關產品</h3>
                 <div class="content">
-                    <a href="../product.php" class="item">
+                    <a href="../product" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </div>
                         <p>拜鐵膜52BC003 POLYOL</p>
                     </a>
-                    <a href="../product.php" class="item">
+                    <a href="../product" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </div>
                         <p>拜鐵膜52BC003 POLYOL</p>
                     </a>
-                    <a href="../product.php" class="item">
+                    <a href="../product" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </div>

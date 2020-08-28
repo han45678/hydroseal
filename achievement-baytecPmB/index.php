@@ -105,7 +105,7 @@
                         <div class="view">
                             <h4>日本</h4>
                             <p>實績建立 99件</p>
-                            <a href="">查看實績</a>
+                            <a href="../achievement-planning/">查看實績</a>
                         </div>
                     </div>
                     <div id="kr" class="item coordinate">
@@ -113,7 +113,7 @@
                         <div class="view">
                             <h4>韓國</h4>
                             <p>實績建立 99件</p>
-                            <a href="">查看實績</a>
+                            <a href="../achievement-planning/">查看實績</a>
                         </div>
                     </div>
                     <div id="tw" class="item coordinate">
@@ -121,7 +121,7 @@
                         <div class="view">
                             <h4>台灣</h4>
                             <p>實績建立 99件</p>
-                            <a href="">查看實績</a>
+                            <a href="../achievement-planning/">查看實績</a>
                         </div>
                     </div>
                     <div id="cn" class="item coordinate">
@@ -129,7 +129,7 @@
                         <div class="view">
                             <h4>大陸</h4>
                             <p>實績建立 99件</p>
-                            <a href="">查看實績</a>
+                            <a href="../achievement-planning/">查看實績</a>
                         </div>
                     </div>
                     <div id="sg" class="item coordinate">
@@ -137,7 +137,7 @@
                         <div class="view">
                             <h4>新加玻</h4>
                             <p>實績建立 99件</p>
-                            <a href="">查看實績</a>
+                            <a href="../achievement-planning/">查看實績</a>
                         </div>
                     </div>
                 </div>

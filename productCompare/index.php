@@ -10,7 +10,7 @@
     <main id="productCompare">
         <div id="page">
             <div class="wrapper">
-                <a href="../productList.php">返回產品</a>
+                <a href="../productList">返回產品</a>
             </div>
         </div>
         <div class="content">

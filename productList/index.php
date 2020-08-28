@@ -67,12 +67,12 @@
                 <div id="productList_main">
                     <div class="title">
                         <h2>拜鐵膜</h2>
-                        <a href="../productCompare.php" class="btn">
+                        <a href="../productCompare/" class="btn">
                             比較此2項產品
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="../product.php" class="photo imgLiquidCC">
+                        <a href="../product/" class="photo imgLiquidCC">
                             <img src="../image/p1.jpg" alt="">
                         </a>
                         <p>拜鐵膜52BC003 POLYOL</p>

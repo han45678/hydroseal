@@ -14,7 +14,7 @@
                 <div class="content">
                     <h2>良匠本心</h2>
                     <p><span>世界級的防水工程品質標準，</span><span>是我們唯一懂的施工標準</span></p>
-                    <a href="">READ MORE...</a>
+                    <a href="./achievement-planning/">READ MORE...</a>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="content">
                     <h2>良匠本心</h2>
                     <p>世界級的防水工程品質標準，</span><span>是我們唯一懂的施工標準</span></p>
-                    <a href="">READ MORE...</a>
+                    <a href="./achievement-planning/">READ MORE...</a>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
                                     <p>
                                         德國 世界文化中心（cultural center Haus der Kulturen der Welt ）拜鐵膜在2022屆時，為40年實績的設計，世界唯一防水材料如此耐久性，依舊 在德國 屹立不搖
                                     </p>
-                                    <a href="">
+                                    <a href="./achievement-planning">
                                         了解更多國外案例
                                     </a>
                                 </div>
@@ -79,7 +79,7 @@
                                         <span class="paragraph">拉拔強度 Pull off<br />混凝土中性化 Carbonization<br />抗拉強度 Tensile<br />伸長率 Elongation<br />撕裂 Tear<br />硬度 Hardness<br />抗水壓 Water pressure<br />水蒸氣穿透率 Water vapour impermeability<br /></span>
                                         <span class="paragraph">• 右圖 - 混凝土中性化為0,表示拜鐵膜完整保護結構體16年之久,預計2022採樣20年拜鐵膜樣本.</span>
                                     </p>
-                                    <a href="">
+                                    <a href="./achievement-planning">
                                         了解更多國外案例
                                     </a>
                                 </div>
@@ -96,7 +96,7 @@
                                     <p>
                                         德國 世界文化中心（cultural center Haus der Kulturen der Welt ）拜鐵膜在2022屆時，為40年實績的設計，世界唯一防水材料如此耐久性，依舊 在德國 屹立不搖
                                     </p>
-                                    <a href="">
+                                    <a href="./achievement-planning">
                                         了解更多國外案例
                                     </a>
                                 </div>
@@ -107,13 +107,13 @@
                             <div class="content">
                                 <h3>國際實績40年</h3>
                                 <div class="photo imgLiquidCC">
-                                    <img src="./image/index/banner01.jpg" alt="photo">
+                                    <img src="./achievement-planning" alt="photo">
                                 </div>
                                 <div class="text">
                                     <p>
                                         德國 世界文化中心（cultural center Haus der Kulturen der Welt ）拜鐵膜在2022屆時，為40年實績的設計，世界唯一防水材料如此耐久性，依舊 在德國 屹立不搖
                                     </p>
-                                    <a href="">
+                                    <a href="./achievement-planning">
                                         了解更多國外案例
                                     </a>
                                 </div>
@@ -121,10 +121,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
         </div>
         <div id="certification">
@@ -139,7 +135,7 @@
                         <b>現場使用10年後取樣驗證</b><br />本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務。</p>
                     <p>司於2003年取得德國BZB之IRP(Injection, Repair and Protection)認證。</p>
                     <p>為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。</p>
-                    <a href="">Read More</a>
+                    <a href="./certification">Read More</a>
                 </div>
                 <div class="photo">
                     <div class="img imgLiquidCCF">
@@ -153,7 +149,7 @@
                 <h2>服務項目</h2>
             </div>
             <div class="content">
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -166,7 +162,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -179,7 +175,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -192,7 +188,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -205,7 +201,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -218,7 +214,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -231,7 +227,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -244,7 +240,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="./planning">
                     <div class="item">
                         <div class="photo imgLiquidCC">
                             <img src="./image/index/s1.jpg" alt="photo">
@@ -262,7 +258,7 @@
         <div id="experience">
             <div class="title">
                 <h2>防水工程經驗累積</h2>
-                <a href="">
+                <a href="./achievement-planning">
                     更多品牌專業
                 </a>
             </div>
@@ -291,7 +287,7 @@
                 </div>
                 <div class="content slick">
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -302,31 +298,7 @@
                                     <span>/拜鐵膜</span>/</p>
                             </div>
                         </a>
-                        <a href="">
-                            <div class="photo imgLiquidCC">
-                                <img src="./image/index/c2.jpg" alt="img">
-                            </div>
-                            <div class="text">
-                                <h3>ECO Link生態廊道橋樑防水</h3>
-                                <p>
-                                    <span>/防水</span>
-                                    <span>/拜鐵膜</span>/</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="">
-                            <div class="photo imgLiquidCC">
-                                <img src="./image/index/c2.jpg" alt="img">
-                            </div>
-                            <div class="text">
-                                <h3>ECO Link生態廊道橋樑防水</h3>
-                                <p>
-                                    <span>/防水</span>
-                                    <span>/拜鐵膜</span>/</p>
-                            </div>
-                        </a>
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -339,7 +311,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -350,31 +322,7 @@
                                     <span>/拜鐵膜</span>/</p>
                             </div>
                         </a>
-                        <a href="">
-                            <div class="photo imgLiquidCC">
-                                <img src="./image/index/c2.jpg" alt="img">
-                            </div>
-                            <div class="text">
-                                <h3>ECO Link生態廊道橋樑防水</h3>
-                                <p>
-                                    <span>/防水</span>
-                                    <span>/拜鐵膜</span>/</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="">
-                            <div class="photo imgLiquidCC">
-                                <img src="./image/index/c2.jpg" alt="img">
-                            </div>
-                            <div class="text">
-                                <h3>ECO Link生態廊道橋樑防水</h3>
-                                <p>
-                                    <span>/防水</span>
-                                    <span>/拜鐵膜</span>/</p>
-                            </div>
-                        </a>
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -387,7 +335,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -398,7 +346,55 @@
                                     <span>/拜鐵膜</span>/</p>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="./baytecPmB">
+                            <div class="photo imgLiquidCC">
+                                <img src="./image/index/c2.jpg" alt="img">
+                            </div>
+                            <div class="text">
+                                <h3>ECO Link生態廊道橋樑防水</h3>
+                                <p>
+                                    <span>/防水</span>
+                                    <span>/拜鐵膜</span>/</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./baytecPmB">
+                            <div class="photo imgLiquidCC">
+                                <img src="./image/index/c2.jpg" alt="img">
+                            </div>
+                            <div class="text">
+                                <h3>ECO Link生態廊道橋樑防水</h3>
+                                <p>
+                                    <span>/防水</span>
+                                    <span>/拜鐵膜</span>/</p>
+                            </div>
+                        </a>
+                        <a href="./baytecPmB">
+                            <div class="photo imgLiquidCC">
+                                <img src="./image/index/c2.jpg" alt="img">
+                            </div>
+                            <div class="text">
+                                <h3>ECO Link生態廊道橋樑防水</h3>
+                                <p>
+                                    <span>/防水</span>
+                                    <span>/拜鐵膜</span>/</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./baytecPmB">
+                            <div class="photo imgLiquidCC">
+                                <img src="./image/index/c2.jpg" alt="img">
+                            </div>
+                            <div class="text">
+                                <h3>ECO Link生態廊道橋樑防水</h3>
+                                <p>
+                                    <span>/防水</span>
+                                    <span>/拜鐵膜</span>/</p>
+                            </div>
+                        </a>
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -413,7 +409,7 @@
                 </div>
                 <div class="content mobile slick">
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -426,7 +422,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -439,7 +435,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -452,7 +448,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -465,7 +461,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="./baytecPmB">
                             <div class="photo imgLiquidCC">
                                 <img src="./image/index/c2.jpg" alt="img">
                             </div>
@@ -508,7 +504,7 @@
                             <a class="more" href="">READ MORE...</a>
                         </div>
                         <div class="photo">
-                        <a class="more" href="">文章分類項目</a>
+                        <a class="more" href="./news">文章分類項目</a>
                             <div class="photo_item imgLiquidCT">
                                 <img src="./image/index/c3.jpg" alt="img">
                             </div>
@@ -533,7 +529,7 @@
                             <a class="more" href="">READ MORE...</a>
                         </div>
                         <div class="photo">
-                        <a class="more" href="">文章分類項目</a>
+                        <a class="more" href="./news">文章分類項目</a>
                             <div class="photo_item imgLiquidCT">
                                 <img src="./image/index/c3.jpg" alt="img">
                             </div>

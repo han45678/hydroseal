@@ -30,7 +30,7 @@
                             <li><a href="../waterproof">施作建築防水觀念教學</a></li>
                         </ul>
                     </div>
-                    <a class="reservation_button" href="">
+                    <a class="reservation_button" href="../simulation/">
                         預約
                     </a>
                 </div>

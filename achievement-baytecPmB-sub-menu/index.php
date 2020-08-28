@@ -65,7 +65,7 @@
             </div>
             <div class="content">
                 <div class="wrapper">
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -75,7 +75,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -85,7 +85,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -95,7 +95,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -105,7 +105,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -115,7 +115,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -125,7 +125,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -135,7 +135,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -145,7 +145,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -155,7 +155,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -165,7 +165,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>
@@ -175,7 +175,7 @@
                             <p>2013年10月</p>
                         </div>
                     </a>
-                    <a href="../achievement-baytecPmB-content.php" class="item">
+                    <a href="../achievement-baytecPmB-content" class="item">
                         <div class="photo imgLiquidCC">
                             <img src="../image/8-2.jpg" alt="">
                         </div>

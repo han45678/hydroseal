@@ -25,12 +25,12 @@
                     <div class="owner_drop_down">
                         <div class="title">預約產品簡報服務</div>
                         <ul>
-                            <li><a href="../reservatio.php">預約產品簡報服務</a></li>
+                            <li><a href="../reservatio">預約產品簡報服務</a></li>
                             <li><a href="../simulation">現場施作模擬</a></li>
                             <li><a href="../waterproof">施作建築防水觀念教學</a></li>
                         </ul>
                     </div>
-                    <a class="reservation_button" href="">
+                    <a class="reservation_button" href="../connection/">
                         預約
                     </a>
                 </div>

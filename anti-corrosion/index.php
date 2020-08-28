@@ -61,7 +61,7 @@
                             成,並成功的進入英國橋樑及隧道防水工程,於1990年獲得英國運輸部之高速公路橋面板防水合格標準的認證。
                         </p>
                         <div class="tc">
-                            <a href="">
+                            <a href="../connection/">
                                 預約工程
                             </a>
                         </div>
@@ -148,7 +148,7 @@
                             </span>
                             <img src="../image/about/qr.png" alt="photo">
                             <span class="tc or">or</span>
-                            <a href="">填寫表單</a>
+                            <a href="../connection">填寫表單</a>
                         </div>
                     </div>
                     <div class="item" id="assessment">
@@ -159,6 +159,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
+                               
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">
@@ -169,7 +170,7 @@
                             </span>
                             <img src="../image/about/qr.png" alt="photo">
                             <span class="tc or">or</span>
-                            <a href="">填寫表單</a>
+                            <a href="../connection">填寫表單</a>
                         </div>
                     </div>
                     <div class="item" id="offer">
@@ -180,6 +181,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
+                               
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">
@@ -190,7 +192,7 @@
                             </span>
                             <img src="../image/about/qr.png" alt="photo">
                             <span class="tc or">or</span>
-                            <a href="">填寫表單</a>
+                            <a href="../connection">填寫表單</a>
                         </div>
                     </div>
                 </div>
@@ -201,7 +203,7 @@
                 <h3 class="tc">相關產品</h3>
                 <div class="content">
                     <div class="item">
-                        <a href="">
+                        <a href="../product/">
                             <div class="imgLiquidCC">
                                 <img src="../image/about/H601-Isocyanate.jpg" alt="photo">
                             </div>
@@ -209,7 +211,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="../product/">
                             <div class="imgLiquidCC">
                                 <img src="../image/about/H601-Isocyanate.jpg" alt="photo">
                             </div>
@@ -217,7 +219,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="">
+                        <a href="../product/">
                             <div class="imgLiquidCC">
                                 <img src="../image/about/H601-Isocyanate.jpg" alt="photo">
                             </div>
@@ -226,7 +228,7 @@
                     </div>
                 </div>
                 <div class="tc">
-                    <a class="more" href="">了解更多產品</a>
+                    <a class="more" href="../productList">了解更多產品</a>
                 </div>
             </div>
         </div>

@@ -35,7 +35,7 @@
                     <span class="date">Mar.10 .2020</span>
                     <h3>二公分薄膜就能護橋墩兩岸高鐵都找它</h3>
                     <p>從台灣高鐵到中國的哈大高鐵，都使用一家小台商的技術，來保護橋墩梁柱，所用的防護塗料不是鋼板，而是一層薄膜，這家公司有何能耐？</p>
-                    <a href="../news_content.php">了解更多</a>
+                    <a href="../news_content">了解更多</a>
                 </div>
                 <div class="photo imgLiquidCC">
                     <img src="../image/n1.jpg" alt="">
@@ -47,7 +47,7 @@
                     <span class="date">Mar.10 .2020</span>
                     <h3>二公分薄膜就能護橋墩兩岸高鐵都找它</h3>
                     <p>從台灣高鐵到中國的哈大高鐵，都使用一家小台商的技術，來保護橋墩梁柱，所用的防護塗料不是鋼板，而是一層薄膜，這家公司有何能耐？</p>
-                    <a href="../news_content.php">了解更多</a>
+                    <a href="../news_content">了解更多</a>
                 </div>
                 <div class="photo imgLiquidCC">
                     <img src="../image/n1.jpg" alt="">
@@ -59,7 +59,7 @@
                     <span class="date">Mar.10 .2020</span>
                     <h3>二公分薄膜就能護橋墩兩岸高鐵都找它</h3>
                     <p>從台灣高鐵到中國的哈大高鐵，都使用一家小台商的技術，來保護橋墩梁柱，所用的防護塗料不是鋼板，而是一層薄膜，這家公司有何能耐？</p>
-                    <a href=./news_content.php">了解更多</a>
+                    <a href=./news_content">了解更多</a>
                 </div>
                 <div class="photo imgLiquidCC">
                     <img src="../image/n1.jpg" alt="">
