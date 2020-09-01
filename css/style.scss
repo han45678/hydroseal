@@ -162,6 +162,29 @@ header {
                                                 font-weight: 400;
                                                 line-height: 40px;
                                                 letter-spacing: 1.555556px;
+                                                position: relative;
+
+                                                &::before {
+                                                    content: '';
+                                                    width: 0;
+                                                    position: absolute;
+                                                    height: 1px;
+                                                    background-color: #fff;
+                                                    bottom: -2.5px;
+                                                    left: 0;
+                                                    transition: 0.6s;
+                                                }
+                                            }
+
+                                            &:hover {
+
+                                                a {
+                                                    font-weight: bolder;
+
+                                                    &::before {
+                                                        width: 100%;
+                                                    }
+                                                }
 
                                             }
                                         }
@@ -457,6 +480,29 @@ footer {
                     text-align: center;
                     font-size: 12px;
                     color: #fff;
+                    position: relative;
+                    overflow: hidden;
+                    span{
+                        position: relative;
+                        z-index: 3;
+                    }
+                    &::after{
+                        content: "";
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        transition: 0.6s;
+                        background-color: #006AC6;
+                        transform: translateY(100%);
+                    }
+                    &:hover{
+                        &::after{
+                            transform: translateY(0);
+                        }
+                    }
                 }
             }
 
@@ -494,28 +540,61 @@ footer {
     .slick-arrow {
         width: 27px;
         height: 66px;
-        background-image: url(../image/index/arrowL.png);
-        background-size: cover;
-        background-color: transparent;
+        background-color: #00A3F4;
+        ;
         border: none;
         position: absolute;
         left: 15px;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(-50%) scaleX(-1);
         font-size: 0;
         transition: 0.6s;
         z-index: 1;
         padding: 0;
         cursor: pointer;
+        overflow: hidden;
+
+        &::before {
+            content: url("../image/Iconarrow.svg");
+            position: relative;
+            z-index: 3;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: #006AC6;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translateX(-100%);
+            transition: 0.6s;
+        }
 
         &:hover {
-            filter: brightness(.5);
+            &::after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-color: #006AC6;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translateX(0);
+            }
+
+            &::before {
+                animation: banner_arrow 1.5s;
+            }
         }
 
         &.slick-next {
             left: unset;
             right: 15px;
-            transform: translateY(-50%) scaleX(-1);
+            transform: translateY(-50%);
         }
     }
 }
@@ -1096,6 +1175,7 @@ main {
                                 border-radius: 180px;
                                 font-size: 0;
                                 border: none;
+                                cursor: pointer;
                             }
 
                             &.slick-active {
@@ -1600,70 +1680,20 @@ main {
                             max-width: 100%;
                         }
 
-                        &.style1 {
-                            .left {
-                                width: 70%;
-                                display: flex;
-                                flex-wrap: wrap;
-                                justify-content: space-between;
-
-                                .w100 {
-                                    width: 100%;
-                                }
-                            }
-
-                            .right {
-                                width: calc(30% - 10px);
-
-                                .photo_item {
-                                    height: calc(100% - 12px);
-                                    width: 100%;
-                                }
-                            }
+                        .img_pc{
+                            display: block;
                         }
-                        &.style2{
-                            .left{
-                                width: calc(30% - 10px);
-                                height: 303px;
-                                .photo_item{
-                                    height: calc(100% - 12px);
-                                    width: 100%; 
-                                }
-                            }
-                            .right{
-                                width: 70%;
-                                height: 303px;
-                                .photo_item{
-                                    height: calc(100% - 12px);
-                                    width: 100%; 
-                                }
-                            }
+
+                        .img_m{
+                            display: none;
                         }
-                        &.style3{
-                            .left{
-                                width:70%;
-                                height: 303px;
-                                .photo_item{
-                                    height: calc(100% - 12px);
-                                    width: 100%; 
-                                }
-                            }
-                            .right{
-                                width:calc(30% - 10px);;
-                                height: 130px;
-                                .photo_item{
-                                    height:calc(100% + 9.5px);
-                                    width: 100%; 
-                                }
-                            }
-                        }
-                        &.style4{
-                           .photo_item{
-                               display: flex;
-                               flex-wrap: wrap;
-                               width: calc(50% - 5px);
-                               height: 204px;
-                           } 
+                       
+                    }
+
+                    &:last-child{
+                        h3{
+                            margin-top: 28px;
+                            margin-bottom: 45px;
                         }
                     }
                 }
@@ -6481,7 +6511,8 @@ body#proxy {
         }
     }
 }
-#loading{
+
+#loading {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -6489,6 +6520,74 @@ body#proxy {
     top: 0;
     left: 0;
     z-index: 999;
+}
+
+.search{
+    main{
+        min-height: calc(100vh - 96px - 400px);
+        max-width: 780px;
+        padding: 25px 45px;
+        margin: auto;
+        .item{
+            display: block;
+            padding: 25px;
+            border-top: solid 1px rgba(0,0,0,0.1);
+            transition: 0.6s;
+            &:last-child{
+                border-bottom: solid 1px rgba(0,0,0,0.1);
+            }
+            .path{
+                padding-bottom: 25px;
+                li{
+                    display: inline-block;
+                    color: rgba(89,87,87,0.7);
+                    font-size: 10px;
+                    font-weight: 400;
+                    line-height: 15px;
+                    letter-spacing: 0.3571428px;
+                    &+li{
+                        &::before{
+                            content: '>>';
+                            margin: 0 2.5px;
+                        }
+                    }
+                }
+            }
+            .content{
+                display: flex;
+                .photo{
+                    width: 220px;
+                    height: 150px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .text{
+                    padding-left: 25px;
+                    width: calc(100% - 220px - 25px);
+                    h3{
+                        padding-bottom: 25px;
+                        color: #595757;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 21px;
+                        letter-spacing: 0.5px;
+                    }
+                    p{
+                        color: #4a4a4a;
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                }
+            }
+            &:hover{
+                background: rgba(216,216,216,0.2);
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 965px) {
@@ -8010,58 +8109,12 @@ body#proxy {
                                 max-width: 100%;
                             }
 
-                            &.style1 {
-                                .left {
-                                    width:100%;
-
-                                    .photo_item {
-                                        width: calc(50% - 5px);
-                                    }
-                                }
+                            .img_pc{
+                                display: none;
+                            }
     
-                                .right {
-                                    width: 100%;
-    
-                                    .photo_item {
-                                       height: 131px;
-                                    }
-                                }
-                            }
-                            &.style2{
-                                .left{
-                                    width: calc(50% - 5px);
-                                    height: 131px;
-                                    .photo_item{
-                                        height:100%;
-                                        width: 100%; 
-                                    }
-                                }
-                                .right{
-                                    width:calc(50% - 5px);
-                                    height: 131px;
-                                    .photo_item{
-                                        height:131px;
-                                        width:100%;
-                                        margin-bottom: 12px;
-                                    }
-                                }
-                            }
-                            &.style3{
-                                margin-top: 12px;
-                                .left {
-                                    width: 50%;
-                                    height: 303px;
-                                }
-                                .right {
-                                    width: calc(50% - 5px);
-                                    height: 130px;
-                                }
-                               
-                            }
-                            &.style4{
-                               .photo_item{
-                                       height: 130px;
-                               } 
+                            .img_m{
+                                display: block;
                             }
 
                         }

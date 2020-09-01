@@ -17,8 +17,8 @@
                 </ul>
             </div>
             <div class="sidebar">
-                <p><span>we know is international.</span><span>Only Standard</span></p>
-                <h2>
+                <p class="slideRight wow" data-wow-delay="1.5s" data-wow-offset:"100"><span>we know is international.</span><span>Only Standard</span></p>
+                <h2 class="slideBottom wow" data-wow-delay="1s" data-wow-offset:"100">
                     <div class="zh">品牌哲學</div>
                     <div class="en">Brand philosophy<span class="slog">國際防水標準，我們唯一懂的標準。</span></div>
                 </h2>
@@ -28,7 +28,7 @@
                     <a href="../material">材料與技術</a>
                     <a class="active" href="javascript:void(0)">專業團隊</a>
                 </div>
-                <div id="material" class="team">
+                <div id="material" class="team slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
                     <div class="item">
                         <h3>
                             <span>世界20大化工企業夥伴 Business partners</span>

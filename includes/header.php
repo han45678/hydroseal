@@ -48,13 +48,13 @@
                             <div class="content">
                                 <ol>
                                     <li>
-                                        <a href="../story">品牌故事</a>
+                                        <a href="../philosophy">品牌故事</a>
                                     </li>
                                     <li>
-                                        <a href="../material">品牌專業</a>
+                                        <a href="">品牌專業</a>
                                     </li>
                                     <li>
-                                        <a href="../certification">品牌認證</a>
+                                        <a href="">品牌認證</a>
                                     </li>
                                 </ol>
                                 <div class="photo imgLiquidCC">

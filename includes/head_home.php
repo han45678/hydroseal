@@ -5,4 +5,5 @@
 <link rel="stylesheet" href="./css/reset.css">
 <link rel="stylesheet" href="./css/slick.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/jquery.running.css">
 <link rel="stylesheet" href="./css/style.css">

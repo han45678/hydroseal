@@ -1,4 +1,5 @@
 $(function () {
+    new WOW().init();
 
     $('#goTop').click(function () {
         $('html,body').animate({
@@ -39,9 +40,11 @@ $(function () {
     $('#classic .slick').slick({
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         variableWidth: false,
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 1500,
 
         responsive: [{
                 breakpoint: 1023,
@@ -464,4 +467,11 @@ $(function () {
         }, 800);
     });
 
+    // $("body").scroll(function () {
+    //     if ($(window).scrollTop() > $("#project").height()) {
+    //         // $("main#home #project .wrapper .content .item").removeClass('active');
+    //         // $("main#home #project .wrapper .content #project_content .content_item").removeClass('active');
+    //         console.log('123')
+    //     }
+    // });
 });

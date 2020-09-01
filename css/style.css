@@ -161,6 +161,26 @@ header .wrapper .content nav ul li.main_menu .sub_menu .content ol li a {
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 1.555556px;
+  position: relative;
+}
+
+header .wrapper .content nav ul li.main_menu .sub_menu .content ol li a::before {
+  content: '';
+  width: 0;
+  position: absolute;
+  height: 1px;
+  background-color: #fff;
+  bottom: -2.5px;
+  left: 0;
+  transition: 0.6s;
+}
+
+header .wrapper .content nav ul li.main_menu .sub_menu .content ol li:hover a {
+  font-weight: bolder;
+}
+
+header .wrapper .content nav ul li.main_menu .sub_menu .content ol li:hover a::before {
+  width: 100%;
 }
 
 header .wrapper .content nav ul li.main_menu .sub_menu .content .photo {
@@ -434,6 +454,30 @@ footer .wrapper .bottom .link ul li a {
   text-align: center;
   font-size: 12px;
   color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+#banner .item .text .content a span {
+  position: relative;
+  z-index: 3;
+}
+
+#banner .item .text .content a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.6s;
+  background-color: #006AC6;
+  transform: translateY(100%);
+}
+
+#banner .item .text .content a:hover::after {
+  transform: translateY(0);
 }
 
 #banner .slick-dots {
@@ -465,29 +509,59 @@ footer .wrapper .bottom .link ul li a {
 #banner .slick-arrow {
   width: 27px;
   height: 66px;
-  background-image: url(../image/index/arrowL.png);
-  background-size: cover;
-  background-color: transparent;
+  background-color: #00A3F4;
   border: none;
   position: absolute;
   left: 15px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) scaleX(-1);
   font-size: 0;
   transition: 0.6s;
   z-index: 1;
   padding: 0;
   cursor: pointer;
+  overflow: hidden;
 }
 
-#banner .slick-arrow:hover {
-  filter: brightness(0.5);
+#banner .slick-arrow::before {
+  content: url("../image/Iconarrow.svg");
+  position: relative;
+  z-index: 3;
+}
+
+#banner .slick-arrow::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #006AC6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: 0.6s;
+}
+
+#banner .slick-arrow:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #006AC6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+}
+
+#banner .slick-arrow:hover::before {
+  animation: banner_arrow 1.5s;
 }
 
 #banner .slick-arrow.slick-next {
   left: unset;
   right: 15px;
-  transform: translateY(-50%) scaleX(-1);
+  transform: translateY(-50%);
 }
 
 main#home #project {
@@ -1051,6 +1125,7 @@ main#home #classic .wrapper .content .slick-dots li button {
   border-radius: 180px;
   font-size: 0;
   border: none;
+  cursor: pointer;
 }
 
 main#home #classic .wrapper .content .slick-dots li.slick-active button {
@@ -1530,71 +1605,17 @@ main .wrapper .main_content #timeline .item .photo img {
   max-width: 100%;
 }
 
-main .wrapper .main_content #timeline .item .photo.style1 .left {
-  width: 70%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+main .wrapper .main_content #timeline .item .photo .img_pc {
+  display: block;
 }
 
-main .wrapper .main_content #timeline .item .photo.style1 .left .w100 {
-  width: 100%;
+main .wrapper .main_content #timeline .item .photo .img_m {
+  display: none;
 }
 
-main .wrapper .main_content #timeline .item .photo.style1 .right {
-  width: calc(30% - 10px);
-}
-
-main .wrapper .main_content #timeline .item .photo.style1 .right .photo_item {
-  height: calc(100% - 12px);
-  width: 100%;
-}
-
-main .wrapper .main_content #timeline .item .photo.style2 .left {
-  width: calc(30% - 10px);
-  height: 303px;
-}
-
-main .wrapper .main_content #timeline .item .photo.style2 .left .photo_item {
-  height: calc(100% - 12px);
-  width: 100%;
-}
-
-main .wrapper .main_content #timeline .item .photo.style2 .right {
-  width: 70%;
-  height: 303px;
-}
-
-main .wrapper .main_content #timeline .item .photo.style2 .right .photo_item {
-  height: calc(100% - 12px);
-  width: 100%;
-}
-
-main .wrapper .main_content #timeline .item .photo.style3 .left {
-  width: 70%;
-  height: 303px;
-}
-
-main .wrapper .main_content #timeline .item .photo.style3 .left .photo_item {
-  height: calc(100% - 12px);
-  width: 100%;
-}
-
-main .wrapper .main_content #timeline .item .photo.style3 .right {
-  width: calc(30% - 10px);
-  height: 130px;
-}
-
-main .wrapper .main_content #timeline .item .photo.style3 .right .photo_item {
-  height: calc(100% + 9.5px);
-  width: 100%;
-}
-
-main .wrapper .main_content #timeline .item .photo.style4 .photo_item {
-  display: flex;
-  flex-wrap: wrap;
-  width: calc(50% - 5px);
-  height: 204px;
+main .wrapper .main_content #timeline .item:last-child h3 {
+  margin-top: 28px;
+  margin-bottom: 45px;
 }
 
 main .wrapper .main_content #philosophy {
@@ -6237,6 +6258,82 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   z-index: 999;
 }
 
+.search main {
+  min-height: calc(100vh - 96px - 400px);
+  max-width: 780px;
+  padding: 25px 45px;
+  margin: auto;
+}
+
+.search main .item {
+  display: block;
+  padding: 25px;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  transition: 0.6s;
+}
+
+.search main .item:last-child {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.search main .item .path {
+  padding-bottom: 25px;
+}
+
+.search main .item .path li {
+  display: inline-block;
+  color: rgba(89, 87, 87, 0.7);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.3571428px;
+}
+
+.search main .item .path li + li::before {
+  content: '>>';
+  margin: 0 2.5px;
+}
+
+.search main .item .content {
+  display: flex;
+}
+
+.search main .item .content .photo {
+  width: 220px;
+  height: 150px;
+}
+
+.search main .item .content .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.search main .item .content .text {
+  padding-left: 25px;
+  width: calc(100% - 220px - 25px);
+}
+
+.search main .item .content .text h3 {
+  padding-bottom: 25px;
+  color: #595757;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+}
+
+.search main .item .content .text p {
+  color: #4a4a4a;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.search main .item:hover {
+  background: rgba(216, 216, 216, 0.2);
+}
+
 @media only screen and (max-width: 965px) {
   header .wrapper {
     padding-left: 15px;
@@ -7387,48 +7484,11 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main .wrapper .main_content #timeline .item .photo img {
     max-width: 100%;
   }
-  main .wrapper .main_content #timeline .item .photo.style1 .left {
-    width: 100%;
+  main .wrapper .main_content #timeline .item .photo .img_pc {
+    display: none;
   }
-  main .wrapper .main_content #timeline .item .photo.style1 .left .photo_item {
-    width: calc(50% - 5px);
-  }
-  main .wrapper .main_content #timeline .item .photo.style1 .right {
-    width: 100%;
-  }
-  main .wrapper .main_content #timeline .item .photo.style1 .right .photo_item {
-    height: 131px;
-  }
-  main .wrapper .main_content #timeline .item .photo.style2 .left {
-    width: calc(50% - 5px);
-    height: 131px;
-  }
-  main .wrapper .main_content #timeline .item .photo.style2 .left .photo_item {
-    height: 100%;
-    width: 100%;
-  }
-  main .wrapper .main_content #timeline .item .photo.style2 .right {
-    width: calc(50% - 5px);
-    height: 131px;
-  }
-  main .wrapper .main_content #timeline .item .photo.style2 .right .photo_item {
-    height: 131px;
-    width: 100%;
-    margin-bottom: 12px;
-  }
-  main .wrapper .main_content #timeline .item .photo.style3 {
-    margin-top: 12px;
-  }
-  main .wrapper .main_content #timeline .item .photo.style3 .left {
-    width: 50%;
-    height: 303px;
-  }
-  main .wrapper .main_content #timeline .item .photo.style3 .right {
-    width: calc(50% - 5px);
-    height: 130px;
-  }
-  main .wrapper .main_content #timeline .item .photo.style4 .photo_item {
-    height: 130px;
+  main .wrapper .main_content #timeline .item .photo .img_m {
+    display: block;
   }
   main .wrapper .main_content #philosophy {
     margin-left: 50px;
