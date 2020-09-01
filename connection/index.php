@@ -293,24 +293,36 @@
                     </div>
                     <div class="form_content">
                         <label for="">可聯繫時段<span class="red">*</span></label>
-                        <select name="">
-                            <option value='0'>請選擇</option>
-                            <option value='1'>早上</option>
-                            <option value='2'>下午</option>
-                            <option value='3'>晚上</option>
+                        <select name="TimePeriod">
+                            <option value="1">週一～五（上午9:00~中午12:00）</option>
+                            <option value="2">週一～五（下午12:00~下午6:00）</option>
+                            <option value="3">週一～五（下午 6:00 後）</option>
+                            <option value="4">週六、日（上午9:00~中午12:00）</option>
+                            <option value="4">週六、日（下午12:00~下午6:00）</option>
+                            <option value="4">週六、日（下午 6:00 後）</option>
+                            <option value="4">全時段</option>
                         </select>
                     </div>
                     <div class="form_content">
                         <label for="">預約項目<span class="red">*</span></label>
                         <select class="double" name="">
-                            <option value='0'>請選擇</option>
+                            <option value='0'>拜鐵膜簡報服務</option>
+                            <option value='1'>易必靜簡報服務</option>
+                            <option value='2'>拜鐵膜施作模擬</option>
+                            <option value='3'>易必靜施作模擬</option>
+                            <option value='4'>施作建築防水觀念教學</option>
                         </select>
                         <select class="double" name="">
-                            <option value='0'>請選擇</option>
+                            <option value='0'>拜鐵膜</option>
+                            <option value='1'>易治水</option>
+                            <option value='2'>易堵水</option>
+                            <option value='3'>易壁固</option>
+                            <option value='4'>易必靜</option>
+                            <option value='5'>力聚膜</option>
                         </select>
                     </div>
                     <div class="form_content">
-                        <label for="">預約項目<span class="red">*</span></label>
+                        <label for="">驗證碼<span class="red">*</span></label>
                         <input class="double" type="text">
                         <div class="double">
                             <img src="../image/Bitmap.jpg" alt="">
@@ -332,7 +344,7 @@
                     <div class="content">
                         <h3>聯絡資訊</h3>
                         <h2>易兆企業有限公司 Hydroseal Enterprise Co. Ltd. All Rights Reserved.　</h2>
-                        <a href="">
+                        <a href="https://goo.gl/maps/wgD8HJAwekngbunVA">
                             <svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                 <desc>Created with Lunacy</desc>
                                 <g id="noun_Map-Marker_64480">
@@ -342,7 +354,7 @@
                             台北市文山區木柵路四段153號6樓
                         </a>
                         <p>捷運坐到「木柵站」步行五分鐘<br>公車坐到「捷運木柵站」或「軍功新村」步行五分鐘<br>汽車走木柵交流道下來，看到頂好，第一條巷子右轉</p>
-                        <a href="">
+                        <a href="fax:02-2239-0262">
                             <svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                 <desc>Created with Lunacy</desc>
                                 <g id="noun_fax_99447">
@@ -356,7 +368,7 @@
                             </svg>
                             02-2239-0262
                         </a>
-                        <a href="">
+                        <a href="tel:02-2239-0272">
                             <svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                 <desc>Created with Lunacy</desc>
                                 <g id="noun_Phone_64481">
@@ -365,7 +377,7 @@
                             </svg>
                             02-2239-0272
                         </a>
-                        <a href="">
+                        <a href="mailto:info@hydroseal.com.tw">
                             <svg width="12px" height="9px" viewBox="0 0 12 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                 <desc>Created with Lunacy</desc>
                                 <g id="noun_Mail_64479">
@@ -374,8 +386,36 @@
                             </svg>
                             info@hydroseal.com.tw
                         </a>
-                    </div>
+                        <div class="link">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src="../image/fb.svg" alt="fb"></a>
+                                </li>
 
+                                <li>
+                                    <a href="">
+                                        <img src="../image/ig.svg" alt="ig"></a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="../image/line.svg" alt="line"></a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="../image/yt.svg" alt="yt"></a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="../image/wechat.svg" alt="wechat"></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

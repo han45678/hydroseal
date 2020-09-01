@@ -37,13 +37,31 @@
                             <a href="">屋頂及露台</a>
                         </li>
                         <li>
-                            <a href="">屋頂及露台</a>
+                            <a href="">外牆 • 窗框 • 層接</a>
                         </li>
                         <li>
-                            <a href="">屋頂及露台</a>
+                            <a href="">中庭 • 景觀</a>
                         </li>
                         <li>
-                            <a href="">屋頂及露台</a>
+                            <a href="">泳池 • 水池 • 水箱</a>
+                        </li>
+                        <li>
+                            <a href="">地下室 • 電梯機坑 • 點井</a>
+                        </li>
+                        <li>
+                            <a href="">地下室 • 施工縫</a>
+                        </li>
+                        <li>
+                            <a href="">地下室 • 內外牆、連續壁</a>
+                        </li>
+                        <li>
+                            <a href="">浴室 • 廁所</a>
+                        </li>
+                        <li>
+                            <a href="">廚房</a>
+                        </li>
+                        <li>
+                            <a href="">車道</a>
                         </li>
                     </ul>
                 </div>

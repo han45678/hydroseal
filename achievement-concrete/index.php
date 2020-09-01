@@ -20,7 +20,7 @@
                         <img src="../image/icon-16.png" alt="">
                     </div>
                     <div class="text">
-                        <p>橋面板</p>
+                        <p>橋梁、隧道</p>
                     </div>
                 </a>
                 <a href="../achievement-baytecPmB-sub-menu" class="item">
@@ -28,7 +28,7 @@
                         <img src="../image/icon-18.png" alt="">
                     </div>
                     <div class="text">
-                        <p>飯店</p>
+                        <p>廠房、大樓</p>
                     </div>
                 </a>
                 <a href="../achievement-baytecPmB-sub-menu" class="item">
@@ -36,7 +36,7 @@
                         <img src="../image/icon-20.png" alt="">
                     </div>
                     <div class="text">
-                        <p>捷運車站</p>
+                        <p>車站</p>
                     </div>
                 </a>
                 <a href="../achievement-baytecPmB-sub-menu" class="item">
@@ -44,7 +44,7 @@
                         <img src="../image/icon-23.png" alt="">
                     </div>
                     <div class="text">
-                        <p>汙水發酵槽</p>
+                        <p>硫磺坑、汙水及雨水下水道、人孔豎井</p>
                     </div>
                 </a>
             </div>

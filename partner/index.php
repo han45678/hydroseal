@@ -151,13 +151,17 @@
                     <div class="pc50">
                         <input required="" type="text" placeholder="國家">
                         <select name="TimePeriod">
-                            　<option value="1">早上</option>
-                            　<option value="2">下午</option>
-                            　<option value="3">晚上</option>
-                            　<option value="4">凌晨</option>
+                            <option value="1">週一～五（上午9:00~中午12:00）</option>
+                            <option value="2">週一～五（下午12:00~下午6:00）</option>
+                            <option value="3">週一～五（下午 6:00 後）</option>
+                            <option value="4">週六、日（上午9:00~中午12:00）</option>
+                            <option value="4">週六、日（下午12:00~下午6:00）</option>
+                            <option value="4">週六、日（下午 6:00 後）</option>
+                            <option value="4">全時段</option>
                         </select>
                         <select name="TimePeriod">
-                            　<option value="1">預約項目：拜鐵膜簡報服務</option>
+                            <option value="1">預約項目：海外代理</option>
+                            <option value="2">預約項目：成為合作夥伴</option>
                         </select>
                         <div class="df">
                             <div class="pc50">
