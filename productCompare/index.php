@@ -36,7 +36,7 @@
                 <div id="productCompare_main">
                     <div class="item">
                         <div class="title">
-                            <h2>拜鐵膜52BC003 POLYOL</h2>
+                            <a href="../product">拜鐵膜52BC003 POLYOL</a>
                         </div>
                         <div class="description">
                             <p>防水材料</p>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="item">
                         <div class="title">
-                            <h2>拜鐵膜52BC003 POLYOL</h2>
+                            <a href="../product">拜鐵膜52BC003 POLYOL</a>
                         </div>
                         <div class="description">
                             <p>防水材料</p>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="item">
                         <div class="title">
-                            <h2>拜鐵膜52BC003 POLYOL</h2>
+                            <a href="../product">拜鐵膜52BC003 POLYOL</a>
                         </div>
                         <div class="description">
                             <p>防水材料</p>

@@ -66,7 +66,7 @@
                 </p>
                 <div class="operating">
                     <a href="" target="_blank">下載產品規格說明書</a>
-                    <a class="reservation" href="">預約工程</a>
+                    <a class="reservation" href="../connection">預約工程</a>
                 </div>
             </div>
         </div>
@@ -102,8 +102,8 @@
                     </div>
                     <div class="item" id="achievement_content">
                         <div class="achievement_content">
-                            <div class="item_achievement">
-                                <div class="photo imgLiquidCC">
+                            <a href="../achievement-baytecPmB-content/" class="item_achievement">
+                                <div class="photo">
                                     <img src="../image/p2.jpg" alt="">
                                 </div>
                                 <div class="text">
@@ -117,9 +117,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="item_achievement">
-                                <div class="photo imgLiquidCC">
+                            </a>
+                            <a href="../achievement-baytecPmB-content/" class="item_achievement">
+                                <div class="photo">
                                     <img src="../image/p2.jpg" alt="">
                                 </div>
                                 <div class="text">
@@ -133,9 +133,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="item_achievement">
-                                <div class="photo imgLiquidCC">
+                            </a>
+                            <a href="../achievement-baytecPmB-content/" class="item_achievement">
+                                <div class="photo">
                                     <img src="../image/p2.jpg" alt="">
                                 </div>
                                 <div class="text">
@@ -149,9 +149,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="item_achievement">
-                                <div class="photo imgLiquidCC">
+                            </a>
+                            <a href="../achievement-baytecPmB-content/" class="item_achievement">
+                                <div class="photo">
                                     <img src="../image/p2.jpg" alt="">
                                 </div>
                                 <div class="text">
@@ -165,9 +165,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="item_achievement">
-                                <div class="photo imgLiquidCC">
+                            </a>
+                            <a href="../achievement-baytecPmB-content/" class="item_achievement">
+                                <div class="photo">
                                     <img src="../image/p2.jpg" alt="">
                                 </div>
                                 <div class="text">
@@ -181,9 +181,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="item_achievement">
-                                <div class="photo imgLiquidCC">
+                            </a>
+                            <a href="../achievement-baytecPmB-content/" class="item_achievement">
+                                <div class="photo">
                                     <img src="../image/p2.jpg" alt="">
                                 </div>
                                 <div class="text">
@@ -197,7 +197,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="tc more">
                             <a href="">了解更多實績...</a>
