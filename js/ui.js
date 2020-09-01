@@ -467,11 +467,9 @@ $(function () {
         }, 800);
     });
 
-    // $("body").scroll(function () {
-    //     if ($(window).scrollTop() > $("#project").height()) {
-    //         // $("main#home #project .wrapper .content .item").removeClass('active');
-    //         // $("main#home #project .wrapper .content #project_content .content_item").removeClass('active');
-    //         console.log('123')
-    //     }
-    // });
+    $('#recording').click(function () {
+        $('html,body').animate({
+            scrollTop: $('#planning').offset().top
+        }, 800);
+    });
 });

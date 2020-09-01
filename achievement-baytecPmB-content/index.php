@@ -18,8 +18,8 @@
                 </ul>
             </div>
             <div class="sidebar">
-                <p><span>we know is international.</span><span>Only Standard</span></p>
-                <h2>
+                <p class="slideRight wow" data-wow-delay="1.5s" data-wow-offset:"100"><span>we know is international.</span><span>Only Standard</span></p>
+                <h2 class="slideBottom wow" data-wow-delay="1s" data-wow-offset:"100">
                     <div class="zh">工程實績</div>
                     <div class="en">Classic works<span class="slog">國際防水標準，我們唯一懂的標準。</span></div>
                 </h2>
