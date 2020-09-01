@@ -20,6 +20,7 @@
                     </p>
                     <a href="../connection/">預約工程</a>
                 </div>
+                <div id="recording"></div>
             </div>
         </div>
         <div id="planning">

@@ -4690,6 +4690,14 @@ main#achievement .big_banner .content .text a:hover {
   background-color: #006ac6;
 }
 
+main#achievement .big_banner .content #recording {
+  position: absolute;
+  width: 106px;
+  height: 36px;
+  right: 32.3%;
+  top: 39.5%;
+}
+
 main#achievement .title {
   margin: 30px 0;
 }
@@ -6511,6 +6519,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main#home #partne .wrapper {
     max-width: unset;
     padding: 0 30px 0 30px;
+  }
+  main#achievement .big_banner .content #recording {
+    display: none;
   }
 }
 

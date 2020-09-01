@@ -4611,12 +4611,12 @@ main {
 
                     .link {
                         text-align: right;
-        
+
                         ul {
                             li {
                                 display: inline-block;
                                 margin: 0 5px;
-        
+
                                 a {
                                     width: 27px;
                                     height: 27px;
@@ -4626,7 +4626,8 @@ main {
                                     background-color: #fff;
                                     border-radius: 999px;
                                     position: relative;
-                                    img{
+
+                                    img {
                                         position: absolute;
                                         top: 50%;
                                         left: 50%;
@@ -4898,6 +4899,14 @@ main {
                             background-color: #006ac6;
                         }
                     }
+                }
+
+                #recording {
+                    position: absolute;
+                    width: 106px;
+                    height: 36px;
+                    right: 32.3%;
+                    top: 39.5%;
                 }
             }
         }
@@ -6861,6 +6870,10 @@ body#proxy {
 
             }
         }
+    }
+
+    main#achievement .big_banner .content #recording{
+        display: none;
     }
 }
 
