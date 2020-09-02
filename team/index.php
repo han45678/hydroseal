@@ -34,8 +34,8 @@
                             <span>世界20大化工企業夥伴 Business partners</span>
                         </h3>
                         <div class="photo">
-                            <div class="imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo_zoom">
+                                <img src="../image/t1.jpg" alt="">
                             </div>
                         </div>
                         <div class="text">
@@ -74,8 +74,8 @@
                     <div class="item certificate">
                         <h4>【 施工人員證書認證 】</h4>
                         <div class="photo">
-                            <div class="imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo_zoom">
+                                <img src="../image/about/Bitmap.jpg" alt="">
                             </div>
                         </div>
                         <div class="text">
@@ -114,26 +114,26 @@
                         <h2 class="tc">【 合作的實績 】</h2>
                         <div class="slick">
                             <div class="photo_item">
-                                <div class="imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo_zoom">
+                                    <img src="../image/t2.jpg" alt="">
                                 </div>
                                 <p>(Marina Coastal Expressway)MCE 485</p>
                             </div>
                             <div class="photo_item">
-                                <div class="imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo_zoom">
+                                    <img src="../image/t3.jpg" alt="">
                                 </div>
                                 <p>ECO Link生態廊道橋樑防水</p>
                             </div>
                             <div class="photo_item">
-                                <div class="imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo_zoom">
+                                    <img src="../image/t2.jpg" alt="">
                                 </div>
                                 <p>新加坡香格里拉飯店景觀防水翻修</p>
                             </div>
                             <div class="photo_item">
-                                <div class="imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo_zoom">
+                                    <img src="../image/t3.jpg" alt="">
                                 </div>
                                 <p>ECO Link II bridge</p>
                             </div>
@@ -164,9 +164,7 @@
             </div>
         </div>
     </main>
-    <div id="img_zoom_back">
-
-    </div>
+    <div id="img_zoom_back"></div>
     <div id="img_zoom">
         <div class="off">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">

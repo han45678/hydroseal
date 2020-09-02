@@ -680,32 +680,32 @@
                         </h3>
                     </div>
                     <div class="content">
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p4.png" alt="">
+                        <a href="http://www.continental-engineering.com/index.php">
+                            <img src="./image/p4.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p5.png" alt="">
+                        <a href="http://www.truefullland.com/">
+                            <img src="./image/p5.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p6.png" alt="">
+                        <a href="http://www.cathay-red.com.tw/">
+                            <img src="./image/p6.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p7.png" alt="">
+                        <a href="https://www.kycc.com.tw/tw/">
+                            <img src="./image/p7.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p8.png" alt="">
+                        <a href="https://www.fuly.com.tw/">
+                            <img src="./image/p8.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p9.png" alt="">
+                        <a href="http://www.fubonland.com.tw/">
+                            <img src="./image/p9.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p10.png" alt="">
+                        <a href="https://www.dacin.com.tw/">
+                            <img src="./image/p10.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p11.png" alt="">
+                        <a href="http://rcweb.ruentex.com.tw/RUENTEX/">
+                            <img src="./image/p11.jpg" alt="">
                         </a>
-                        <a href="https://www.covestro.com/en">
-                            <img src="./image/index/p12.png" alt="">
+                        <a href="http://paohuei-solitaire.com.tw/">
+                            <img src="./image/p12.jpg" alt="">
                         </a>
                     </div>
                 </div>

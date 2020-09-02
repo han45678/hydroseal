@@ -1343,7 +1343,8 @@ main {
                                     left: 0;
                                     transition: 0.6s;
                                 }
-                                &:hover{
+
+                                &:hover {
                                     &::after {
                                         top: 0;
                                     }
@@ -1457,11 +1458,14 @@ main {
                         a {
                             text-align: center;
                             min-width: 33%;
+                            width: 33%;
+                            max-height: 85px;
                             display: inline-block;
                             margin: 10px 0;
 
                             img {
                                 max-width: 100%;
+                                max-height: 85px;
                                 filter: grayscale(1);
                                 transition: 0.6s;
                             }
@@ -1686,6 +1690,7 @@ main {
                         letter-spacing: 1.2px;
                         margin-bottom: 45px;
                         margin-right: 35px;
+                        word-wrap:break-word;
 
                         .time {
                             color: #717071;
@@ -1758,9 +1763,13 @@ main {
                     .photo {
                         width: 260px;
 
-                        .imgLiquidCC {
+                        .photo_zoom {
                             width: 100%;
                             min-height: 260px;
+                            img{
+                                min-height: 260px;
+                                width: 100%;
+                            }
                         }
                     }
 
@@ -1837,8 +1846,14 @@ main {
                         .photo {
                             width: 260px;
 
-                            .imgLiquidCC {
+                            .photo_zoom {
                                 min-height: 260px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    min-height: 260px;
+                                    object-fit: cover;
+                                }
                             }
                         }
 
@@ -1865,8 +1880,13 @@ main {
                         .photo {
                             width: 260px;
 
-                            .imgLiquidCC {
+                            .photo_zoom {
                                 min-height: 168px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    min-height: 168px;
+                                }
                             }
                         }
 
@@ -1913,6 +1933,11 @@ main {
                         .photo {
                             width: 100%;
                             height: 150px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
                         }
 
                         .text {
@@ -1936,9 +1961,10 @@ main {
                         text-align: center;
                         letter-spacing: 0.8px;
                         transition: 0.6s;
-                        &:hover{
+
+                        &:hover {
                             color: #fff;
-                            background-color:#006ac6;
+                            background-color: #006ac6;
                         }
                     }
                 }
@@ -1948,8 +1974,15 @@ main {
                         .photo {
                             width: 260px;
 
-                            .imgLiquidCC {
+                            .photo_zoom {
                                 min-height: 260px;
+                                width: 100%;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
                             }
                         }
 
@@ -2025,8 +2058,16 @@ main {
                             .photo {
                                 width: 255px;
 
-                                .imgLiquidCC {
+                                .photo_zoom {
                                     min-height: 320px;
+                                    width: 100%;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        min-height: 320px;
+                                    }
                                 }
                             }
 
@@ -2098,9 +2139,15 @@ main {
                                 margin-bottom: 15px;
                                 box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.05);
 
-                                .imgLiquidCC {
+                                .photo_zoom {
                                     width: 100%;
                                     height: 162px;
+
+                                    img {
+                                        object-fit: cover;
+                                        width: 100%;
+                                        height: 100%;
+                                    }
                                 }
 
                                 p {
@@ -2229,6 +2276,10 @@ main {
                             .photo_item {
                                 .imgLiquidCC {
                                     height: 319px;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                    }
                                 }
                             }
 
@@ -2246,8 +2297,12 @@ main {
                             margin-bottom: 7.5px;
 
                             .photo_item {
-                                .imgLiquidCC {
+                                .photo_zoom {
                                     height: calc(319px / 3 - 5px);
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                    }
                                 }
                             }
 
@@ -6857,18 +6912,32 @@ body#proxy {
     }
 }
 
-#img_zoom_back{
+#img_zoom_back {
     width: 100%;
     height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.6);
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     z-index: 9999;
     transition: 0.6s;
     transform: scale(0);
+    transform-origin: center;
+
+    &.active {
+        transform: scale(1);
+    }
 }
-#img_zoom{
+.photo_zoom{
+    cursor: pointer;
+    img{
+        object-fit: cover;
+    }
+}
+#img_zoom {
     width: auto;
     max-width: 600px;
     height: auto;
@@ -6881,12 +6950,22 @@ body#proxy {
     z-index: 99999;
     transition: 0.6s;
     transform: scale(0);
-    .off{
+    transform-origin: center;
+    img{
+        width: 100%;
+    }
+
+    &.active {
+        transform: translateY(-50%) translateX(-50%) scale(1);
+    }
+
+    .off {
         position: absolute;
         top: -35px;
         right: 0;
         cursor: pointer;
-        svg{
+
+        svg {
             width: 30px;
             height: 30px;
             color: red;
@@ -8810,8 +8889,12 @@ body#proxy {
 
                             .img {
                                 .photo_item {
-                                    .imgLiquidCC {
+                                    .photo_zoom {
                                         height: 150px;
+                                        img{
+                                            width: 100%;
+                                            height: 100%;
+                                        }
                                     }
                                 }
 
@@ -11264,5 +11347,9 @@ body#proxy {
                 }
             }
         }
+    }
+
+    #img_zoom {
+        width: 290px;
     }
 }

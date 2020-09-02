@@ -1390,12 +1390,15 @@ main#home #partne .wrapper .item .content {
 main#home #partne .wrapper .item .content a {
   text-align: center;
   min-width: 33%;
+  width: 33%;
+  max-height: 85px;
   display: inline-block;
   margin: 10px 0;
 }
 
 main#home #partne .wrapper .item .content a img {
   max-width: 100%;
+  max-height: 85px;
   filter: grayscale(1);
   transition: 0.6s;
 }
@@ -1606,6 +1609,7 @@ main .wrapper .main_content #timeline .item p {
   letter-spacing: 1.2px;
   margin-bottom: 45px;
   margin-right: 35px;
+  word-wrap: break-word;
 }
 
 main .wrapper .main_content #timeline .item p .time {
@@ -1676,9 +1680,14 @@ main .wrapper .main_content #philosophy .item .photo {
   width: 260px;
 }
 
-main .wrapper .main_content #philosophy .item .photo .imgLiquidCC {
+main .wrapper .main_content #philosophy .item .photo .photo_zoom {
   width: 100%;
   min-height: 260px;
+}
+
+main .wrapper .main_content #philosophy .item .photo .photo_zoom img {
+  min-height: 260px;
+  width: 100%;
 }
 
 main .wrapper .main_content #philosophy .item .text {
@@ -1752,8 +1761,15 @@ main .wrapper .main_content #material .item:nth-child(1) .photo {
   width: 260px;
 }
 
-main .wrapper .main_content #material .item:nth-child(1) .photo .imgLiquidCC {
+main .wrapper .main_content #material .item:nth-child(1) .photo .photo_zoom {
   min-height: 260px;
+}
+
+main .wrapper .main_content #material .item:nth-child(1) .photo .photo_zoom img {
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  object-fit: cover;
 }
 
 main .wrapper .main_content #material .item:nth-child(1) .text {
@@ -1778,7 +1794,13 @@ main .wrapper .main_content #material .item:last-child .photo {
   width: 260px;
 }
 
-main .wrapper .main_content #material .item:last-child .photo .imgLiquidCC {
+main .wrapper .main_content #material .item:last-child .photo .photo_zoom {
+  min-height: 168px;
+}
+
+main .wrapper .main_content #material .item:last-child .photo .photo_zoom img {
+  width: 100%;
+  height: 100%;
   min-height: 168px;
 }
 
@@ -1826,6 +1848,12 @@ main .wrapper .main_content #material .item .content_item .photo {
   height: 150px;
 }
 
+main .wrapper .main_content #material .item .content_item .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 main .wrapper .main_content #material .item .content_item .text p {
   padding: 15px;
   margin: 0;
@@ -1855,8 +1883,15 @@ main .wrapper .main_content #material.team .item .photo {
   width: 260px;
 }
 
-main .wrapper .main_content #material.team .item .photo .imgLiquidCC {
+main .wrapper .main_content #material.team .item .photo .photo_zoom {
   min-height: 260px;
+  width: 100%;
+}
+
+main .wrapper .main_content #material.team .item .photo .photo_zoom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 main .wrapper .main_content #material.team .item .text {
@@ -1928,7 +1963,15 @@ main .wrapper .main_content #material.team .item.certificate .photo {
   width: 255px;
 }
 
-main .wrapper .main_content #material.team .item.certificate .photo .imgLiquidCC {
+main .wrapper .main_content #material.team .item.certificate .photo .photo_zoom {
+  min-height: 320px;
+  width: 100%;
+}
+
+main .wrapper .main_content #material.team .item.certificate .photo .photo_zoom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   min-height: 320px;
 }
 
@@ -1999,9 +2042,15 @@ main .wrapper .main_content #material.team .item.partners .photo_item {
   box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.05);
 }
 
-main .wrapper .main_content #material.team .item.partners .photo_item .imgLiquidCC {
+main .wrapper .main_content #material.team .item.partners .photo_item .photo_zoom {
   width: 100%;
   height: 162px;
+}
+
+main .wrapper .main_content #material.team .item.partners .photo_item .photo_zoom img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 main .wrapper .main_content #material.team .item.partners .photo_item p {
@@ -2124,6 +2173,11 @@ main .wrapper .main_content #certification .item .big .img .photo_item .imgLiqui
   height: 319px;
 }
 
+main .wrapper .main_content #certification .item .big .img .photo_item .imgLiquidCC img {
+  width: 100%;
+  height: 100%;
+}
+
 main .wrapper .main_content #certification .item .small {
   width: calc(100% - 242px - 10px);
   display: flex;
@@ -2136,8 +2190,13 @@ main .wrapper .main_content #certification .item .small .img {
   margin-bottom: 7.5px;
 }
 
-main .wrapper .main_content #certification .item .small .img .photo_item .imgLiquidCC {
+main .wrapper .main_content #certification .item .small .img .photo_item .photo_zoom {
   height: calc(319px / 3 - 5px);
+}
+
+main .wrapper .main_content #certification .item .small .img .photo_item .photo_zoom img {
+  width: 100%;
+  height: 100%;
 }
 
 main .wrapper .main_content #certification .item .img {
@@ -6578,9 +6637,25 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   background-color: rgba(0, 0, 0, 0.6);
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   z-index: 9999;
   transition: 0.6s;
   transform: scale(0);
+  transform-origin: center;
+}
+
+#img_zoom_back.active {
+  transform: scale(1);
+}
+
+.photo_zoom {
+  cursor: pointer;
+}
+
+.photo_zoom img {
+  object-fit: cover;
 }
 
 #img_zoom {
@@ -6596,6 +6671,15 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   z-index: 99999;
   transition: 0.6s;
   transform: scale(0);
+  transform-origin: center;
+}
+
+#img_zoom img {
+  width: 100%;
+}
+
+#img_zoom.active {
+  transform: translateY(-50%) translateX(-50%) scale(1);
 }
 
 #img_zoom .off {
@@ -8065,8 +8149,12 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main .wrapper .main_content #certification .item .big {
     width: 100%;
   }
-  main .wrapper .main_content #certification .item .big .img .photo_item .imgLiquidCC {
+  main .wrapper .main_content #certification .item .big .img .photo_item .photo_zoom {
     height: 150px;
+  }
+  main .wrapper .main_content #certification .item .big .img .photo_item .photo_zoom img {
+    width: 100%;
+    height: 100%;
   }
   main .wrapper .main_content #certification .item .small {
     width: 100%;
@@ -9950,6 +10038,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-child(5) {
     border-left: unset;
     border-right: unset;
+  }
+  #img_zoom {
+    width: 290px;
   }
 }
 /*# sourceMappingURL=style.css.map */

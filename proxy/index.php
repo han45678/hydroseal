@@ -232,7 +232,7 @@
                                 <span class="refresh">刷新驗證碼</span>
                             </div>
                             <div class="pc50">
-                                <img src="../image/Bitmap.jpg" alt="">
+                                <img src="../image/code.jpg" alt="">
                             </div>
                         </div>
                     </div>

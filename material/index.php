@@ -34,8 +34,8 @@
                             <span>主要材料 Main material</span>
                         </h3>
                         <div class="photo">
-                            <div class="imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo_zoom">
+                                <img src="../image/m1.jpg" alt="">
                             </div>
                         </div>
                         <div class="text">
@@ -48,111 +48,111 @@
                     </div>
                     <div class="item">
                         <h3>
-                            <span>主要材料 Main material</span>
+                            <span>專業技術 Expertise</span>
                         </h3>
                         <p>與德國拜耳公司(Bayer)(現在更名為科思創Covestro) 、及德國明氏公司(MC Bauchemie)合作，引進最穩定成熟的施工技術及材料，引導業界正確的材料應用及精湛的施工品質，建立與德國相同水準的規範及標準。</p>
                         <div class="slick">
                             <div class="content_item">
-                                <div class="photo imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo photo_zoom">
+                                    <img src="../image/m2.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>在台灣參與台灣高速鐵路及高雄捷運的跨世紀工程建設</p>
+                                    <p>環境檢驗</p>
                                 </div>
                             </div>
                             <div class="content_item">
-                                <div class="photo imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo photo_zoom">
+                                    <img src="../image/m3.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>在台灣參與台灣高速鐵路及高雄捷運的跨世紀工程建設</p>
+                                    <p>混凝土表面拉拔檢測</p>
                                 </div>
                             </div>
                             <div class="content_item">
-                                <div class="photo imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo photo_zoom">
+                                    <img src="../image/m4.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>在台灣參與台灣高速鐵路及高雄捷運的跨世紀工程建設</p>
+                                    <p>拜鐵膜®噴塗</p>
                                 </div>
                             </div>
                             <div class="content_item">
-                                <div class="photo imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo photo_zoom">
+                                    <img src="../image/m5.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>在台灣參與台灣高速鐵路及高雄捷運的跨世紀工程建設</p>
+                                    <p>接著強度檢測</p>
                                 </div>
                             </div>
                             <div class="content_item">
-                                <div class="photo imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo photo_zoom">
+                                    <img src="../image/m6.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>在台灣參與台灣高速鐵路及高雄捷運的跨世紀工程建設</p>
+                                    <p>全面針孔檢測</p>
                                 </div>
                             </div>
                             <div class="content_item">
-                                <div class="photo imgLiquidCC">
-                                    <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                                <div class="photo photo_zoom">
+                                    <img src="../image/m7.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>在台灣參與台灣高速鐵路及高雄捷運的跨世紀工程建設</p>
+                                    <p>瀝青路面鋪設</p>
                                 </div>
                             </div>
                         </div>
                         <div class="tc">
-                            <a href="">了解更多實績</a>
+                            <a href="../achievement-planning">了解更多實績</a>
                         </div>
                     </div>
                     <div class="item">
                         <h3>
-                            <span>施工品質管制 Quality control</span>
+                            <span>施工設備 Equipment</span>
                         </h3>
-                        <p>拜鐵膜®反應型聚氨酯噴塗材料，秉持著 30 年來一貫的政策，施工人員必須經過認可之訓練機構，通過一般基礎訓練後還需現場實際施工，經一番時間累積施工經驗且通過考核後才能負責拜鐵膜®的施作，這是拜鐵膜®對客戶的負責任態度。</p>
+                        <p>拜鐵膜®的施工必須要有精確適用的噴塗設備，才能將其超過 30 年耐用年限的物性發揮，易兆企業自行研發的噴塗設備，能夠正確穩定的混合比例及攪拌均勻，只要混合比例超過誤差值，或是穩定性不夠，都會造成最終品質不穩定或無法達到應有之物性。噴塗全程電腦控制材料流量、混合比例、顯示與自動調控混合比例及溫度的功能，使得每一方寸拜鐵膜®成品，都是符合材料物性的要求，易兆出品，良匠本心。</p>
                         <div class="content_item">
-                            <div class="photo imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo photo_zoom">
+                                <img src="../image/m8.jpg" alt="">
                             </div>
                             <div class="text">
                                 <p>1. 環境檢驗</p>
                             </div>
                         </div>
                         <div class="content_item">
-                            <div class="photo imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo photo_zoom">
+                                <img src="../image/m9.jpg" alt="">
                             </div>
                             <div class="text">
                                 <p>2. 混凝土表面拉拔檢測</p>
                             </div>
                         </div>
                         <div class="content_item">
-                            <div class="photo imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo photo_zoom">
+                                <img src="../image/m10.jpg" alt="">
                             </div>
                             <div class="text">
                                 <p>3. 拜鐵膜®噴塗</p>
                             </div>
                         </div>
                         <div class="content_item">
-                            <div class="photo imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo photo_zoom">
+                                <img src="../image/m11.jpg" alt="">
                             </div>
                             <div class="text">
                                 <p>4. 接著強度檢測</p>
                             </div>
                         </div>
                         <div class="content_item">
-                            <div class="photo imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo photo_zoom">
+                                <img src="../image/m12.jpg" alt="">
                             </div>
                             <div class="text">
                                 <p>5. 全面針孔檢測</p>
                             </div>
                         </div>
                         <div class="content_item">
-                            <div class="photo imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo photo_zoom">
+                                <img src="../image/m13.jpg" alt="">
                             </div>
                             <div class="text">
                                 <p>6. 瀝青路面鋪設</p>
@@ -167,8 +167,8 @@
                             <p>拜鐵膜®的施工必須要有精確適用的噴塗設備，才能將其超過 30 年耐用年限的物性發揮，易兆企業自行研發的噴塗設備，能夠正確穩定的混合比例及攪拌均勻，只要混合比例超過誤差值，或是穩定性不夠，都會造成最終品質不穩定或無法達到應有之物性。噴塗全程電腦控制材料流量、混合比例、顯示與自動調控混合比例及溫度的功能，使得每一方寸拜鐵膜®成品，都是符合材料物性的要求，易兆出品，良將本心。</p>
                         </div>
                         <div class="photo">
-                            <div class="imgLiquidCC">
-                                <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+                            <div class="photo_zoom">
+                                <img src="../image/m14.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -176,6 +176,15 @@
             </div>
         </div>
     </main>
+    <div id="img_zoom_back"></div>
+    <div id="img_zoom">
+        <div class="off">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+                <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path>
+            </svg>
+        </div>
+        <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+    </div>
     <?php include "../includes/fotter.php"; ?>
     <?php include "../includes/fotter_js.php"; ?>
 </body>

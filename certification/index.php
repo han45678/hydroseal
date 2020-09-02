@@ -67,7 +67,7 @@
                         <div class="big">
                             <div class="img">
                                 <div class="photo_item">
-                                    <div class="imgLiquidCC">
+                                    <div class="photo_zoom">
                                         <img src="../image/about/image-1.jpg" alt="">
                                     </div>
                                     <div class="img_text">
@@ -79,7 +79,7 @@
                         <div class="small">
                             <div class="img">
                                 <div class="photo_item">
-                                    <div class="imgLiquidCC">
+                                    <div class="photo_zoom">
                                         <img src="../image/about/Image-2.jpg" alt="">
                                     </div>
                                     <div class="img_text">
@@ -89,7 +89,7 @@
                             </div>
                             <div class="img">
                                 <div class="photo_item">
-                                    <div class="imgLiquidCC">
+                                    <div class="photo_zoom">
                                         <img src="../image/about/Image-5.jpg" alt="">
                                     </div>
                                     <div class="img_text">
@@ -99,7 +99,7 @@
                             </div>
                             <div class="img">
                                 <div class="photo_item">
-                                    <div class="imgLiquidCC">
+                                    <div class="photo_zoom">
                                         <img src="../image/about/Image-3.jpg" alt="">
                                     </div>
                                     <div class="img_text">
@@ -109,7 +109,7 @@
                             </div>
                             <div class="img">
                                 <div class="photo_item">
-                                    <div class="imgLiquidCC">
+                                    <div class="photo_zoom">
                                         <img src="../image/about/Image-6.jpg" alt="">
                                     </div>
                                     <div class="img_text">
@@ -119,7 +119,7 @@
                             </div>
                             <div class="img">
                                 <div class="photo_item">
-                                    <div class="imgLiquidCC">
+                                    <div class="photo_zoom">
                                         <img src="../image/about/image-4.jpg" alt="">
                                     </div>
                                     <div class="img_text">
@@ -129,7 +129,7 @@
                             </div>
                             <div class="img">
                                 <div class="photo_item">
-                                    <div class="imgLiquidCC">
+                                    <div class="photo_zoom">
                                         <img src="../image/about/image-7.jpg" alt="">
                                     </div>
                                     <div class="img_text">
@@ -151,7 +151,7 @@
                             <p>司於2003年取得德國BZB之IRP(Injection, Repair and Protection)認證。</p>
                             <p>為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。</p>
                         </div>
-                        <div class="photo">
+                        <div class="photo photo_zoom">
                             <img src="../image/about/Bitmap.jpg" alt="">
                         </div>
                     </div>
@@ -161,8 +161,8 @@
                                 橋面防水英國BBA認證
                             </span>
                         </h3>
-                        <div class="photo">
-                            <img src="../image/about/Bitmap.jpg" alt="">
+                        <div class="photo photo_zoom">
+                            <img src="../image/Bitmap.jpg" alt="">
                         </div>
                         <div class="text">
                             <p>本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務。</p>
@@ -181,8 +181,8 @@
                             <p>司於2003年取得德國BZB之IRP(Injection, Repair and Protection)認證。</p>
                             <p>為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。</p>
                         </div>
-                        <div class="photo">
-                            <img src="../image/about/Bitmap.jpg" alt="">
+                        <div class="photo photo_zoom">
+                            <img src="../image/Bitmap2.jpg" alt="">
                         </div>
                     </div>
                     <div class="item">
@@ -217,6 +217,15 @@
             </div>
         </div>
     </main>
+    <div id="img_zoom_back"></div>
+    <div id="img_zoom">
+        <div class="off">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+                <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path>
+            </svg>
+        </div>
+        <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+    </div>
     <?php include "../includes/fotter.php"; ?>
     <?php include "../includes/fotter_js.php"; ?>
 </body>

@@ -52,10 +52,10 @@
                             的機會，讓公司的團隊管理和各項資源的整合體質更加強壯。
                         </p>
                         <div class="photo">
-                            <div class="img_pc">
+                            <div class="img_pc photo_zoom">
                                 <img src="../image/1999_pic.jpg" alt="">
                             </div>
-                            <div class="img_m">
+                            <div class="img_m photo_zoom">
                                 <img src="../image/1999_pic_m.jpg" alt="">
                             </div>
                         </div>
@@ -68,10 +68,10 @@
                             與 MC Bauchemie 合作，進行混凝土修復、製成專用比例防水塗料，成功防範颱風、石塊撞擊。
                         </p>
                         <div class="photo">
-                            <div class="img_pc">
+                            <div class="img_pc photo_zoom">
                                 <img src="../image/Group-16.jpg" alt="">
                             </div>
-                            <div class="img_m">
+                            <div class="img_m photo_zoom">
                                 <img src="../image/Group-16_m.png" alt="">
                             </div>
                         </div>
@@ -83,10 +83,10 @@
                             攜手德國拜耳公司，於海底下 20公尺隧道防水工程，抵禦長期海水侵蝕
                         </p>
                         <div class="photo">
-                            <div class="img_pc">
+                            <div class="img_pc photo_zoom">
                                 <img src="../image/Group-17.jpg" alt="">
                             </div>
-                            <div class="img_m">
+                            <div class="img_m photo_zoom">
                                 <img src="../image/Group-17_m.jpg" alt="">
                             </div>
                         </div>
@@ -98,10 +98,10 @@
                             哈爾濱高速鐵路，施工期間即便是零下二十幾三十的低溫，易兆也全力以赴
                         </p>
                         <div class="photo">
-                            <div class="img_pc">
+                            <div class="img_pc photo_zoom">
                                 <img src="../image/Group-18.jpg" alt="">
                             </div>
-                            <div class="img_m">
+                            <div class="img_m photo_zoom">
                                 <img src="../image/Group-18_m.jpg" alt="">
                             </div>
                         </div>
@@ -113,10 +113,10 @@
                             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                         </p>
                         <div class="photo">
-                            <div class="img_pc">
+                            <div class="img_pc photo_zoom">
                                 <img src="../image/Group-19.jpg" alt="">
                             </div>
-                            <div class="img_m">
+                            <div class="img_m photo_zoom">
                                 <img src="../image/Group-19_m.jpg" alt="">
                             </div>
                         </div>
@@ -128,10 +128,10 @@
                             以防腐蝕為主訴求，在不宜久留的高溫惡劣環境下密集、精準的施工，全台只有易兆能做到
                         </p>
                         <div class="photo">
-                            <div class="img_pc">
+                            <div class="img_pc photo_zoom">
                                 <img src="../image/Group-20.jpg" alt="">
                             </div>
-                            <div class="img_m">
+                            <div class="img_m photo_zoom">
                                 <img src="../image/Group-20_m.jpg" alt="">
                             </div>
                         </div>
@@ -143,10 +143,10 @@
                             為特殊情勢和需求，建造出全世界最大的灌注止漏機械，以 2000多噸硬力抵銷預力之工程
                         </p>
                         <div class="photo">
-                            <div class="img_pc">
+                            <div class="img_pc photo_zoom">
                                 <img src="../image/Group-21.jpg" alt="">
                             </div>
-                            <div class="img_m">
+                            <div class="img_m photo_zoom">
                                 <img src="../image/Group-21_m.jpg" alt="">
                             </div>
                         </div>
@@ -162,6 +162,15 @@
             </div>
         </div>
     </main>
+    <div id="img_zoom_back"></div>
+    <div id="img_zoom">
+        <div class="off">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+                <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path>
+            </svg>
+        </div>
+        <img src="../image/about/shutterstock_209233546-1.jpg" alt="">
+    </div>
     <?php include "../includes/fotter.php"; ?>
     <?php include "../includes/fotter_js.php"; ?>
 </body>

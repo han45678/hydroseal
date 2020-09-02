@@ -325,7 +325,7 @@
                         <label for="">驗證碼<span class="red">*</span></label>
                         <input class="double" type="text">
                         <div class="double">
-                            <img src="../image/Bitmap.jpg" alt="">
+                            <img src="../image/code.jpg" alt="">
                             <a href="">刷新驗證碼</a>
                         </div>
                     </div>

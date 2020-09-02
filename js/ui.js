@@ -488,4 +488,14 @@ $(function () {
     //     }
     //     //$(window).scrollTop()
     // });
+
+    $(".photo_zoom img").click(function () {
+        var img = $(this).attr('src');
+        $("#img_zoom_back,#img_zoom").addClass('active')
+        $('#img_zoom img').attr('src',img);
+    });
+    $("#img_zoom .off").click(function () {
+        $("#img_zoom_back,#img_zoom").removeClass('active')
+    });
+    
 });

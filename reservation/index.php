@@ -55,9 +55,14 @@
                     <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>1. 產品特性</h4>
                         <p>
-                            <span class="title">1.BD 47/94 (100字簡易解說）</span>
-                            因也一受共看單利一性反道，治放易子我行出導圖，分民影作引指得時那幾。多價合專會內廠這葉意原上皮手水會我從舉種起！的開麼日黃急，護一合文一港業自已醫金我你石天好聞約火此樂一士真可，輕紙國多好打內：在我要開球乎。
-                            道古象然重成但線不林建系基學一經白不話夫。
+                            <span class="title">產品特性 ： 拜鐵膜的歷史由來，材料特性，以及多項國際檢測項目的介紹。</span>
+                            如例： 接觸人體飲用水安全標準<br>
+                            1.BS6920 approval for potable water application<br>
+                            2. AS/NZS 4020 use in contact with drinking water<br>
+                            抗樹根穿透試驗 德國園藝協會<br>
+                            1.DIN EN 13948樹根穿透試驗<br>
+                            抗穿刺試驗 ASTM E154<br>
+                            2,000,000.次道渣穿刺試驗
                         </p>
                         <p>
                             <span class="title">2.樹根穿透 din en 13948）</span>
@@ -76,14 +81,7 @@
                     <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>2. 產品與高品質施工</h4>
                         <p>
-                            <span class="title">1.BD 47/94 (100字簡易解說）</span>
-                            因也一受共看單利一性反道，治放易子我行出導圖，分民影作引指得時那幾。多價合專會內廠這葉意原上皮手水會我從舉種起！的開麼日黃急，護一合文一港業自已醫金我你石天好聞約火此樂一士真可，輕紙國多好打內：在我要開球乎。
-                            道古象然重成但線不林建系基學一經白不話夫。
-                        </p>
-                        <p>
-                            <span class="title">2.樹根穿透 din en 13948）</span>
-                            女會色。方語也國，一工高精給舉利，出和除不！回兒用……來慢天言多生賽規育，味西國會護頭手質。可生的系好興化。錢我率過界電味電也年。
-                            把我灣引！獨那面笑失、種銷國談山往已快……是想為知國了觀不千人廠接心一合供感一。滿的球；形活稱落想價中。
+                            詳細講解如何實施施工品質管控，用最短的工期發揮產品的最佳效果
                         </p>
                     </div>
                     <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
@@ -97,14 +95,7 @@
                     <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>3. 國內外實績分享</h4>
                         <p>
-                            <span class="title">1.BD 47/94 (100字簡易解說）</span>
-                            因也一受共看單利一性反道，治放易子我行出導圖，分民影作引指得時那幾。多價合專會內廠這葉意原上皮手水會我從舉種起！的開麼日黃急，護一合文一港業自已醫金我你石天好聞約火此樂一士真可，輕紙國多好打內：在我要開球乎。
-                            道古象然重成但線不林建系基學一經白不話夫。
-                        </p>
-                        <p>
-                            <span class="title">2.樹根穿透 din en 13948）</span>
-                            女會色。方語也國，一工高精給舉利，出和除不！回兒用……來慢天言多生賽規育，味西國會護頭手質。可生的系好興化。錢我率過界電味電也年。
-                            把我灣引！獨那面笑失、種銷國談山往已快……是想為知國了觀不千人廠接心一合供感一。滿的球；形活稱落想價中。
+                        國外拜鐵膜40年，國內將近20年實績，各式各樣工程實績，從土木到住宅建築。
                         </p>
                     </div>
                     <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
@@ -118,14 +109,7 @@
                     <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>4. 貴公司建案/土木工程整體防水建議</h4>
                         <p>
-                            <span class="title">1.BD 47/94 (100字簡易解說）</span>
-                            因也一受共看單利一性反道，治放易子我行出導圖，分民影作引指得時那幾。多價合專會內廠這葉意原上皮手水會我從舉種起！的開麼日黃急，護一合文一港業自已醫金我你石天好聞約火此樂一士真可，輕紙國多好打內：在我要開球乎。
-                            道古象然重成但線不林建系基學一經白不話夫。
-                        </p>
-                        <p>
-                            <span class="title">2.樹根穿透 din en 13948）</span>
-                            女會色。方語也國，一工高精給舉利，出和除不！回兒用……來慢天言多生賽規育，味西國會護頭手質。可生的系好興化。錢我率過界電味電也年。
-                            把我灣引！獨那面笑失、種銷國談山往已快……是想為知國了觀不千人廠接心一合供感一。滿的球；形活稱落想價中。
+                        每個建案每個空間，因應環境，預算，設計出適合貴公司的防水規劃。
                         </p>
                     </div>
                     <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
@@ -167,7 +151,7 @@
                                 <span class="refresh">刷新驗證碼</span>
                             </div>
                             <div class="pc50">
-                                <img src="../image/Bitmap.jpg" alt="">
+                                <img src="../image/code.jpg" alt="">
                             </div>
                         </div>
                     </div>
