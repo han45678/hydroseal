@@ -29,6 +29,8 @@ $(function () {
         dots: true,
         infinite: true,
         slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
         responsive: [{
             breakpoint: 768,
             settings: {
@@ -472,4 +474,18 @@ $(function () {
             scrollTop: $('#planning').offset().top
         }, 800);
     });
+
+    $("#news .content .classification .title").click(function () {
+        $(this).toggleClass('active');
+        $('#news .content .classification ul').toggleClass('active');
+    });
+
+    // $(window).scroll(function () {
+    //     if ($("#certification").scrollTop() > 80) {
+    //         $("#mainNav").addClass("navbar-shrink");
+    //     } else {
+    //         $("#mainNav").removeClass("navbar-shrink");
+    //     }
+    //     //$(window).scrollTop()
+    // });
 });

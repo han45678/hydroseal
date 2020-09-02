@@ -48,13 +48,13 @@
                             <div class="content">
                                 <ol>
                                     <li>
-                                        <a href="../philosophy">品牌故事</a>
+                                        <a href="../story/">品牌故事</a>
                                     </li>
                                     <li>
-                                        <a href="">品牌專業</a>
+                                        <a href="../material/">品牌專業</a>
                                     </li>
                                     <li>
-                                        <a href="">品牌認證</a>
+                                        <a href="../certification/">品牌認證</a>
                                     </li>
                                 </ol>
                                 <div class="photo imgLiquidCC">
@@ -101,14 +101,67 @@
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <a href="../reservation">業主服務項目</a>
+                    <li class="main_menu">
+                        <span>業主服務項目</span>
+                        <div class="sub_menu">
+                            <div class="content">
+                                <ol>
+                                    <li>
+                                        <a href="../reservation/">預約產品簡報服務</a>
+                                    </li>
+                                    <li>
+                                        <a href="../simulation/">現場施作模擬</a>
+                                    </li>
+                                    <li>
+                                        <a href="../waterproof/">建築防水觀念課程</a>
+                                    </li>
+                                </ol>
+                                <div class="photo imgLiquidCC">
+                                    <img src="../image/index/c2.jpg" alt="img">
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="../productList">產品</a>
                     </li>
-                    <li>
-                        <a href="../achievement-planning">工程實績</a>
+                    <li class="main_menu">
+                        <span>工程實績</span>
+                        <div class="sub_menu">
+                            <div class="content">
+                                <ol>
+                                    <li>
+                                        <a href="../achievement-planning">建築整體防水規劃</a>
+                                    </li>
+                                    <li>
+                                        <a href="../achievement-baytecPmB">防水/拜鐵膜</a>
+                                    </li>
+                                    <li>
+                                        <a href="../achievement-bridge">橋墩基礎&船甲板&車底底盤&樹木保護/拜鐵膜</a>
+                                    </li>
+                                    <li>
+                                        <a href="../achievement-soundproof">樓板防水隔音墊/易必靜</a>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <a href="../achievement-concrete">混凝土修補</a>
+                                    </li>
+                                    <li>
+                                        <a href="../achievement-leakproof">大湧水灌注止水</a>
+                                    </li>
+                                    <li>
+                                        <a href="../achievement-structure">結構補強</a>
+                                    </li>
+                                    <li>
+                                        <a href="../achievement-structure">防腐蝕</a>
+                                    </li>
+                                </ol>
+                                <div class="photo imgLiquidCC">
+                                    <img src="../image/index/c2.jpg" alt="img">
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="../connection">聯絡資訊</a>
@@ -134,8 +187,26 @@
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <a href="../news">文章與報導</a>
+                    <li class="main_menu">
+                        <span>文章與報導</span>
+                        <div class="sub_menu">
+                            <div class="content">
+                                <ol>
+                                    <li>
+                                        <a href="../news">易兆部落格</a>
+                                    </li>
+                                    <li>
+                                        <a href="../news">媒體報導</a>
+                                    </li>
+                                    <li>
+                                        <a href="../news">獲獎資訊</a>
+                                    </li>
+                                </ol>
+                                <div class="photo imgLiquidCC">
+                                    <img src="../image/index/c2.jpg" alt="img">
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <span class="search"><img src="../image/search.svg" alt="search"></span>

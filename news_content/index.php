@@ -8,6 +8,13 @@
 <body>
     <?php include "../includes/header.php"; ?>
     <main id="news_content">
+        <div id="page">
+            <div class="wrapper">
+                <a href="../news/">文章與報導</a>
+                <a href="">易兆部落格</a>
+                <a href="./">新加坡生態橋樑紀事</a>
+            </div>
+        </div>
         <div class="wrapper">
             <div class="img imgLiquidCC">
                 <img src="../image/n2.jpg" alt="">

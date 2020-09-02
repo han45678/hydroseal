@@ -9,7 +9,7 @@
     <?php include "./includes/header_home.php"; ?>
     <div id="banner">
         <div class="item">
-            <div class="photo imgLiquidCC"><img src="./image/index/banner01.jpg" alt="banner"></div>
+            <div class="photo imgLiquidCC"><img src="./image/banner1.jpg" alt="banner"></div>
             <div class="text">
                 <div class="content">
                     <h2>良匠本心</h2>
@@ -19,21 +19,31 @@
             </div>
         </div>
         <div class="item">
-            <div class="photo imgLiquidCC"><img src="./image/index/banner01.jpg" alt="banner"></div>
+            <div class="photo imgLiquidCC"><img src="./image/banner2.jpg" alt="banner"></div>
             <div class="text">
                 <div class="content">
-                    <h2>良匠本心</h2>
-                    <p>世界級的防水工程品質標準，</span><span>是我們唯一懂的施工標準</span></p>
+                    <h2>四川桃花江衝擊的橋樑最後一道防線</h2>
+                    <p><span>全世界唯一彈性體橋墩防撞先驅</span></p>
                     <a href="./philosophy/"><span>READ MORE...</span></a>
                 </div>
             </div>
         </div>
         <div class="item">
-            <div class="photo imgLiquidCC"><img src="./image/index/banner01.jpg" alt="banner"></div>
+            <div class="photo imgLiquidCC"><img src="./image/banner3.jpg" alt="banner"></div>
             <div class="text">
                 <div class="content">
-                    <h2>良匠本心</h2>
-                    <p>世界級的防水工程品質標準，</span><span>是我們唯一懂的施工標準</span></p>
+                    <h2>守護新加坡phase 2 海底隧道</h2>
+                    <p><span>聯繫 KPE 和ECP兩條高速公路</span></p>
+                    <a href="./philosophy/"><span>READ MORE...</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo imgLiquidCC"><img src="./image/banner4.jpg" alt="banner"></div>
+            <div class="text">
+                <div class="content">
+                    <h2>全台灣唯一專業限時15天硫磺坑混凝土修護</h2>
+                    <p><span>維護台塑煉油品質</span></p>
                     <a href="./philosophy/"><span>READ MORE...</span></a>
                 </div>
             </div>
@@ -62,11 +72,12 @@
                             <div class="content">
                                 <h3>國際實績40年</h3>
                                 <div class="photo imgLiquidCC">
-                                    <img src="./image/index/banner01.jpg" alt="photo">
+                                    <img src="./image/1-1.png" alt="photo">
                                 </div>
                                 <div class="text">
                                     <p>
-                                        德國 世界文化中心（cultural center Haus der Kulturen der Welt ）拜鐵膜在2022屆時，為40年實績的設計，世界唯一防水材料如此耐久性，依舊 在德國 屹立不搖
+                                        展開區塊文案：德國 世界文化中心（cultural center Haus der Kulturen der Welt ）拜鐵膜在
+                                        2022屆時，為40年實績的設計，世界唯一防水材料如此耐久性，依舊 在德國 屹立不搖
                                     </p>
                                     <a href="./baytecPmB">
                                         了解更多國外案例
@@ -79,14 +90,22 @@
                             <div class="content">
                                 <h3>國內唯一現場抽樣20年實績與甲級營造廠作證</h3>
                                 <div class="photo">
-                                    <div class="img_item imgLiquidCC"><img src="./image/index/banner01.jpg" alt="photo"></div>
-                                    <div class="img_item imgLiquidCC"><img src="./image/index/banner01.jpg" alt="photo"></div>
-                                    <div class="img_item imgLiquidCC"><img src="./image/index/banner01.jpg" alt="photo"></div>
+                                    <div class="img_item imgLiquidCC"><img src="./image/2-1.png" alt="photo"></div>
+                                    <div class="img_item imgLiquidCC"><img src="./image/2-2.png" alt="photo"></div>
+                                    <div class="img_item imgLiquidCC"><img src="./image/2-3.png" alt="photo"></div>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        <span class="paragraph">• 左圖 - 2018 大陸工程 總經理與 拜耳 台灣區總經理 以及pur 部門共同驗證拜鐵膜材料的耐久性 。• 中圖 -測試8大測試</span>
-                                        <span class="paragraph">拉拔強度 Pull off<br />混凝土中性化 Carbonization<br />抗拉強度 Tensile<br />伸長率 Elongation<br />撕裂 Tear<br />硬度 Hardness<br />抗水壓 Water pressure<br />水蒸氣穿透率 Water vapour impermeability<br /></span>
+                                        <span class="paragraph">
+                                            拉拔強度 Pull off<br />
+                                            混凝土中性化 Carbonization<br />
+                                            抗拉強度 Tensile<br />
+                                            伸長率 Elongation<br />
+                                            撕裂 Tear<br />
+                                            硬度 Hardness<br />
+                                            抗水壓 Water pressure<br />
+                                            水蒸氣穿透率 Water vapour impermeability
+                                        </span>
                                         <span class="paragraph">• 右圖 - 混凝土中性化為0,表示拜鐵膜完整保護結構體16年之久,預計2022採樣20年拜鐵膜樣本.</span>
                                     </p>
                                     <a href="./achievement-planning">
@@ -98,13 +117,13 @@
                         <div class="content_item">
                             <div class="off"><img src="./image/index/off.svg" alt="off"></div>
                             <div class="content">
-                                <h3>國際實績40年</h3>
+                                <h3>與世界前20大化工品牌合作</h3>
                                 <div class="photo imgLiquidCC">
                                     <img src="./image/index/banner01.jpg" alt="photo">
                                 </div>
                                 <div class="text">
                                     <p>
-                                        德國 世界文化中心（cultural center Haus der Kulturen der Welt ）拜鐵膜在2022屆時，為40年實績的設計，世界唯一防水材料如此耐久性，依舊 在德國 屹立不搖
+                                        展開區塊文案：與Covestro 共同簽 Cobranding (共同品牌）策略合約，本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務
                                     </p>
                                     <a href="./achievement-planning">
                                         了解更多國外案例
@@ -115,16 +134,14 @@
                         <div class="content_item">
                             <div class="off"><img src="./image/index/off.svg" alt="off"></div>
                             <div class="content">
-                                <h3>國際實績40年</h3>
+                                <h3>世界級施工團隊</h3>
                                 <div class="photo imgLiquidCC">
-                                    <img src="./achievement-planning" alt="photo">
+                                    <img src="./image/index/banner01.jpg" alt="photo">
                                 </div>
                                 <div class="text">
-                                    <p>
-                                        德國 世界文化中心（cultural center Haus der Kulturen der Welt ）拜鐵膜在2022屆時，為40年實績的設計，世界唯一防水材料如此耐久性，依舊 在德國 屹立不搖
-                                    </p>
+                                    <p>成立施工團隊20年,成員們已經完成無數世界級防水工程,更以每兩年回訓,經驗互相交流,更上一層樓.</p>
                                     <a href="./achievement-planning">
-                                        了解更多國外案例
+                                        了解更多國外施工團隊
                                     </a>
                                 </div>
                             </div>
@@ -135,19 +152,23 @@
         </div>
         <div id="certification">
             <div class="wrapper">
-                <div class="text">
+                <div class="text slideRight wow" data-wow-delay="1.2s" data-wow-offset:"100">
                     <h2>
                         易兆國際認證
                     </h2>
-                    <p>拜鐵膜®歷經35年實際施工經驗及實績證明，通過各種嚴苛的數據印證：</p>
-                    <p>本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務。<br />於2003年取得德國BZB之IRP(Injection, Repair and Protection)認證。<br />為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。</p>
+                    <p>拜鐵膜®歷經40年實際施工經驗及實績證明，通過各種嚴苛的數據印證：</p>
+                    <p>
+                        本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務。<br />
+                        於2003年取得德國BZB之IRP(Injection, Repair and Protection)認證。<br />
+                        為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。
+                    </p>
                     <p>
                         <b>現場使用10年後取樣驗證</b><br />本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務。</p>
                     <p>司於2003年取得德國BZB之IRP(Injection, Repair and Protection)認證。</p>
                     <p>為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。</p>
                     <a href="./certification">Read More</a>
                 </div>
-                <div class="photo">
+                <div class="photo slideLeft wow" data-wow-delay="1.2s" data-wow-offset:"100">
                     <div class="img imgLiquidCCF">
                         <img src="./image/index/c1.jpg" alt="photo">
                     </div>
@@ -162,7 +183,7 @@
                 <a href="./planning">
                     <div class="item slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s1.png" alt="photo">
                         </div>
                         <div class="text">
                             <h3>建築整體防水規劃</h3>
@@ -175,12 +196,12 @@
                 <a href="./planning">
                     <div class="item slideUp wow" data-wow-delay="1.2s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s2.png" alt="photo">
                         </div>
                         <div class="text">
-                            <h3>建築整體防水規劃</h3>
+                            <h3>防水/拜鐵膜</h3>
                             <p>
-                                幫客戶設計出最適當的防水規劃
+                                世界各個工程的見證下，實績40年耐久性是最佳寫照
                             </p>
                         </div>
                     </div>
@@ -188,12 +209,12 @@
                 <a href="./planning">
                     <div class="item slideUp wow" data-wow-delay="1.4s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s3.png" alt="photo">
                         </div>
                         <div class="text">
-                            <h3>建築整體防水規劃</h3>
+                            <h3>橋墩基礎防撞＆船甲板防護＆車底底盤保護/拜鐵膜</h3>
                             <p>
-                                幫客戶設計出最適當的防水規劃
+                                經歷台灣2009年起各式各樣的颱風、湍急河流的考驗，時間空間證明一切
                             </p>
                         </div>
                     </div>
@@ -201,12 +222,12 @@
                 <a href="./planning">
                     <div class="item slideUp wow" data-wow-delay="1.6s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s4.png" alt="photo">
                         </div>
                         <div class="text">
-                            <h3>建築整體防水規劃</h3>
+                            <h3>樓板防水隔音墊/易必靜</h3>
                             <p>
-                                幫客戶設計出最適當的防水規劃
+                                現場噴塗式聚氨脂材料，一體成型，5mm厚度守護居家品質
                             </p>
                         </div>
                     </div>
@@ -214,12 +235,12 @@
                 <a href="./planning">
                     <div class="item slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s5.png" alt="photo">
                         </div>
                         <div class="text">
-                            <h3>建築整體防水規劃</h3>
+                            <h3>混凝土修補</h3>
                             <p>
-                                幫客戶設計出最適當的防水規劃
+                                長期以“高品質” “耐久性” “高技術含量” 混凝土修補
                             </p>
                         </div>
                     </div>
@@ -227,12 +248,12 @@
                 <a href="./planning">
                     <div class="item slideUp wow" data-wow-delay="1.2s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s6.png" alt="photo">
                         </div>
                         <div class="text">
-                            <h3>建築整體防水規劃</h3>
+                            <h3>大湧水灌注止水</h3>
                             <p>
-                                幫客戶設計出最適當的防水規劃
+                                擁有全台灣最大的灌注機器
                             </p>
                         </div>
                     </div>
@@ -240,12 +261,12 @@
                 <a href="./planning">
                     <div class="item slideUp wow" data-wow-delay="1.4s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s7.png" alt="photo">
                         </div>
                         <div class="text">
-                            <h3>建築整體防水規劃</h3>
+                            <h3>結構補強</h3>
                             <p>
-                                幫客戶設計出最適當的防水規劃
+                                長期以“高品質” “耐久性” “高技術”含量補強工程
                             </p>
                         </div>
                     </div>
@@ -253,12 +274,12 @@
                 <a href="./planning slideUp wow">
                     <div class="item slideUp wow" data-wow-delay="1.6s" data-wow-offset:"100">
                         <div class="photo imgLiquidCC">
-                            <img src="./image/index/s1.jpg" alt="photo">
+                            <img src="./image/s8.png" alt="photo">
                         </div>
                         <div class="text">
-                            <h3>建築整體防水規劃</h3>
+                            <h3>防腐蝕</h3>
                             <p>
-                                幫客戶設計出最適當的防水規劃
+                                尋求出耐酸耐鹼最好的工法
                             </p>
                         </div>
                     </div>
@@ -591,7 +612,7 @@
                                 <p>通車十二年的台灣高鐵，全長三五○公里，中國的哈大高鐵，由哈爾濱通往大連，長達九二○公里，這兩座軌道建設，無論長度、位置或通車時間皆不同，但有一個共通點：它們都使用一家小台商的技術，保護橋墩樑柱。</p>
                                 <p>這家小台商名叫易兆，說它小，是其資本額僅三千萬元新台幣，員工人數也不到五十位；然而，這家低調經營的公司，卻是保護台灣高鐵每日超過一二○個班次、十六萬日均人次安全的無形功臣。因著台灣高鐵的採用，中國哈大高鐵、四川省連接都江堰與汶川的都汶高速公路，紛紛慕名而來，委託易兆施工。</p>
                             </div>
-                            <a class="more" href="">READ MORE...</a>
+                            <a class="more" href=""><span>READ MORE...</span></a>
                         </div>
                         <div class="photo">
                             <a class="more" href="./news">文章分類項目</a>
@@ -616,7 +637,7 @@
                                 <p>通車十二年的台灣高鐵，全長三五○公里，中國的哈大高鐵，由哈爾濱通往大連，長達九二○公里，這兩座軌道建設，無論長度、位置或通車時間皆不同，但有一個共通點：它們都使用一家小台商的技術，保護橋墩樑柱。</p>
                                 <p>這家小台商名叫易兆，說它小，是其資本額僅三千萬元新台幣，員工人數也不到五十位；然而，這家低調經營的公司，卻是保護台灣高鐵每日超過一二○個班次、十六萬日均人次安全的無形功臣。因著台灣高鐵的採用，中國哈大高鐵、四川省連接都江堰與汶川的都汶高速公路，紛紛慕名而來，委託易兆施工。</p>
                             </div>
-                            <a class="more" href="">READ MORE...</a>
+                            <a class="more" href=""><span>READ MORE...</span></a>
                         </div>
                         <div class="photo">
                             <a class="more" href="./news">文章分類項目</a>

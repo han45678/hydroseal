@@ -45,14 +45,14 @@
             </div>
         </div>
         <div id="owner_title">
-            <div class="background">
+            <div class="background slideRight wow" data-wow-delay="1s" data-wow-offset:"100">
                 <h3>簡報服務內容</h3>
             </div>
         </div>
         <div class="content">
             <div class="wrapper">
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>1. 產品特性</h4>
                         <p>
                             <span class="title">1.BD 47/94 (100字簡易解說）</span>
@@ -65,7 +65,7 @@
                             把我灣引！獨那面笑失、種銷國談山往已快……是想為知國了觀不千人廠接心一合供感一。滿的球；形活稱落想價中。
                         </p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>2. 產品與高品質施工</h4>
                         <p>
                             <span class="title">1.BD 47/94 (100字簡易解說）</span>
@@ -86,7 +86,7 @@
                             把我灣引！獨那面笑失、種銷國談山往已快……是想為知國了觀不千人廠接心一合供感一。滿的球；形活稱落想價中。
                         </p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>3. 國內外實績分享</h4>
                         <p>
                             <span class="title">1.BD 47/94 (100字簡易解說）</span>
@@ -107,7 +107,7 @@
                             把我灣引！獨那面笑失、種銷國談山往已快……是想為知國了觀不千人廠接心一合供感一。滿的球；形活稱落想價中。
                         </p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -115,7 +115,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>4. 貴公司建案/土木工程整體防水建議</h4>
                         <p>
                             <span class="title">1.BD 47/94 (100字簡易解說）</span>
@@ -128,7 +128,7 @@
                             把我灣引！獨那面笑失、種銷國談山往已快……是想為知國了觀不千人廠接心一合供感一。滿的球；形活稱落想價中。
                         </p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
