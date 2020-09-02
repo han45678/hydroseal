@@ -75,8 +75,8 @@
                 <h3 class="mobile">防水/拜鐵膜</h3>
                 <div class="text">
                     <div class="text_content">
-                        <h3>防水/拜鐵膜</h3>
-                        <ul>
+                        <h3 class="slideRight wow" data-wow-delay="1s" data-wow-offset:"100">防水/拜鐵膜</h3>
+                        <ul class="slideRight wow" data-wow-delay="1.2s" data-wow-offset:"100">
                             <li>
                                 <span class="title">WHO</span>
                                 <span>建築漏水問題</span>
@@ -94,7 +94,7 @@
                                 <span><u>拜鐵膜®反應型聚氨酯噴塗系統</u></span>
                             </li>
                         </ul>
-                        <p>
+                        <p class="slideRight wow" data-wow-delay="1.4s" data-wow-offset:"100">
                             經嚴苛環境下實際的考驗,在全球已超過30年
                             拜鐵膜®是由英國Pitchmastic於1987年自拜耳公司引進Baytec®及Desmodur0309原料製
                             成,並成功的進入英國橋樑及隧道防水工程,於1990年獲得英國運輸部之高速公路橋面板防水合格標準的認證。

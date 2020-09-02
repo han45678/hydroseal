@@ -713,6 +713,7 @@
         </div>
 
     </main>
+    
     <?php include "./includes/fotter_home.php"; ?>
     <?php include "./includes/fotter_js_home.php"; ?>
 </body>

@@ -1690,7 +1690,7 @@ main {
                         letter-spacing: 1.2px;
                         margin-bottom: 45px;
                         margin-right: 35px;
-                        word-wrap:break-word;
+                        word-wrap: break-word;
 
                         .time {
                             color: #717071;
@@ -1766,7 +1766,8 @@ main {
                         .photo_zoom {
                             width: 100%;
                             min-height: 260px;
-                            img{
+
+                            img {
                                 min-height: 260px;
                                 width: 100%;
                             }
@@ -1848,7 +1849,8 @@ main {
 
                             .photo_zoom {
                                 min-height: 260px;
-                                img{
+
+                                img {
                                     width: 100%;
                                     height: 100%;
                                     min-height: 260px;
@@ -1882,7 +1884,8 @@ main {
 
                             .photo_zoom {
                                 min-height: 168px;
-                                img{
+
+                                img {
                                     width: 100%;
                                     height: 100%;
                                     min-height: 168px;
@@ -1933,7 +1936,8 @@ main {
                         .photo {
                             width: 100%;
                             height: 150px;
-                            img{
+
+                            img {
                                 width: 100%;
                                 height: 100%;
                                 object-fit: cover;
@@ -2276,7 +2280,8 @@ main {
                             .photo_item {
                                 .imgLiquidCC {
                                     height: 319px;
-                                    img{
+
+                                    img {
                                         width: 100%;
                                         height: 100%;
                                     }
@@ -2299,7 +2304,8 @@ main {
                             .photo_item {
                                 .photo_zoom {
                                     height: calc(319px / 3 - 5px);
-                                    img{
+
+                                    img {
                                         width: 100%;
                                         height: 100%;
                                     }
@@ -2646,11 +2652,16 @@ main {
                     a {
                         font-size: 18px;
                         color: #006AC6;
+                        transition: 0.6s;
+                        
 
                         &::after {
                             content: url(../image/index/arrowR.svg);
                             position: relative;
                             top: 5px;
+                        }
+                        &:hover{
+                            box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.5);
                         }
                     }
                 }
@@ -3382,92 +3393,109 @@ main {
                 width: 100%;
                 max-width: 1024px;
 
-                h3 {
+                .slick-list {
                     width: 100%;
-                    opacity: 0.7;
-                    font-size: 25px;
-                    font-weight: 700;
-                    line-height: 37px;
-                    text-align: center;
-                    margin-bottom: 50px;
 
-                    &::after {
-                        content: '';
-                        width: 178px;
-                        height: 1px;
-                        background-color: #4a4a4a;
-                        display: block;
-                        margin: 10px auto 0 auto;
-                    }
-                }
-
-                h4 {
-                    display: none;
-                }
-
-                .product_label {
-                    display: none;
-                }
-
-                p {
-                    color: #3d3d3d;
-                    font-size: 10px;
-                    font-weight: 400;
-                    line-height: 25px;
-                }
-
-                .slick {
-                    width: calc(100% + 20px);
-                    margin-top: 50px;
-                    margin-left: -10px;
-                    margin-right: -10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-                    position: relative;
-
-                    .item {
-                        width: calc(50% - 20px);
-                        margin-left: 10px;
-                        margin-right: 10px;
-
-                        .imgLiquidCC {
-                            width: 100%;
-                            height: 266px;
-                        }
-                    }
-
-                    .slick-list {
+                    .slick-track {
                         width: 100%;
                     }
+                }
+                .slick-arrow {
+                    background-image: url(../image/about/ColorsBlue-R.png);
+                    background-size: cover;
+                    width: 27px;
+                    height: 66px;
+                    border: none;
+                    font-size: 0;
+                    position: absolute;
+                    top: 75%;
+                    left: -40px;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                    transition: 0.6s;
+                    padding: 0;
 
-                    .slick-arrow {
-                        background-image: url(../image/about/ColorsBlue-R.png);
-                        background-size: cover;
-                        width: 27px;
-                        height: 66px;
-                        border: none;
-                        font-size: 0;
-                        position: absolute;
-                        top: 50%;
-                        left: -40px;
-                        transform: translateY(-50%);
-                        cursor: pointer;
-                        transition: 0.6s;
-                        padding: 0;
+                    &.slick-next {
+                        left: unset;
+                        right: -40px;
+                        transform: translateY(-50%) scaleX(-1.0);
+                    }
 
-                        &.slick-next {
-                            left: unset;
-                            right: -40px;
-                            transform: translateY(-50%) scaleX(-1.0);
-                        }
-
-                        &:hover {
-                            filter: brightness(.5);
-                        }
+                    &:hover {
+                        filter: brightness(.5);
                     }
                 }
 
+                .item_content {
+                    position: relative;
+
+                    h3 {
+                        width: 100%;
+                        opacity: 0.7;
+                        font-size: 25px;
+                        font-weight: 700;
+                        line-height: 37px;
+                        text-align: center;
+                        margin-bottom: 50px;
+
+                        &::after {
+                            content: '';
+                            width: 178px;
+                            height: 1px;
+                            background-color: #4a4a4a;
+                            display: block;
+                            margin: 10px auto 0 auto;
+                        }
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    .product_label {
+                        display: none;
+                    }
+
+                    p {
+                        color: #3d3d3d;
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 25px;
+                    }
+
+                    .img {
+                        width: calc(100% + 20px);
+                        margin-top: 50px;
+                        margin-left: -10px;
+                        margin-right: -10px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        position: relative;
+
+                        .item {
+                            width: calc(50% - 20px);
+                            margin-left: 10px;
+                            margin-right: 10px;
+
+                            .photo_zoom {
+                                width: 100%;
+                                height: 266px;
+                                img{
+                                    object-fit: cover;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+
+                        .slick-list {
+                            width: 100%;
+                        }
+
+                        
+                    }
+                }
             }
         }
     }
@@ -6931,12 +6959,15 @@ body#proxy {
         transform: scale(1);
     }
 }
-.photo_zoom{
+
+.photo_zoom {
     cursor: pointer;
-    img{
+
+    img {
         object-fit: cover;
     }
 }
+
 #img_zoom {
     width: auto;
     max-width: 600px;
@@ -6951,7 +6982,8 @@ body#proxy {
     transition: 0.6s;
     transform: scale(0);
     transform-origin: center;
-    img{
+
+    img {
         width: 100%;
     }
 
@@ -8891,7 +8923,8 @@ body#proxy {
                                 .photo_item {
                                     .photo_zoom {
                                         height: 150px;
-                                        img{
+
+                                        img {
                                             width: 100%;
                                             height: 100%;
                                         }
@@ -9805,38 +9838,40 @@ body#proxy {
                         line-height: 1.5;
                     }
 
-                    .slick {
+                    .img {
                         position: relative;
 
-                        .slick-dots {
-                            display: block;
-                            position: relative;
-                            bottom: -22.5px;
-                            width: 100%;
-                            text-align: center;
 
-                            li {
-                                display: inline-block;
-                                margin: 0 7.5px;
+                    }
 
+                    .slick-dots {
+                        display: block;
+                        position: relative;
+                        bottom: -22.5px;
+                        width: 100%;
+                        text-align: center;
+
+                        li {
+                            display: inline-block;
+                            margin: 0 7.5px;
+
+                            button {
+                                padding: 0;
+                                width: 7px;
+                                height: 7px;
+                                background-color: rgba(124, 124, 124, 0.57);
+                                border-radius: 180px;
+                                font-size: 0;
+                                border: none;
+                            }
+
+                            &.slick-active {
                                 button {
-                                    padding: 0;
-                                    width: 7px;
-                                    height: 7px;
-                                    background-color: rgba(124, 124, 124, 0.57);
-                                    border-radius: 180px;
-                                    font-size: 0;
-                                    border: none;
+                                    width: 10px;
+                                    height: 10px;
+                                    background-color: #006AC6;
                                 }
 
-                                &.slick-active {
-                                    button {
-                                        width: 10px;
-                                        height: 10px;
-                                        background-color: #006AC6;
-                                    }
-
-                                }
                             }
                         }
                     }

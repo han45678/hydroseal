@@ -71,7 +71,7 @@ $(function () {
         dots: false,
         infinite: true,
         speed: 300,
-        slidesToShow: 2,
+        slidesToShow: 1,
         responsive: [{
             breakpoint: 768,
             settings: {

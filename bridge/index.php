@@ -30,7 +30,7 @@
                 </li>
                 <li>
                     <div class="photo">
-                        <img src="../image/about/icon_top.png" alt="">
+                    <a href="https://www.covestro.com/en"><img src="../image/about/icon_top.png" alt=""></a>
                     </div>
                     <span><span class="br">世界前50</span><span class="br">大企業</span></span>
                 </li>
@@ -44,7 +44,7 @@
         </div>
         <div id="certification">
             <div class="wrapper">
-                <div class="text">
+                <div class="text slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                     <h3>
                         易兆國際認證
                     </h3>
@@ -54,7 +54,7 @@
                     <p>為了提昇更高的品質管理，於2001年引進ISO9001的品質管理，並於2002年通過ISO9001-2000之認證。</p>
                     <a href="../certification/">Read More</a>
                 </div>
-                <div class="photo">
+                <div class="photo slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                     <div class="img imgLiquidCCF">
                         <img src="../image/index/c1.jpg" alt="photo">
                     </div>
@@ -104,8 +104,8 @@
             <div class="wrapper">
                 <h3 class="mobile">橋墩基礎&船甲板&車底底盤&樹木保護/拜鐵膜</h3>
                 <div class="text">
-                    <h3>橋墩基礎&船甲板&車底底盤&樹木保護/拜鐵膜</h3>
-                    <ul>
+                    <h3 class="slideRight wow" data-wow-delay="1s" data-wow-offset:"100">橋墩基礎&船甲板&車底底盤&樹木保護/拜鐵膜</h3>
+                    <ul class="slideRight wow" data-wow-delay="1.2s" data-wow-offset:"100">
                         <li>
                             <span class="title">WHO</span>
                             <span>建築漏水問題</span>
@@ -123,14 +123,14 @@
                             <span><u>拜鐵膜®反應型聚氨酯噴塗系統</u></span>
                         </li>
                     </ul>
-                    <p>
+                    <p class="slideRight wow" data-wow-delay="1.4s" data-wow-offset:"100">
                         經嚴苛環境下實際的考驗,在全球已超過30年
                         拜鐵膜®是由英國Pitchmastic於1987年自拜耳公司引進Baytec®及Desmodur0309原料製
                         成,並成功的進入英國橋樑及隧道防水工程,於1990年獲得英國運輸部之高速公路橋面板防水合格標準的認證。
                     </p>
                 </div>
 
-                <div class="photo">
+                <div class="photo slideUp wow" data-wow-delay="1.6s" data-wow-offset:"100">
                     <img src="../image/about/d1.png" alt="photo">
                 </div>
                 <div class="tc">
