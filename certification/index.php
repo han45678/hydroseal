@@ -13,13 +13,13 @@
                 <ul>
                     <li><a href="../">首頁</a></li>
                     <li><a href="javascript:void(0)">關於易兆</a></li>
-                    <li><a href="javascript:void(0)">品牌哲學</a></li>
+                    <li><a href="javascript:void(0)">品牌認證</a></li>
                 </ul>
             </div>
             <div class="sidebar">
                 <p class="slideRight wow" data-wow-delay="1.5s" data-wow-offset:"100"><span>we know is international.</span><span>Only Standard</span></p>
                 <h2 class="slideBottom wow" data-wow-delay="1s" data-wow-offset:"100">
-                    <div class="zh">品牌哲學</div>
+                    <div class="zh">品牌認證</div>
                     <div class="en">Brand philosophy<span class="slog">國際防水標準，我們唯一懂的標準。</span></div>
                 </h2>
             </div>
@@ -68,7 +68,7 @@
                             <div class="img">
                                 <div class="photo_item">
                                     <div class="photo_zoom">
-                                        <img src="../image/about/image-1.jpg" alt="">
+                                        <img src="../image/ce3.jpg" alt="">
                                     </div>
                                     <div class="img_text">
                                         英國/第二賽文河大橋
@@ -100,7 +100,7 @@
                             <div class="img">
                                 <div class="photo_item">
                                     <div class="photo_zoom">
-                                        <img src="../image/about/Image-3.jpg" alt="">
+                                        <img src="../image/about/image-3.jpg" alt="">
                                     </div>
                                     <div class="img_text">
                                         阿布達比/扎耶德橋
@@ -110,7 +110,7 @@
                             <div class="img">
                                 <div class="photo_item">
                                     <div class="photo_zoom">
-                                        <img src="../image/about/Image-6.jpg" alt="">
+                                        <img src="../image/about/image-6.jpg" alt="">
                                     </div>
                                     <div class="img_text">
                                         英國/十里銀行鋼構橋樑
@@ -120,7 +120,7 @@
                             <div class="img">
                                 <div class="photo_item">
                                     <div class="photo_zoom">
-                                        <img src="../image/about/image-4.jpg" alt="">
+                                        <img src="../image/ce1.jpg" alt="">
                                     </div>
                                     <div class="img_text">
                                         阿布達比/薩拉姆街隧道
@@ -130,7 +130,7 @@
                             <div class="img">
                                 <div class="photo_item">
                                     <div class="photo_zoom">
-                                        <img src="../image/about/image-7.jpg" alt="">
+                                        <img src="../image/ce2.jpg" alt="">
                                     </div>
                                     <div class="img_text">
                                         英國/彌爾敦肯尼士 - 運河水道高架橋
@@ -173,7 +173,7 @@
                     <div class="item">
                         <h3>
                             <span>
-                            橋面防水英國BBA認證 
+                                人體飲用水不影響水質BS6920標準測試
                             </span>
                         </h3>
                         <div class="text">
@@ -188,7 +188,7 @@
                     <div class="item">
                         <h3>
                             <span>
-                            產品特性保證
+                                產品特性保證
                             </span>
                         </h3>
                         <ol>

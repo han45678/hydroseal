@@ -42,7 +42,7 @@
                 </li>
             </ul>
         </div>
-        <div id="certification">
+        <!--<div id="certification">
             <div class="wrapper">
                 <div class="text slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                     <h3>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div id="service_slick">
             <div class="wrapper">
                 <div class="slick">
@@ -143,9 +143,9 @@
         <div id="product_menu">
             <div id="open_menu">開啟選單</div>
             <ul>
-                <li>產品介紹</li>
-                <li>產品展示</li>
-                <li>檢驗測試</li>
+                <li>橋墩防撞</li>
+                <li>船甲板防護</li>
+                <li>汽車底盤防護</li>
                 <li>案例實績</li>
             </ul>
         </div>
@@ -156,7 +156,7 @@
                         <span>Part 1</span>
                     </div>
                     <div class="content">
-                        <h4>產品介紹</h4>
+                        <h4>橋墩防撞</h4>
                         <p>1. Baytec 拜鐵膜：是一種反應型雙組份聚氨酯，由於材料快速硬化，噴在地面上來不及流平就硬化了，表面才會形成橘皮(Orange Skin) 形狀</p>
                         <p>2. 易壁固底漆：是單組份濕氣反應型聚氨酯材料，可以使用毛刷、滾輪或是噴塗施工，會滲入混凝土孔隙裡面約1-3mm深度，硬化時間會隨著相對濕度高而減少，以台灣氣候大約只需要30-45分鐘、底漆表面稍黏但不拉絲即可噴塗拜鐵膜</p>
                         <p>3. baytec 聚氨酯 與手拌聚尿 差別</p>
@@ -204,7 +204,7 @@
                         <span>Part 2</span>
                     </div>
                     <div class="content">
-                        <h4>產品展示</h4>
+                        <h4>船甲板防護</h4>
                         <p class="segmented">
                             1.BD 47/94 (100字簡易解說）
                             因也一受共看單利一性反道，治放易子我行出導圖，分民影作引指得時那幾。多價合專會內廠這葉意原上皮手水會我從舉種起！的開麼日黃急，護一合文一港業自已醫金我你石天好聞約火此樂一士真可，輕紙國多好打內：在我要開球乎。
@@ -255,7 +255,7 @@
                         <span>Part 3</span>
                     </div>
                     <div class="content">
-                        <h4>檢驗測試</h4>
+                        <h4>汽車底盤防護</h4>
                         <p class="segmented">
                             1. BD 47/94 防水測試<br />
                             BD 47/94是英國橋面板防水的測試標準，裡面有一項是測試防水膜抗裂的，在25攝氏度下，以1個循環/秒的速率在規定的裂縫寬度，進行總共100個循環。在測試期間的任何階段，防水膜都不能有裂縫產生。

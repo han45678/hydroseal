@@ -38,9 +38,9 @@
         <div id="proxy_menu">
             <div id="open_menu">開啟選單</div>
             <ul>
-                <li id="go_agent">代理資格說明</li>
-                <li id="go_process">代理流程說明</li>
-                <li id="go_customer_profile">代理申請</li>
+                <li id="go_agent">合作資格說明</li>
+                <li id="go_process">合作流程說明</li>
+                <li id="go_customer_profile">合作申請</li>
             </ul>
         </div>
         <div class="title agent_title">
@@ -52,7 +52,7 @@
                 <div class="icon">
                     <img src="../image/Group-2.png" alt="">
                 </div>
-                <h5>〔 合適代理者 〕</h5>
+                <h5>〔 合適合作者 〕</h5>
                 <ul>
                     <li>中候了。爸西何們道、古知給驚了長，我天飯電家電配；會實中明一畫全把超朋的類他想</li>
                     <li>電家電配；會實中明一畫全把超朋的類他想</li>
@@ -67,7 +67,7 @@
                 <div class="icon">
                     <img src="../image/Group-3.png" alt="">
                 </div>
-                <h5>〔 不適任代理者 〕</h5>
+                <h5>〔 不適任合作者 〕</h5>
                 <ul>
                     <li>中候了。爸西何們道、古知給驚了長，我天飯電家電配；會實中明一畫全把超朋的類他想</li>
                     <li>電家電配；會實中明一畫全把超朋的類他想</li>
@@ -174,7 +174,7 @@
                         </div>
                     </div>
                     <div class="pc100 tc">
-                        <button id="send" type="submit">預約工程</button>
+                        <button id="send" type="submit">提交合作申請</button>
                     </div>
                 </form>
             </div>

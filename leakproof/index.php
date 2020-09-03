@@ -72,7 +72,7 @@
         </div>
         <div id="details" class="details_style2">
             <div class="wrapper">
-                <h3 class="mobile">防水/拜鐵膜</h3>
+                <h3 class="mobile">大湧水灌注止水</h3>
                 <div class="text">
                     <div class="text_content">
                         <h3 class="slideRight wow" data-wow-delay="1s" data-wow-offset:"100">防水/拜鐵膜</h3>
@@ -108,7 +108,7 @@
                 </div>
 
                 <div class="photo imgLiquidCC">
-                    <img src="../image/about/12.jpg" alt="photo">
+                    <img src="../image/12.jpg" alt="photo">
                 </div>
 
             </div>

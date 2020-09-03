@@ -13,7 +13,7 @@
                 <ul>
                     <li><a href="../">首頁</a></li>
                     <li><a href="javascript:void(0)">關於易兆</a></li>
-                    <li><a href="javascript:void(0)">品牌哲學</a></li>
+                    <li><a href="javascript:void(0)">品牌專業</a></li>
                 </ul>
             </div>
             <div class="sidebar">
@@ -26,7 +26,7 @@
             <div class="main_content">
                 <div class="main_content_manu">
                     <a class="active" href="javascript:void(0)">專業團隊</a>
-                    <a href="../material">品牌專業</a>
+                    <a href="../material">材料與技術</a>
                 </div>
                 <div id="material" class="team slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
                     <div class="item">
@@ -141,10 +141,10 @@
 
                         <h2>【 其他海外夥伴 】</h2>
                         <div class="vendor">
-                            <div class="img"><a href="http://www.continental-engineering.com/index.php"><img src="../image/about/Group9.png" alt=""></a></div>
-                            <div class="img"><img src="../image/about/Group10.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group11.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group12.png" alt=""></div>
+                            <div class="img"><a href=""><img src="../image/about/Group9.png" alt=""></a></div>
+                            <div class="img"><a href=""><img src="../image/about/Group10.png" alt=""></a></div>
+                            <div class="img"><a href=""><img src="../image/about/Group11.png" alt=""></a></div>
+                            <div class="img"><a href="http://www.continental-engineering.com/index.php"><img src="../image/about/Group12.png" alt=""></a></div>
                         </div>
                         <h3><span>國內夥伴 Domestic partner </span></h3>
                         <div class="vendor">

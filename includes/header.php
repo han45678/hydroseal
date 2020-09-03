@@ -1,4 +1,4 @@
-<header>
+<header id="header">
     <div class="wrapper">
         <a href="../" id="logo">
             <h1>易兆企業有限公司</h1>
@@ -48,7 +48,7 @@
                             <div class="content">
                                 <ol>
                                     <li>
-                                        <a href="../story/">品牌故事</a>
+                                        <a href="../story/">品牌哲學</a>
                                     </li>
                                     <li>
                                         <a href="../material/">品牌專業</a>
@@ -122,8 +122,37 @@
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <a href="../productList">產品</a>
+                    <li class="main_menu">
+                        <span>產品</span>
+                        <div class="sub_menu">
+                            <div class="content">
+                                <ol>
+                                    <li>
+                                        <a href="../productList">拜鐵膜</a>
+                                    </li>
+                                    <li>
+                                        <a href="../productList">易必靜</a>
+                                    </li>
+                                    <li>
+                                        <a href="../productList">易治水</a>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <a href="../productList">易堵水</a>
+                                    </li>
+                                    <li>
+                                        <a href="../productList">易壁固</a>
+                                    </li>
+                                    <li>
+                                        <a href="../productList">力聚膜</a>
+                                    </li>
+                                </ol>
+                                <div class="photo imgLiquidCC">
+                                    <img src="../image/index/c2.jpg" alt="img">
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="main_menu">
                         <span>工程實績</span>

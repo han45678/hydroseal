@@ -22,15 +22,15 @@
                     <h3>施作建築防水觀念教學</h3>
                     <h4>有鑒於 防水觀念參差不齊 系統性講解</h4>
                     <p>即刻預約專屬於企業的產品簡報服務（*僅開放已簽約廠商）</p>
-                    <div class="owner_drop_down">
+                    <!-- <div class="owner_drop_down">
                         <div class="title">預約產品簡報服務</div>
                         <ul>
                             <li><a href="../reservation">預約產品簡報服務</a></li>
                             <li><a href="../simulation">現場施作模擬</a></li>
                             <li><a href="../waterproof">施作建築防水觀念教學</a></li>
                         </ul>
-                    </div>
-                    <a class="reservation_button" href="../simulation/">
+                    </div> -->
+                    <a class="reservation_button active" href="../simulation/">
                         預約
                     </a>
                 </div>

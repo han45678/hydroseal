@@ -15,12 +15,12 @@
                 <img src="../image/about/banner.jpg" alt="">
             </div>
             <div class="text">
-                <h3>防水/Baytac 拜鐵膜</h3>
-                <p>拜鐵膜®為-種高級的彈性體不含任何的添加物,在不同的溫度於不同的獨立試驗下證實了其優異的材質性能,能通過各種不同天侯環境變化的考驗。</p>
+                <h3>混凝土修補</h3>
+                <p>常見的混凝土瑕疵有裂縫、蜂窩、保護層不足、中性化、鋼筋銹蝕外露、火燒、凍融等，混凝土修補最高技術是恢復原設計之材質、強度、彈性模數及耐久性。</p>
             </div>
         </div>
         <div id="engineering">
-            <h3 class="tc">世界頂級防水工程品質</h3>
+            <h3 class="tc">長期以 高品質 耐久性 高技術 含量 混凝土修補</h3>
             <ul class="js">
                 <li>
                     <div class="photo">
@@ -38,10 +38,10 @@
         </div>
         <div id="details" class="details_style2">
             <div class="wrapper">
-                <h3 class="mobile">防水/拜鐵膜</h3>
+                <h3 class="mobile">混凝土修補</h3>
                 <div class="text">
                     <div class="text_content">
-                        <h3>防水/拜鐵膜</h3>
+                        <h3>混凝土修補</h3>
                         <ul>
                             <li>
                                 <span class="title">WHO</span>
@@ -82,9 +82,8 @@
         <div id="product_menu">
             <div id="open_menu">開啟選單</div>
             <ul>
-                <li>產品介紹</li>
-                <li>產品展示</li>
-                <li>檢驗測試</li>
+                <li>常遇到的情況</li>
+                <li>解決方式</li>
                 <li>案例實績</li>
             </ul>
         </div>
@@ -95,7 +94,7 @@
                         <span>Part 1</span>
                     </div>
                     <div class="content">
-                        <h4>產品介紹</h4>
+                        <h4>常遇到的情況</h4>
                         <p>1. Baytec 拜鐵膜：是一種反應型雙組份聚氨酯，由於材料快速硬化，噴在地面上來不及流平就硬化了，表面才會形成橘皮(Orange Skin) 形狀</p>
                         <p>2. 易壁固底漆：是單組份濕氣反應型聚氨酯材料，可以使用毛刷、滾輪或是噴塗施工，會滲入混凝土孔隙裡面約1-3mm深度，硬化時間會隨著相對濕度高而減少，以台灣氣候大約只需要30-45分鐘、底漆表面稍黏但不拉絲即可噴塗拜鐵膜</p>
                         <p>3. baytec 聚氨酯 與手拌聚尿 差別</p>
@@ -143,7 +142,7 @@
                         <span>Part 2</span>
                     </div>
                     <div class="content">
-                        <h4>產品展示</h4>
+                        <h4>解決方式</h4>
                         <p class="segmented">
                             1.BD 47/94 (100字簡易解說）
                             因也一受共看單利一性反道，治放易子我行出導圖，分民影作引指得時那幾。多價合專會內廠這葉意原上皮手水會我從舉種起！的開麼日黃急，護一合文一港業自已醫金我你石天好聞約火此樂一士真可，輕紙國多好打內：在我要開球乎。
@@ -194,7 +193,7 @@
                         <span>Part 3</span>
                     </div>
                     <div class="content">
-                        <h4>檢驗測試</h4>
+                        <h4>案例實績</h4>
                         <p class="segmented">
                             1. BD 47/94 防水測試<br />
                             BD 47/94是英國橋面板防水的測試標準，裡面有一項是測試防水膜抗裂的，在25攝氏度下，以1個循環/秒的速率在規定的裂縫寬度，進行總共100個循環。在測試期間的任何階段，防水膜都不能有裂縫產生。
@@ -210,21 +209,6 @@
                         <p class="segmented">
                             4. 200萬道渣測試<br />
                             是歐洲鐵路對橋面板防水很嚴苛的測試項目之一，將拜鐵膜上面直接置放標準道渣(碎石有銳利角)，用 41 to 125kN 施壓在道渣上面，由道渣將壓力傳遞給拜鐵膜，經過2百萬次模擬火車經過反覆施壓，拜鐵膜沒有被刺破，再將拜鐵膜放置在5 bar水壓下，置放24小時後，沒有任何漏水，才能通過此項測試。
-                        </p>
-                    </div>
-                    <div class="open">
-                        <span class="icon"></span>
-                    </div>
-                </div>
-                <div id="p4" class="item">
-                    <div class="title">
-                        <span>Part 4</span>
-                    </div>
-                    <div class="content">
-                        <h4>案例實績</h4>
-                        <p class="segmented">
-                            1. 海大高鐵<br />
-                            BD 47/94是英國橋面板防水的測試標準，裡面有一項是測試防水膜抗裂的，在25攝氏度下，以1個循環/秒的速率在規定的裂縫寬度，進行總共100個循環。在測試期間的任何階段，防水膜都不能有裂縫產生。
                         </p>
                     </div>
                     <div class="open">

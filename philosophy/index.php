@@ -25,7 +25,7 @@
             </div>
             <div class="main_content">
                 <div class="main_content_manu">
-                    <a class="active" href="javascript:void(0)">品牌理念</a>
+                    <a class="active" href="javascript:void(0)">經營理念</a>
                     <a href="../story">品牌故事</a>
                 </div>
                 <div id="philosophy" class="slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
@@ -54,7 +54,8 @@
                         <div class="text">
                             <p>【 經營理念 】</p>
                             <p>儘管工程每天面對的是水泥是土地，但真正形塑的其實是每個人的生活態樣。</p>
-                            <p>持續融合前瞻技術和務實的專業能力，提升整體服務並供應穩定的施工品質。而我們的技能亦不僅止於大型建設，更積極參與生態環境、古蹟修繕等，期望能對未來的永續盡一份力，並將「良匠本心」的理念深入落實在每片土地上。</p>
+                            <p>持續融合前瞻技術和務實的專業能力，提升整體服務並供應穩定的施工品質。而我們的技能亦不僅止於大型建設，更積極參與生態環境、古蹟修繕等，期望能對未來的永
+                                續盡一份力，並將「良匠本心」的理念深入落實在每片土地上。</p>
                         </div>
                     </div>
                 </div>

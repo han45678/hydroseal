@@ -42,7 +42,7 @@
                 </li>
             </ul>
         </div>
-        <div id="certification">
+        <!--<div id="certification">
             <div class="wrapper">
                 <div class="text slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                     <h3>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div id="service_slick">
             <div class="wrapper">
                 <div class="slick">

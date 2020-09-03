@@ -26,7 +26,7 @@
             <div class="main_content">
                 <div class="main_content_manu">
                     <a class="active" href="javascript:void(0)">品牌故事</a>
-                    <a href="../philosophy">品牌理念</a>
+                    <a href="../philosophy">經營理念</a>
                 </div>
                 <div id="timeline" class="slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
                     <div class="item">

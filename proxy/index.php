@@ -237,7 +237,7 @@
                         </div>
                     </div>
                     <div class="pc100 tc">
-                        <button id="send" type="submit">預約工程</button>
+                        <button id="send" type="submit">提交合作申請</button>
                     </div>
                 </form>
             </div>

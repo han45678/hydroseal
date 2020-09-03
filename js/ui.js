@@ -29,7 +29,7 @@ $(function () {
         dots: true,
         infinite: true,
         slidesToShow: 1,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 1500,
         responsive: [{
             breakpoint: 768,
@@ -419,6 +419,7 @@ $(function () {
 
 
     $("#map .item").click(function () {
+        $("#map .item").removeClass('active');
         $(this).toggleClass('active');
     });
 
@@ -485,6 +486,10 @@ $(function () {
         $(this).toggleClass('active');
     });
 
+    $("#service_content").mouseleave(function () {
+        $("#service_content .item").removeClass('active');
+    });
+
     $(".photo_zoom img").click(function () {
         var img = $(this).attr('src');
         $("#img_zoom_back,#img_zoom").addClass('active')
@@ -497,5 +502,7 @@ $(function () {
     $("#m_menu").click(function () {
         $(this).toggleClass('active');
     });
+
+    $("main#home #service .content a .item .text").height($("main#home #service .content a .item .text").height())
     
 });

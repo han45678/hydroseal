@@ -13,7 +13,7 @@
                 <ul>
                     <li><a href="../">首頁</a></li>
                     <li><a href="javascript:void(0)">關於易兆</a></li>
-                    <li><a href="javascript:void(0)">品牌哲學</a></li>
+                    <li><a href="javascript:void(0)">品牌專業</a></li>
                 </ul>
             </div>
             <div class="sidebar">
@@ -25,7 +25,7 @@
             </div>
             <div class="main_content">
                 <div class="main_content_manu">
-                    <a class="active" href="javascript:void(0)">品牌專業</a>
+                    <a class="active" href="javascript:void(0)">材料與技術</a>
                     <a href="../team">專業團隊</a>
                 </div>
                 <div id="material" class="slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
@@ -43,7 +43,7 @@
                             <p>橋樑及隧道的防護應用<br />經嚴苛環境下實際的考驗,在全球已超過30年</p>
                             <p>拜鐵膜®是由英國Pitchmastic於1987年自拜耳公司引進Baytec®及Desmodur0309原料製成,並成功的進入英國橋樑及隧道防水工程,於1990年獲得英國運輸部之高速公路橋面板防水合格標準的認證。英國的道路運輸研究實驗室(UK Transport Road Research Laboratory)於1989年花了三年時間收集分析很多防水材料並依橋樑現況實際使用所需之各項防水材料物性,制定了一項不易老化防水材料的需求,俾以能長效期地使用在橋面板防水。此新的高速公路橋面板防水標準BD 47/94 於是被嚴格的訂定出來。並於1998年的6月正式發佈此新的防水測試標準。</p>
                             <p>同年拜鐵膜®為第一個取得合格標準編號98/R101的防水系統。拜鐵膜®為-種高級的彈性體不含任何的添加物,在不同的溫度於不同的獨立試驗下證實了其優異的材質性能,能通過各種不同天侯環境變化的考驗。</p>
-                            <div class="tc"><a href="">預約工程</a></div>
+                            <div class="tl"><a href="">預約工程</a></div>
                         </div>
                     </div>
                     <div class="item">
