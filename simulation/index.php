@@ -45,20 +45,20 @@
             </div>
         </div>
         <div id="owner_title">
-            <div class="background">
+            <div class="background slideRight wow" data-wow-delay="1s" data-wow-offset:"100">
                 <h3>現場施作內容</h3>
             </div>
         </div>
         <div class="content">
             <div class="wrapper">
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>1. 一般地面施作</h4>
                         <p>
                             現場人員噴塗拜鐵膜平面施作示範。
                         </p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -66,11 +66,11 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>2. 立面施作</h4>
                         <p>現場人員噴塗拜鐵膜立面施作示範</p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -78,11 +78,11 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>3. L型鐵施作</h4>
                         <p>現場人員噴塗拜鐵膜L型鐵施作示範</p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -90,11 +90,11 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>4. 搭接施作</h4>
                         <p>現場人員噴塗拜鐵膜搭接施作作示範</p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -102,11 +102,11 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>5. 填補施作</h4>
                         <p>現場人員噴塗拜鐵膜搭接施作作示範</p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">

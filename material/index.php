@@ -25,7 +25,7 @@
             </div>
             <div class="main_content">
                 <div class="main_content_manu">
-                    <a class="active" href="javascript:void(0)">材料與技術</a>
+                    <a class="active" href="javascript:void(0)">品牌專業</a>
                     <a href="../team">專業團隊</a>
                 </div>
                 <div id="material" class="slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
@@ -57,7 +57,7 @@
                                     <img src="../image/m2.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>環境檢驗</p>
+                                    <p>在台灣參與台灣高速鐵路及高雄捷運的跨世紀工程建設。</p>
                                 </div>
                             </div>
                             <div class="content_item">
@@ -65,7 +65,7 @@
                                     <img src="../image/m3.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>混凝土表面拉拔檢測</p>
+                                    <p>在中國東北參與哈大高鐵混凝土防護工程，經過極端環境溫度凍融循環的反覆考驗。</p>
                                 </div>
                             </div>
                             <div class="content_item">
@@ -73,7 +73,7 @@
                                     <img src="../image/m4.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>拜鐵膜®噴塗</p>
+                                    <p>在中國西南四川地區沿岷江高速公路橋墩防撞保護，經過桃花水的衝擊依然屹立不搖。</p>
                                 </div>
                             </div>
                             <div class="content_item">
@@ -81,7 +81,7 @@
                                     <img src="../image/m5.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>接著強度檢測</p>
+                                    <p>在新加坡海底20公尺的海底隧道防水，長期海水的浸泡依然堅守岡位。</p>
                                 </div>
                             </div>
                             <div class="content_item">
@@ -89,7 +89,7 @@
                                     <img src="../image/m6.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>全面針孔檢測</p>
+                                    <p>在新加坡Eco-Link@BKE生態橋樑防樹根穿刺防水，提供安全廊道讓動物回家。</p>
                                 </div>
                             </div>
                             <div class="content_item">
@@ -97,7 +97,7 @@
                                     <img src="../image/m7.jpg" alt="">
                                 </div>
                                 <div class="text">
-                                    <p>瀝青路面鋪設</p>
+                                    <p>與大陸工程公司(CEC) 、潤弘精密(Ruentex)、富邦建設(Fubonland)建立緊密的合作夥伴關係。</p>
                                 </div>
                             </div>
                         </div>
@@ -107,9 +107,11 @@
                     </div>
                     <div class="item">
                         <h3>
-                            <span>施工設備 Equipment</span>
+                            <span>施工品質管制 Quality control</span>
                         </h3>
-                        <p>拜鐵膜®的施工必須要有精確適用的噴塗設備，才能將其超過 30 年耐用年限的物性發揮，易兆企業自行研發的噴塗設備，能夠正確穩定的混合比例及攪拌均勻，只要混合比例超過誤差值，或是穩定性不夠，都會造成最終品質不穩定或無法達到應有之物性。噴塗全程電腦控制材料流量、混合比例、顯示與自動調控混合比例及溫度的功能，使得每一方寸拜鐵膜®成品，都是符合材料物性的要求，易兆出品，良匠本心。</p>
+                        <p>拜鐵膜®反應型聚氨酯噴塗材料，秉持著 30 年來一貫的政策，施工人員必須經過認可
+                            之訓練機構，通過一般基礎訓練後還需現場實際施工，經一番時間累積施工經驗且通
+                            過考核後才能負責拜鐵膜®的施作，這是拜鐵膜®對客戶的負責任態度。</p>
                         <div class="content_item">
                             <div class="photo photo_zoom">
                                 <img src="../image/m8.jpg" alt="">

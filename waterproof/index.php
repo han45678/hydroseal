@@ -45,20 +45,20 @@
             </div>
         </div>
         <div id="owner_title">
-            <div class="background">
+            <div class="background slideRight wow" data-wow-delay="1s" data-wow-offset:"100">
                 <h3>防水觀念教學內容</h3>
             </div>
         </div>
         <div class="content">
             <div class="wrapper">
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>1. 公司介紹</h4>
                         <p>
                             簡單介紹易兆企業在工程界的業務範疇跟能力。
                         </p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -66,13 +66,13 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>2. 建築防水施作細節分享</h4>
                         <p>
                             20年經驗，不管在土木或是建築方面，提供有效防水施工工法。
                         </p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -80,11 +80,11 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>3. 案例分享</h4>
                         <p>書本知識跟實際操作有一定落差，我們如何找出平衡點，並完成防水施工。</p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">
@@ -92,11 +92,11 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="text">
+                    <div class="text slideLeft wow" data-wow-delay="1s" data-wow-offset:"100">
                         <h4>4. 現場Q&A</h4>
                         <p>施工經驗互相交流，往上一層樓。</p>
                     </div>
-                    <div class="video">
+                    <div class="video slideUp wow" data-wow-delay="1s" data-wow-offset:"100">
                         <img src="../image/818.jpg" alt="video">
                         <video controls>
                             <source src="../video/videoplayback.mp4" type="video/mp4">

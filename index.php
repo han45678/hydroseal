@@ -125,7 +125,7 @@
                                     <p>
                                         展開區塊文案：與Covestro 共同簽 Cobranding (共同品牌）策略合約，本公司是拜鐵膜®(Baytec SPR®)遠東區施工隊，提供銷售及施工的服務
                                     </p>
-                                    <a href="./achievement-planning">
+                                    <a href="./certification/">
                                         了解更多國外案例
                                     </a>
                                 </div>
@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="text">
                                     <p>成立施工團隊20年,成員們已經完成無數世界級防水工程,更以每兩年回訓,經驗互相交流,更上一層樓.</p>
-                                    <a href="./achievement-planning">
+                                    <a href="./team/">
                                         了解更多國外施工團隊
                                     </a>
                                 </div>
@@ -289,7 +289,7 @@
         <div id="experience">
             <div class="title">
                 <h2>防水工程經驗累積</h2>
-                <a href="./achievement-planning">
+                <a href="./team">
                     更多品牌專業
                 </a>
             </div>

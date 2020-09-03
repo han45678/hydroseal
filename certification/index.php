@@ -25,7 +25,7 @@
             </div>
             <div class="main_content">
                 <div class="main_content_manu">
-                    <a class="active" href="javascript:void(0)">專業團隊</a>
+                    <a class="active" href="javascript:void(0)">品牌認證</a>
                 </div>
                 <div id="certification" class="slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
                     <div class="item">

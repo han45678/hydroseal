@@ -586,6 +586,8 @@ main#home #project .wrapper h2 {
   font-size: 28px;
   padding-bottom: 50px;
   font-weight: 400;
+  text-align: center;
+  width: 100%;
 }
 
 main#home #project .wrapper .content {
@@ -629,7 +631,7 @@ main#home #project .wrapper .content .item img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%) scale(1.2);
 }
 
 main#home #project .wrapper .content #project_content {
@@ -638,6 +640,8 @@ main#home #project .wrapper .content #project_content {
   text-align: left;
   background-color: #DBDCDC;
   color: #595757;
+  position: relative;
+  z-index: 2;
 }
 
 main#home #project .wrapper .content #project_content .content_item {
@@ -651,6 +655,8 @@ main#home #project .wrapper .content #project_content .content_item {
   overflow: hidden;
   opacity: 0;
   transition: 0.6s;
+  position: relative;
+  z-index: 3;
 }
 
 main#home #project .wrapper .content #project_content .content_item .off {
@@ -746,6 +752,17 @@ main#home #project .wrapper .content #project_content .content_item.item_style2 
   margin-bottom: 15px;
 }
 
+main#home #project .wrapper .content #project_content::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  left: -440px;
+  top: 0;
+  background-color: #DBDCDC;
+}
+
 main#home #certification .wrapper {
   width: 100%;
   max-width: 955px;
@@ -770,7 +787,6 @@ main#home #certification .wrapper .text h2 {
   font-weight: 400;
   color: #006AC6;
   padding-bottom: 30px;
-  text-shadow: 3px 3px #cccccc;
 }
 
 main#home #certification .wrapper .text h2::after {
@@ -798,12 +814,17 @@ main#home #certification .wrapper .text p b {
 main#home #certification .wrapper .text a {
   font-size: 18px;
   color: #006AC6;
+  transition: 0.6s;
 }
 
 main#home #certification .wrapper .text a::after {
   content: url(../image/index/arrowR.svg);
   position: relative;
   top: 5px;
+}
+
+main#home #certification .wrapper .text a:hover {
+  box-shadow: 0px 5px 9px -3px rgba(0, 0, 0, 0.5);
 }
 
 main#home #certification .wrapper .photo {
@@ -1188,6 +1209,7 @@ main#home #news .wrapper .title a {
   line-height: 1.5;
   position: relative;
   margin-right: 60px;
+  transition: 0.6s;
 }
 
 main#home #news .wrapper .title a::after {
@@ -1195,6 +1217,10 @@ main#home #news .wrapper .title a::after {
   position: absolute;
   left: -10px;
   bottom: -5px;
+}
+
+main#home #news .wrapper .title a:hover {
+  box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 main#home #news .wrapper .content {
@@ -1879,6 +1905,26 @@ main .wrapper .main_content #material .item a:hover {
   background-color: #006ac6;
 }
 
+main .wrapper .main_content #material .item .vendor a {
+  display: inline-block;
+  width: unset;
+  height: unset;
+  border-radius: unset;
+  border: unset;
+  color: unset;
+  font-size: unset;
+  font-weight: unset;
+  line-height: unset;
+  text-align: unset;
+  letter-spacing: unset;
+  transition: 0.6s;
+}
+
+main .wrapper .main_content #material .item .vendor a:hover {
+  color: unset;
+  background-color: unset;
+}
+
 main .wrapper .main_content #material.team .item .photo {
   width: 260px;
 }
@@ -2301,9 +2347,6 @@ main#service .big_banner .content {
   max-width: 1024px;
   width: 100%;
   height: 800px;
-  background-image: url(../image/about/Group-11.png);
-  background-repeat: no-repeat;
-  background-position: right 50px;
   position: relative;
 }
 
@@ -2360,6 +2403,275 @@ main#service .big_banner .content .text a {
 main#service .big_banner .content .text a:hover {
   color: #fff;
   background-color: #006ac6;
+}
+
+main#service .big_banner .content #service_content {
+  width: 559px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+main#service .big_banner .content #service_content .p1,
+main#service .big_banner .content #service_content .p2,
+main#service .big_banner .content #service_content .p3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.6s;
+}
+
+main#service .big_banner .content #service_content .p1 {
+  z-index: 3;
+}
+
+main#service .big_banner .content #service_content .p2 {
+  z-index: 2;
+}
+
+main#service .big_banner .content #service_content .p3 {
+  z-index: 1;
+}
+
+main#service .big_banner .content #service_content .item {
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  transition: 0.6s;
+  pointer-events: none;
+}
+
+main#service .big_banner .content #service_content .item .dot {
+  border-radius: 999px;
+  width: 10px;
+  height: 10px;
+  background-color: #006AC6;
+  margin: auto;
+  cursor: pointer;
+}
+
+main#service .big_banner .content #service_content .item .dot::after {
+  content: '';
+  display: block;
+  border-radius: 999px;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 106, 198, 0.2);
+  position: relative;
+}
+
+main#service .big_banner .content #service_content .item .label {
+  height: 0;
+  transform-origin: top center;
+  transform: scale(0);
+  transition: 0.6s;
+  width: 208px;
+  margin-top: 12px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+main#service .big_banner .content #service_content .item .label h3 {
+  background-color: #006AC6;
+  text-align: center;
+  line-height: 26px;
+  height: 26px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+
+main#service .big_banner .content #service_content .item .label h3::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 9px 8px;
+  border-color: transparent transparent #006ac6 transparent;
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main#service .big_banner .content #service_content .item .label .img {
+  width: 100%;
+  height: 122px;
+  position: relative;
+}
+
+main#service .big_banner .content #service_content .item .label .img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+main#service .big_banner .content #service_content .item .label .img a {
+  display: inline-block;
+  width: 106px;
+  height: 36px;
+  border-radius: 18px;
+  background: rgba(0, 106, 198, 0.8);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.5714285px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  transition: 0.6s;
+}
+
+main#service .big_banner .content #service_content .item .label .img a:hover {
+  background: #ffffff;
+  color: rgba(0, 106, 198, 0.8);
+}
+
+main#service .big_banner .content #service_content .item .label .label_text {
+  padding: 15px;
+  background-color: #fff;
+}
+
+main#service .big_banner .content #service_content .item .label .label_text p {
+  color: #595757;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  margin-bottom: 20px;
+}
+
+main#service .big_banner .content #service_content .item .label .label_text ul li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+main#service .big_banner .content #service_content .item .label .label_text ul li span {
+  color: #595757;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.4285714px;
+}
+
+main#service .big_banner .content #service_content .item .label .label_text ul li a {
+  display: inline-block;
+  color: #717071;
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  width: 74px;
+  height: 18px;
+  border-radius: 8.49px;
+  border: solid 0.8px #979797;
+  position: relative;
+  top: 2px;
+  transition: 0.6s;
+}
+
+main#service .big_banner .content #service_content .item .label .label_text ul li a svg {
+  margin-left: 5px;
+  position: relative;
+  top: -2px;
+  fill: #717071;
+}
+
+main#service .big_banner .content #service_content .item .label .label_text ul li a:hover {
+  background-color: #006AC6;
+  color: #fff;
+}
+
+main#service .big_banner .content #service_content .item .label .label_text ul li a:hover svg {
+  fill: #fff;
+}
+
+main#service .big_banner .content #service_content .item.active {
+  z-index: 7;
+}
+
+main#service .big_banner .content #service_content .item.active .label {
+  transform: scale(1);
+  height: auto;
+}
+
+main#service .big_banner .content #service_content .item.item1 {
+  top: 60px;
+  left: 75px;
+}
+
+main#service .big_banner .content #service_content .item.item2 {
+  right: 70px;
+  top: 80px;
+}
+
+main#service .big_banner .content #service_content .item.item3 {
+  left: 40px;
+  top: 210px;
+}
+
+main#service .big_banner .content #service_content .item.item4 {
+  left: 105px;
+  top: 190px;
+}
+
+main#service .big_banner .content #service_content .item.item5 {
+  left: 220px;
+  top: 215px;
+}
+
+main#service .big_banner .content #service_content .item.item6 {
+  left: 399px;
+  top: 170px;
+}
+
+main#service .big_banner .content #service_content .item.item7 {
+  left: -5px;
+  top: 300px;
+}
+
+main#service .big_banner .content #service_content .item.item8 {
+  left: 140px;
+  top: 330px;
+}
+
+main#service .big_banner .content #service_content .item.item9 {
+  left: 140px;
+  top: 365px;
+}
+
+main#service .big_banner .content #service_content .item.item10 {
+  left: 300px;
+  top: 345px;
+}
+
+main#service .big_banner .content #service_content:hover .item {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+main#service .big_banner .content #service_content:hover .p1 {
+  top: -110px;
+  left: -70px;
+}
+
+main#service .big_banner .content #service_content:hover .p2 {
+  opacity: 1;
+}
+
+main#service .big_banner .content #service_content:hover .p3 {
+  top: 90px;
+  right: -75px;
+  left: unset;
+}
+
+main#service #m_menu {
+  display: none;
 }
 
 main#service #service_banner {
@@ -7344,6 +7656,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main#home #project .wrapper .content .item:nth-child(4) {
     order: 5;
   }
+  main#home #project .wrapper .content .item img {
+    transform: translateX(-50%) translateY(-50%);
+  }
   main#home #project .wrapper .content #project_content {
     order: 3;
     width: calc(100% + 100px);
@@ -8302,9 +8617,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     right: 15px;
   }
   main#service .big_banner .content {
-    height: 768px;
-    background-image: url(../image/about/Group-3.png);
-    background-position: center 90%;
+    height: 720px;
   }
   main#service .big_banner .content .text {
     width: calc(100% - 100px);
@@ -8323,6 +8636,130 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main#service .big_banner .content .text a {
     margin-left: auto;
     margin-right: auto;
+  }
+  main#service .big_banner .content #service_content {
+    top: 400px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 320px;
+  }
+  main#service .big_banner .content #service_content .p1 img,
+  main#service .big_banner .content #service_content .p2 img,
+  main#service .big_banner .content #service_content .p3 img {
+    width: 100%;
+  }
+  main#service .big_banner .content #service_content .item .label {
+    opacity: 0;
+    pointer-events: none;
+  }
+  main#service .big_banner .content #service_content .item.item1 {
+    top: 35px;
+    left: 0px;
+  }
+  main#service .big_banner .content #service_content .item.item2 {
+    right: 0px;
+    top: 45px;
+  }
+  main#service .big_banner .content #service_content .item.item3 {
+    left: -15px;
+    top: 120px;
+  }
+  main#service .big_banner .content #service_content .item.item4 {
+    left: 30px;
+    top: 90px;
+  }
+  main#service .big_banner .content #service_content .item.item5 {
+    left: 85px;
+    top: 120px;
+  }
+  main#service .big_banner .content #service_content .item.item6 {
+    left: 175px;
+    top: 95px;
+  }
+  main#service .big_banner .content #service_content .item.item7 {
+    left: -50px;
+    top: 165px;
+  }
+  main#service .big_banner .content #service_content .item.item8 {
+    left: 30px;
+    top: 180px;
+  }
+  main#service .big_banner .content #service_content .item.item9 {
+    left: 10px;
+    top: 220px;
+  }
+  main#service .big_banner .content #service_content .item.item10 {
+    left: 130px;
+    top: 205px;
+  }
+  main#service .big_banner .content #service_content:hover .item {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  main#service .big_banner .content #service_content:hover .p1 {
+    top: -80px;
+    left: -65px;
+  }
+  main#service .big_banner .content #service_content:hover .p2 {
+    opacity: 1;
+  }
+  main#service .big_banner .content #service_content:hover .p3 {
+    top: 30px;
+    right: -70px;
+  }
+  main#service #m_menu {
+    display: block;
+    width: 100%;
+    max-width: 275px;
+    margin: auto;
+    text-align: center;
+  }
+  main#service #m_menu .title {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #006AC6;
+    border: 1px solid #006AC6;
+    position: relative;
+  }
+  main#service #m_menu .title svg {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  main#service #m_menu ul {
+    height: 0;
+    overflow: hidden;
+    transform-origin: top;
+    transform: scale(0);
+    transition: 0.8s;
+  }
+  main#service #m_menu ul li {
+    border: 1px solid #717071;
+    border-top: none;
+    width: 100%;
+    transition: 0.6s;
+  }
+  main#service #m_menu ul li a {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #717071;
+    transition: 0.6s;
+  }
+  main#service #m_menu ul li:hover {
+    background-color: #006AC6;
+  }
+  main#service #m_menu ul li:hover a {
+    color: #fff;
+  }
+  main#service #m_menu.active ul {
+    height: auto;
+    transform: scale(1);
+    overflow: unset;
+    transition: 0.8s;
   }
   main#service #service_banner .text {
     max-width: unset;
@@ -8860,7 +9297,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     background-color: #717071;
   }
   main#service #works .wrapper .product_label {
-    display: block;
+    display: block !important;
     width: 100%;
     text-align: center;
   }
@@ -8898,6 +9335,12 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#service #works .wrapper .img {
     position: relative;
+  }
+  main#service #works .wrapper .img .item {
+    width: calc(100% - 20px) !important;
+  }
+  main#service #works .wrapper .img .item:nth-child(2) {
+    display: none;
   }
   main#service #works .wrapper .slick-dots {
     display: block;

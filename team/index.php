@@ -26,7 +26,7 @@
             <div class="main_content">
                 <div class="main_content_manu">
                     <a class="active" href="javascript:void(0)">專業團隊</a>
-                    <a href="../material">材料與技術</a>
+                    <a href="../material">品牌專業</a>
                 </div>
                 <div id="material" class="team slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
                     <div class="item">
@@ -141,22 +141,22 @@
 
                         <h2>【 其他海外夥伴 】</h2>
                         <div class="vendor">
-                            <div class="img"><img src="../image/about/Group9.png" alt=""></div>
+                            <div class="img"><a href="http://www.continental-engineering.com/index.php"><img src="../image/about/Group9.png" alt=""></a></div>
                             <div class="img"><img src="../image/about/Group10.png" alt=""></div>
                             <div class="img"><img src="../image/about/Group11.png" alt=""></div>
                             <div class="img"><img src="../image/about/Group12.png" alt=""></div>
                         </div>
                         <h3><span>國內夥伴 Domestic partner </span></h3>
                         <div class="vendor">
-                            <div class="img"><img src="../image/about/Group21.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group13.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group14.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group15.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group16.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group17.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group18.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group19.png" alt=""></div>
-                            <div class="img"><img src="../image/about/Group20.png" alt=""></div>
+                            <div class="img"><a href="http://www.continental-engineering.com/index.php"><img src="../image/about/Group21.png" alt=""></a></div>
+                            <div class="img"><a href="http://rcweb.ruentex.com.tw/RUENTEX/"><img src="../image/about/Group13.png" alt=""></a></div>
+                            <div class="img"><a href="http://www.cathay-red.com.tw/"><img src="../image/about/Group14.png" alt=""></a></div>
+                            <div class="img"><a href="http://www.fubonland.com.tw/"><img src="../image/about/Group15.png" alt=""></a></div>
+                            <div class="img"><a href="https://www.dacin.com.tw/"><img src="../image/about/Group16.png" alt=""></a></div>
+                            <div class="img"><a href="http://www.truefullland.com/"><img src="../image/about/Group17.png" alt=""></a></div>
+                            <div class="img"><a href="http://paohuei-solitaire.com.tw/"><img src="../image/about/Group18.png" alt=""></a></div>
+                            <div class="img"><a href="https://www.fuly.com.tw/"><img src="../image/about/Group19.png" alt=""></a></div>
+                            <div class="img"><a href="https://www.kycc.com.tw/tw/"><img src="../image/about/Group20.png" alt=""></a></div>
                         </div>
                     </div>
                     <div class="item"></div>

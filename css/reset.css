@@ -199,7 +199,7 @@ a {
 }
 
 
-.coordinate::after {
+.coordinate::after,.dot::after {
     animation: jello 1s;
     animation-iteration-count: infinite;
 }

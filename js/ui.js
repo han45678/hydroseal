@@ -480,14 +480,10 @@ $(function () {
         $('#news .content .classification ul').toggleClass('active');
     });
 
-    // $(window).scroll(function () {
-    //     if ($("#certification").scrollTop() > 80) {
-    //         $("#mainNav").addClass("navbar-shrink");
-    //     } else {
-    //         $("#mainNav").removeClass("navbar-shrink");
-    //     }
-    //     //$(window).scrollTop()
-    // });
+    $("#service_content .item").click(function () {
+        $("#service_content .item").removeClass('active');
+        $(this).toggleClass('active');
+    });
 
     $(".photo_zoom img").click(function () {
         var img = $(this).attr('src');
@@ -496,6 +492,10 @@ $(function () {
     });
     $("#img_zoom .off").click(function () {
         $("#img_zoom_back,#img_zoom").removeClass('active')
+    });
+
+    $("#m_menu").click(function () {
+        $(this).toggleClass('active');
     });
     
 });
