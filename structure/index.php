@@ -56,9 +56,7 @@
                             </li>
                         </ul>
                         <p class="slideRight wow" data-wow-delay="1.4s" data-wow-offset:"100">
-                            經嚴苛環境下實際的考驗,在全球已超過30年
-                            拜鐵膜®是由英國Pitchmastic於1987年自拜耳公司引進Baytec®及Desmodur0309原料製
-                            成,並成功的進入英國橋樑及隧道防水工程,於1990年獲得英國運輸部之高速公路橋面板防水合格標準的認證。
+                            補足或增加現有結構的強度，結構補強有幾種方式: 碳纖維、鋼板包覆、剪力牆、擴柱、擴樑、擴基或是增板。
                         </p>
                         <div class="tc">
                             <a href="../connection/">
@@ -159,7 +157,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
-                               
+
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">
@@ -181,7 +179,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
-                               
+
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">

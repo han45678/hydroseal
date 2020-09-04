@@ -141,9 +141,9 @@
 
                         <h2>【 其他海外夥伴 】</h2>
                         <div class="vendor">
-                            <div class="img"><a href=""><img src="../image/about/Group9.png" alt=""></a></div>
-                            <div class="img"><a href=""><img src="../image/about/Group10.png" alt=""></a></div>
-                            <div class="img"><a href=""><img src="../image/about/Group11.png" alt=""></a></div>
+                            <div class="img"><a href="https://www.bzb.de/index.php"><img src="../image/about/Group9.png" alt=""></a></div>
+                            <div class="img"><a href="https://www.covestro.com/en"><img src="../image/about/Group10.png" alt=""></a></div>
+                            <div class="img go_certificate"><img src="../image/about/Group11.png" alt=""></div>
                             <div class="img"><a href="http://www.continental-engineering.com/index.php"><img src="../image/about/Group12.png" alt=""></a></div>
                         </div>
                         <h3><span>國內夥伴 Domestic partner </span></h3>

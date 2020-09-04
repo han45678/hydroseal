@@ -204,6 +204,10 @@ a {
     animation-iteration-count: infinite;
 }
 
+.go_certificate{
+    cursor: pointer;
+}
+
 @keyframes jello {
 
     from,

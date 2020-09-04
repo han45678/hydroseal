@@ -37,7 +37,7 @@
                 <div class="text">
                     <div class="text_content">
                         <h3 class="slideRight wow" data-wow-delay="1s" data-wow-offset:"100">混凝土防腐蝕</h3>
-                        <ul  class="slideRight wow" data-wow-delay="1.2s" data-wow-offset:"100">
+                        <ul class="slideRight wow" data-wow-delay="1.2s" data-wow-offset:"100">
                             <li>
                                 <span class="title">WHO</span>
                                 <span>建築漏水問題</span>
@@ -56,9 +56,7 @@
                             </li>
                         </ul>
                         <p class="slideRight wow" data-wow-delay="1.4s" data-wow-offset:"100">
-                            經嚴苛環境下實際的考驗,在全球已超過30年
-                            拜鐵膜®是由英國Pitchmastic於1987年自拜耳公司引進Baytec®及Desmodur0309原料製
-                            成,並成功的進入英國橋樑及隧道防水工程,於1990年獲得英國運輸部之高速公路橋面板防水合格標準的認證。
+                            混凝土在Ph值低於5.6的環境下就很容易會被腐蝕，建築物是必須施作防腐蝕，來保護結構體安全及維持原設計的耐用年限。
                         </p>
                         <div class="tc">
                             <a href="../connection/">
@@ -159,7 +157,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
-                               
+
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">
@@ -181,7 +179,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
-                               
+
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">

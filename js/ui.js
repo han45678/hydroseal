@@ -440,6 +440,11 @@ $(function () {
             $('#use-content').fadeIn();
         }
     });
+    $('.go_certificate').click(function () {
+        $('html,body').animate({
+            scrollTop: $('.item.certificate').offset().top
+        }, 800);
+    });
 
     $('.down .down_animation').click(function () {
         $('html,body').animate({
