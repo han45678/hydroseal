@@ -129,9 +129,51 @@
                         成,並成功的進入英國橋樑及隧道防水工程,於1990年獲得英國運輸部之高速公路橋面板防水合格標準的認證。
                     </p>
                 </div>
-
                 <div class="photo slideUp wow" data-wow-delay="1.6s" data-wow-offset:"100">
-                    <img src="../image/about/d1.png" alt="photo">
+                    <div class="img1">
+                        <img src="../image/bpb1.png" alt="">
+                        <div class="photo_text">拜鐵膜</div>
+                        <div class="item item1">
+                            <div class="dot"></div>
+                            <div class="box">
+                                快速硬化、不垂流、大幅提升施工品質聚脲常常而且不定時會有針孔、垂流、不乾、起泡、剝落等等材料及施工品質不穩定的問題，與拜鐵膜整體品質穩定有很大的差異
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img2">
+                        <img src="../image/bpb2.png" alt="">
+                        <div class="photo_text">底漆</div>
+                        <div class="item item2">
+                            <div class="dot"></div>
+                            <div class="box">
+                                快速硬化、不垂流、大幅提升施工品質聚脲常常而且不定時會有針孔、垂流、不乾、起泡、剝落等等材料及施工品質不穩定的問題，與拜鐵膜整體品質穩定有很大的差異
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img3">
+                        <img src="../image/bpb3.png" alt="">
+                        <div class="photo_text">混凝土或金屬表面</div>
+                        <div class="item item3">
+                            <div class="dot"></div>
+                            <div class="box">
+                                快速硬化、不垂流、大幅提升施工品質聚脲常常而且不定時會有針孔、垂流、不乾、起泡、剝落等等材料及施工品質不穩定的問題，與拜鐵膜整體品質穩定有很大的差異
+                            </div>
+                        </div>
+                    </div>
+                    <div id="box_m">
+                        <div class="box1">
+                            <h3>拜鐵膜</h3>
+                            快速硬化、不垂流、大幅提升施工品質聚脲常常而且不定時會有針孔、垂流、不乾、起泡、剝落等等材料及施工品質不穩定的問題，與拜鐵膜整體品質穩定有很大的差異
+                        </div>
+                        <div class="box2">
+                            <h3>底漆</h3>
+                            快速硬化、不垂流、大幅提升施工品質聚脲常常而且不定時會有針孔、垂流、不乾、起泡、剝落等等材料及施工品質不穩定的問題，與拜鐵膜整體品質穩定有很大的差異
+                        </div>
+                        <div class="box3">
+                            <h3>混凝土金屬表面</h3>
+                            快速硬化、不垂流、大幅提升施工品質聚脲常常而且不定時會有針孔、垂流、不乾、起泡、剝落等等材料及施工品質不穩定的問題，與拜鐵膜整體品質穩定有很大的差異
+                        </div>
+                    </div>
                 </div>
                 <div class="tc">
                     <a href="../connection">
@@ -327,7 +369,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
-                               
+
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">
@@ -349,7 +391,7 @@
                         </div>
                         <div class="after">
                             <span class="off">
-                               
+
                                 <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                     <desc>Created with Lunacy</desc>
                                     <g id="X" transform="translate(0.5 0.5)">

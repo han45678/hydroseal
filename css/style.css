@@ -3105,11 +3105,245 @@ main#service #details .wrapper .text p {
 
 main#service #details .wrapper .photo {
   width: 50%;
+  position: relative;
 }
 
-main#service #details .wrapper .photo img {
-  max-width: calc(100% - 50px);
-  padding-left: 50px;
+main#service #details .wrapper .photo .img1 {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  top: -10px;
+  transition: 0.6s;
+}
+
+main#service #details .wrapper .photo .img1 .photo_text {
+  display: none;
+  font-size: 14px;
+  color: #006AC6;
+  font-weight: bold;
+  position: absolute;
+  bottom: 60px;
+  left: -40px;
+}
+
+main#service #details .wrapper .photo .img1 .photo_text::before {
+  content: '';
+  display: block;
+  width: 74px;
+  height: 1px;
+  background: #006AC6;
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+}
+
+main#service #details .wrapper .photo .img1 .photo_text::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #006AC6;
+  border-radius: 999px;
+  position: absolute;
+  bottom: -7.5px;
+  left: -12.5px;
+}
+
+main#service #details .wrapper .photo .img2 {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  transition: 0.8s;
+}
+
+main#service #details .wrapper .photo .img2 .photo_text {
+  display: none;
+  font-size: 14px;
+  color: #006AC6;
+  font-weight: bold;
+  position: absolute;
+  bottom: 60px;
+  left: -40px;
+}
+
+main#service #details .wrapper .photo .img2 .photo_text::before {
+  content: '';
+  display: block;
+  width: 74px;
+  height: 1px;
+  background: #006AC6;
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+}
+
+main#service #details .wrapper .photo .img2 .photo_text::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #006AC6;
+  border-radius: 999px;
+  position: absolute;
+  bottom: -7.5px;
+  left: -12.5px;
+}
+
+main#service #details .wrapper .photo .img3 {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  transition: 1s;
+}
+
+main#service #details .wrapper .photo .img3 .photo_text {
+  display: none;
+  font-size: 14px;
+  color: #006AC6;
+  font-weight: bold;
+  position: absolute;
+  bottom: 60px;
+  left: -40px;
+}
+
+main#service #details .wrapper .photo .img3 .photo_text::before {
+  content: '';
+  display: block;
+  width: 74px;
+  height: 1px;
+  background: #006AC6;
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+}
+
+main#service #details .wrapper .photo .img3 .photo_text::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #006AC6;
+  border-radius: 999px;
+  position: absolute;
+  bottom: -7.5px;
+  left: -12.5px;
+}
+
+main#service #details .wrapper .photo .item {
+  display: none;
+}
+
+main#service #details .wrapper .photo:hover .img1 {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  top: -25px;
+  transition: 0.6s;
+}
+
+main#service #details .wrapper .photo:hover .img1 .photo_text {
+  display: block;
+}
+
+main#service #details .wrapper .photo:hover .img2 {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 35px;
+  transition: 0.8s;
+}
+
+main#service #details .wrapper .photo:hover .img2 .photo_text {
+  display: block;
+}
+
+main#service #details .wrapper .photo:hover .img3 {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 80px;
+  transition: 1s;
+}
+
+main#service #details .wrapper .photo:hover .img3 .photo_text {
+  display: block;
+}
+
+main#service #details .wrapper .photo:hover .item {
+  display: block;
+  z-index: 4;
+}
+
+main#service #details .wrapper .photo:hover .item .dot {
+  border-radius: 999px;
+  width: 10px;
+  height: 10px;
+  background-color: #006AC6;
+  margin: auto;
+  cursor: pointer;
+}
+
+main#service #details .wrapper .photo:hover .item .dot::after {
+  content: '';
+  display: block;
+  border-radius: 999px;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 106, 198, 0.6);
+  position: relative;
+}
+
+main#service #details .wrapper .photo:hover .item .box {
+  width: 220px;
+  padding: 15px;
+  color: #fff;
+  background-color: rgba(0, 106, 198, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 1.11px;
+  transition: 0.6s;
+  transform-origin: left center;
+  transform: translateY(-50%) scale(0);
+}
+
+main#service #details .wrapper .photo:hover .item .box::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 17px 8px 0;
+  border-color: transparent #006AC6 transparent transparent;
+  opacity: 0.8;
+  position: absolute;
+  left: -17px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+main#service #details .wrapper .photo:hover .item.active .box {
+  transform: translateY(-50%);
+}
+
+main#service #details .wrapper .photo:hover .item.item1 {
+  position: absolute;
+  top: 105px;
+  left: 130px;
+}
+
+main#service #details .wrapper .photo:hover .item.item2 {
+  position: absolute;
+  top: 150px;
+  left: 130px;
+}
+
+main#service #details .wrapper .photo:hover .item.item3 {
+  position: absolute;
+  top: 195px;
+  left: 130px;
 }
 
 main#service #details .wrapper a {
@@ -9317,10 +9551,132 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main#service #details .wrapper .photo {
     width: 100%;
     order: 2;
+    height: 160px;
   }
   main#service #details .wrapper .photo img {
-    max-width: 100%;
-    padding-left: 0;
+    max-width: 200px;
+  }
+  main#service #details .wrapper .photo .img1 {
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  main#service #details .wrapper .photo .img1 .photo_text {
+    display: none;
+    font-size: 14px;
+    color: #006AC6;
+    font-weight: bold;
+    position: absolute;
+    bottom: 110px;
+    left: 107.5px;
+    transform: rotate(90deg);
+    transform-origin: bottom;
+  }
+  main#service #details .wrapper .photo .img2 {
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  main#service #details .wrapper .photo .img2 .photo_text {
+    display: none;
+    font-size: 14px;
+    color: #006AC6;
+    font-weight: bold;
+    position: absolute;
+    bottom: -40px;
+    left: 57.5px;
+    transform: rotate(270deg);
+    transform-origin: top;
+  }
+  main#service #details .wrapper .photo .img3 {
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  main#service #details .wrapper .photo .img3 .photo_text {
+    display: none;
+    font-size: 14px;
+    color: #006AC6;
+    font-weight: bold;
+    position: absolute;
+    bottom: -40px;
+    left: 65px;
+    transform: rotate(270deg);
+    transform-origin: top;
+  }
+  main#service #details .wrapper .photo .img3 .photo_text::before {
+    width: 125px;
+  }
+  main#service #details .wrapper .photo .item {
+    display: none;
+  }
+  main#service #details .wrapper .photo:hover {
+    margin: 80px 0;
+  }
+  main#service #details .wrapper .photo:hover .img1 {
+    top: -45px;
+    left: -75px;
+  }
+  main#service #details .wrapper .photo:hover .img1 .photo_text {
+    display: block;
+  }
+  main#service #details .wrapper .photo:hover .img2 {
+    top: 0;
+  }
+  main#service #details .wrapper .photo:hover .img2 .photo_text {
+    display: block;
+  }
+  main#service #details .wrapper .photo:hover .img3 {
+    top: 40px;
+    right: -75px;
+  }
+  main#service #details .wrapper .photo:hover .img3 .photo_text {
+    display: block;
+  }
+  main#service #details .wrapper .photo:hover .item {
+    display: block;
+    z-index: 4;
+  }
+  main#service #details .wrapper .photo:hover .item .dot {
+    border-radius: 999px;
+    width: 10px;
+    height: 10px;
+    background-color: #006AC6;
+    margin: auto;
+    cursor: pointer;
+  }
+  main#service #details .wrapper .photo:hover .item .dot::after {
+    content: '';
+    display: block;
+    border-radius: 999px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 106, 198, 0.6);
+    position: relative;
+  }
+  main#service #details .wrapper .photo:hover .item .box {
+    display: none;
+  }
+  main#service #details .wrapper .photo:hover .item.item1 {
+    top: 95px;
+    left: 120px;
+  }
+  main#service #details .wrapper .photo:hover .item.item2 {
+    top: 105px;
+    left: 85px;
+  }
+  main#service #details .wrapper .photo:hover .item.item3 {
+    top: 115px;
+    left: 135px;
+  }
+  main#service #details .wrapper .photo #box_m .box1, main#service #details .wrapper .photo #box_m .box2, main#service #details .wrapper .photo #box_m .box3 {
+    display: none;
+  }
+  main#service #details .wrapper .photo #box_m .box {
+    display: block;
   }
   main#service #details .wrapper .tc {
     order: 4;

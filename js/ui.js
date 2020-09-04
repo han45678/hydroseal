@@ -206,6 +206,8 @@ $(function () {
         });
     }
 
+    
+
     $("#project_content .off").click(function () {
         $("#project .item").removeClass("active");
         $("#project_content .content_item").removeClass("active");
@@ -493,6 +495,15 @@ $(function () {
 
     $("#service_content").mouseleave(function () {
         $("#service_content .item").removeClass('active');
+    });
+
+    $("#details .photo .item").click(function () {
+        $("#details .wrapper .photo .item").removeClass("active");
+        $(this).addClass("active");
+    });
+
+    $("#details .photo").mouseleave(function () {
+        $("#details .wrapper .photo .item").removeClass("active");
     });
 
     $(".photo_zoom img").click(function () {

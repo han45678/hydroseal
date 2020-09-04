@@ -3238,11 +3238,252 @@ main {
 
                 .photo {
                     width: 50%;
+                    position: relative;
 
-                    img {
-                        max-width: calc(100% - 50px);
-                        padding-left: 50px;
+                    .img1 {
+                        position: absolute;
+                        z-index: 3;
+                        right: 0;
+                        top: -10px;
+                        transition: 0.6s;
+
+                        .photo_text {
+                            display: none;
+                            font-size: 14px;
+                            color: #006AC6;
+                            font-weight: bold;
+                            position: absolute;
+                            bottom: 60px;
+                            left: -40px;
+
+                            &::before {
+                                content: '';
+                                display: block;
+                                width: 74px;
+                                height: 1px;
+                                background: #006AC6;
+                                position: absolute;
+                                bottom: -5px;
+                                left: -5px;
+                            }
+
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                width: 6px;
+                                height: 6px;
+                                background-color: #006AC6;
+                                border-radius: 999px;
+                                position: absolute;
+                                bottom: -7.5px;
+                                left: -12.5px;
+                            }
+                        }
                     }
+
+                    .img2 {
+                        position: absolute;
+                        z-index: 2;
+                        right: 0;
+                        transition: 0.8s;
+
+                        .photo_text {
+                            display: none;
+                            font-size: 14px;
+                            color: #006AC6;
+                            font-weight: bold;
+                            position: absolute;
+                            bottom: 60px;
+                            left: -40px;
+
+                            &::before {
+                                content: '';
+                                display: block;
+                                width: 74px;
+                                height: 1px;
+                                background: #006AC6;
+                                position: absolute;
+                                bottom: -5px;
+                                left: -5px;
+                            }
+
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                width: 6px;
+                                height: 6px;
+                                background-color: #006AC6;
+                                border-radius: 999px;
+                                position: absolute;
+                                bottom: -7.5px;
+                                left: -12.5px;
+                            }
+                        }
+                    }
+
+                    .img3 {
+                        position: absolute;
+                        z-index: 1;
+                        right: 0;
+                        transition: 1s;
+
+                        .photo_text {
+                            display: none;
+                            font-size: 14px;
+                            color: #006AC6;
+                            font-weight: bold;
+                            position: absolute;
+                            bottom: 60px;
+                            left: -40px;
+
+                            &::before {
+                                content: '';
+                                display: block;
+                                width: 74px;
+                                height: 1px;
+                                background: #006AC6;
+                                position: absolute;
+                                bottom: -5px;
+                                left: -5px;
+                            }
+
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                width: 6px;
+                                height: 6px;
+                                background-color: #006AC6;
+                                border-radius: 999px;
+                                position: absolute;
+                                bottom: -7.5px;
+                                left: -12.5px;
+                            }
+                        }
+                    }
+
+                    .item {
+                        display: none;
+                    }
+
+                    &:hover {
+                        .img1 {
+                            position: absolute;
+                            z-index: 3;
+                            right: 0;
+                            top: -25px;
+                            transition: 0.6s;
+
+                            .photo_text {
+                                display: block;
+                            }
+                        }
+
+                        .img2 {
+                            position: absolute;
+                            z-index: 2;
+                            right: 0;
+                            top: 35px;
+                            transition: 0.8s;
+
+                            .photo_text {
+                                display: block;
+                            }
+                        }
+
+                        .img3 {
+                            position: absolute;
+                            z-index: 1;
+                            right: 0;
+                            top: 80px;
+                            transition: 1s;
+
+                            .photo_text {
+                                display: block;
+                            }
+                        }
+
+                        .item {
+                            display: block;
+                            z-index: 4;
+
+                            .dot {
+                                border-radius: 999px;
+                                width: 10px;
+                                height: 10px;
+                                background-color: #006AC6;
+                                margin: auto;
+                                cursor: pointer;
+
+                                &::after {
+                                    content: '';
+                                    display: block;
+                                    border-radius: 999px;
+                                    width: 10px;
+                                    height: 10px;
+                                    background-color: rgba(0, 106, 198, 0.6);
+                                    position: relative;
+                                }
+                            }
+
+
+                            .box {
+                                width: 220px;
+                                padding: 15px;
+                                color: #fff;
+                                background-color: rgba(0, 106, 198, 0.8);
+                                position: absolute;
+                                top: 50%;
+
+                                left: 30px;
+                                font-size: 10px;
+                                line-height: 1.5;
+                                letter-spacing: 1.11px;
+                                transition: 0.6s;
+                                transform-origin: left center;
+                                transform: translateY(-50%) scale(0);
+
+                                &::before {
+                                    content: '';
+                                    display: block;
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 8px 17px 8px 0;
+                                    border-color: transparent #006AC6 transparent transparent;
+                                    opacity: 0.8;
+                                    position: absolute;
+                                    left: -17px;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                }
+                            }
+
+                            &.active {
+                                .box {
+                                    transform: translateY(-50%);
+                                }
+                            }
+
+                            &.item1 {
+                                position: absolute;
+                                top: 105px;
+                                left: 130px;
+                            }
+
+                            &.item2 {
+                                position: absolute;
+                                top: 150px;
+                                left: 130px;
+                            }
+
+                            &.item3 {
+                                position: absolute;
+                                top: 195px;
+                                left: 130px;
+                            }
+                        }
+                    }
+
                 }
 
                 a {
@@ -10229,10 +10470,160 @@ body#proxy {
                     .photo {
                         width: 100%;
                         order: 2;
+                        height: 160px;
 
                         img {
-                            max-width: 100%;
-                            padding-left: 0;
+                            max-width: 200px;
+                        }
+
+                        .img1 {
+
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            text-align: center;
+
+                            .photo_text {
+                                display: none;
+                                font-size: 14px;
+                                color: #006AC6;
+                                font-weight: bold;
+                                position: absolute;
+                                bottom: 110px;
+                                left: 107.5px;
+                                transform: rotate(90deg);
+                                transform-origin: bottom;
+                            }
+                        }
+
+                        .img2 {
+                            right: 0;
+                            left: 0;
+
+                            margin: auto;
+                            text-align: center;
+
+                            .photo_text {
+                                display: none;
+                                font-size: 14px;
+                                color: #006AC6;
+                                font-weight: bold;
+                                position: absolute;
+                                bottom: -40px;
+                                left: 57.5px;
+                                transform: rotate(270deg);
+                                transform-origin: top;
+                            }
+                        }
+
+                        .img3 {
+
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            text-align: center;
+
+                            .photo_text {
+                                display: none;
+                                font-size: 14px;
+                                color: #006AC6;
+                                font-weight: bold;
+                                position: absolute;
+                                bottom: -40px;
+                                left: 65px;
+                                transform: rotate(270deg);
+                                transform-origin: top;
+                                &::before {
+                                    width: 125px;
+                                }
+                            }
+                        }
+
+                        .item {
+                            display: none;
+                        }
+
+                        &:hover {
+                            margin: 80px 0;
+
+                            .img1 {
+                                top: -45px;
+                                left: -75px;
+
+                                .photo_text {
+                                    display: block;
+                                }
+                            }
+
+                            .img2 {
+                                top: 0;
+
+                                .photo_text {
+                                    display: block;
+                                }
+                            }
+
+                            .img3 {
+                                top: 40px;
+                                right: -75px;
+
+                                .photo_text {
+                                    display: block;
+                                }
+                            }
+
+                            .item {
+                                display: block;
+                                z-index: 4;
+
+                                .dot {
+                                    border-radius: 999px;
+                                    width: 10px;
+                                    height: 10px;
+                                    background-color: #006AC6;
+                                    margin: auto;
+                                    cursor: pointer;
+
+                                    &::after {
+                                        content: '';
+                                        display: block;
+                                        border-radius: 999px;
+                                        width: 10px;
+                                        height: 10px;
+                                        background-color: rgba(0, 106, 198, 0.6);
+                                        position: relative;
+                                    }
+                                }
+
+
+                                .box {
+                                    display: none;
+                                }
+
+                                &.item1 {
+                                    top: 95px;
+                                    left: 120px;
+                                }
+
+                                &.item2 {
+                                    top: 105px;
+                                    left: 85px;
+                                }
+
+                                &.item3 {
+                                    top: 115px;
+                                    left: 135px;
+                                }
+                            }
+                        }
+
+                        #box_m{
+                            .box1,.box2,.box3{
+                                display: none;
+                            }
+                            .box{
+                                display: block;
+                            }
                         }
                     }
 
