@@ -20,12 +20,12 @@
                 <p class="slideRight wow" data-wow-delay="1.5s" data-wow-offset:"100"><span>we know is international.</span><span>Only Standard</span></p>
                 <h2 class="slideBottom wow" data-wow-delay="1s" data-wow-offset:"100">
                     <div class="zh">品牌認證</div>
-                    <div class="en">Brand philosophy<span class="slog">國際防水標準，我們唯一懂的標準。</span></div>
+                    <div class="en">Brand certification<span class="slog">國際防水標準，我們唯一懂的標準。</span></div>
                 </h2>
             </div>
             <div class="main_content">
                 <div class="main_content_manu">
-                    <a class="active" href="javascript:void(0)">品牌認證</a>
+                    <a class="active m_hide" href="javascript:void(0)">品牌認證</a>
                 </div>
                 <div id="certification" class="slideUp wow" data-wow-delay="2s" data-wow-offset:"100">
                     <div class="item">

@@ -17,6 +17,9 @@
         <div class="content">
             <div class="wrapper">
                 <div id="sidebar">
+                    <div class="title_m">
+                    全部商品
+                    </div>
                     <ul>
                         <li class="list">
                             <span class="title">全部產品</span>

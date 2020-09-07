@@ -7700,6 +7700,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
 }
 
 @media only screen and (max-width: 768px) {
+  .m_hide {
+    display: none;
+  }
   header {
     height: 50px;
   }
@@ -8156,7 +8159,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     transform: translateY(-50%) scaleX(-1);
   }
   main {
-    margin-top: 96px;
+    margin-top: 50px;
   }
   main#home {
     margin-top: 0;
@@ -9320,25 +9323,27 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#service #service_banner .text h3 {
     font-size: 35px;
-    font-weight: 400;
-    line-height: 44px;
+    line-height: 1.5;
   }
   main#service #service_banner .text p {
     font-size: 14px;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: -0.1976471px;
+    letter-spacing: 0.1976471px;
   }
   main#service #engineering {
     margin-top: 35px;
     margin-bottom: 35px;
   }
   main#service #engineering h3 {
+    word-wrap: break-word;
     font-size: 28px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 1.5;
     margin-bottom: 65px;
+    padding: 0 15px;
+    width: calc(100% - 30px);
   }
   main#service #engineering ul {
     max-width: unset;
@@ -9379,6 +9384,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     right: 0;
     margin: auto;
     height: 200px;
+    width: 50%;
     max-width: 160px;
   }
   main#service #engineering ul li.active .photo {
@@ -9478,6 +9484,8 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     margin-top: 30px;
     padding-top: 30px;
     margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   main#service #service_slick .wrapper .slick .slick-center.item .text h4 {
     color: rgba(0, 0, 0, 0.85);
@@ -9528,6 +9536,19 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     text-align: center;
     letter-spacing: 2.777777px;
     margin-bottom: 50px;
+    position: relative;
+  }
+  main#service #details .wrapper h3.mobile::after {
+    content: '';
+    display: inline-block;
+    background-color: #006AC6;
+    width: 166px;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
   main#service #details .wrapper .text {
     width: 100%;
@@ -9672,7 +9693,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     top: 115px;
     left: 135px;
   }
-  main#service #details .wrapper .photo #box_m .box1, main#service #details .wrapper .photo #box_m .box2, main#service #details .wrapper .photo #box_m .box3 {
+  main#service #details .wrapper .photo #box_m .box1,
+  main#service #details .wrapper .photo #box_m .box2,
+  main#service #details .wrapper .photo #box_m .box3 {
     display: none;
   }
   main#service #details .wrapper .photo #box_m .box {
@@ -9707,6 +9730,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#service #details.details_style2 .wrapper .photo {
     height: 250px;
+    margin-left: -50px;
+    margin-right: -50px;
+    width: calc(100% + 100px);
   }
   main#service #product_menu {
     padding-top: 40px;
@@ -9816,6 +9842,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main#service #product_details .wrapper .item .content {
     width: 100%;
   }
+  main#service #product_details .wrapper .item .content h4 {
+    display: none;
+  }
   main#service #product_details .wrapper .item .content img {
     max-width: 100%;
   }
@@ -9918,9 +9947,9 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     transform: scaleX(1);
   }
   main#service #related_products .wrapper {
-    width: calc(100% - 200px);
-    padding-left: 100px;
-    padding-right: 100px;
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    padding-right: 15px;
   }
   main#service #related_products .wrapper h3 {
     font-size: 28px;
@@ -10117,7 +10146,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#owner #owner_banner .text {
     width: 100%;
-    position: absolute;
+    order: 2;
   }
   main#owner #owner_banner .text .content {
     padding-top: 0;
@@ -10131,17 +10160,14 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     background-color: rgba(255, 255, 255, 0.6);
   }
   main#owner #owner_banner .text .content h3 {
-    font-size: 24px;
-    line-height: 1.5;
+    display: none;
   }
   main#owner #owner_banner .text .content h4 {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 20px;
   }
   main#owner #owner_banner .text .content p {
-    margin-top: 20px;
     margin-bottom: 15px;
-    font-size: 12px;
+    font-size: 14px;
   }
   main#owner #owner_banner .text .content .owner_drop_down {
     display: inline-block;
@@ -10159,6 +10185,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#owner #owner_banner .photo {
     width: 100%;
+    order: 1;
   }
   main#owner #owner_banner .photo .item_left {
     height: 300px;
@@ -10183,9 +10210,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     margin: 50px 30px;
   }
   main#owner .content .wrapper .item {
-    padding-top: 25px;
-    border-top: 1px solid #006ac6;
-    margin-top: 25px;
+    margin-top: 50px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -10210,7 +10235,13 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   main#owner .content .wrapper .item .video {
     width: 100%;
     order: 2;
-    margin-top: 15px;
+    margin-top: 50px;
+    margin-left: -30px;
+    margin-right: -30px;
+    width: calc(100% + 60px);
+  }
+  main#owner .content .wrapper .item .video video {
+    height: 233px;
   }
   main#owner .content .wrapper .item .video iframe {
     width: 100%;
@@ -10221,6 +10252,12 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#owner .content .wrapper .item:nth-child(odd) .video {
     order: 2;
+    margin-left: -30px;
+    margin-right: -30px;
+    width: calc(100% + 60px);
+  }
+  main#owner .content .wrapper .item:nth-child(odd) .video video {
+    height: 233px;
   }
   main#owner #customer_profile .wrapper {
     max-width: unset;
@@ -10250,12 +10287,73 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     margin-top: 5px;
     display: block;
   }
-  main#productList #page .wrapper span:nth-child(1) {
-    margin-left: 30px;
+  main#productList #page {
+    display: none;
   }
   main#productList .content .wrapper #sidebar {
     width: 100%;
-    padding: 15px 30px;
+    max-width: 275px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    color: #006AC6;
+    text-align: center;
+    border: 1px solid #006AC6;
+    margin: 35px auto;
+    position: relative;
+  }
+  main#productList .content .wrapper #sidebar .title_m::after {
+    content: url(../image/Page-ad.svg);
+    position: absolute;
+    right: 15px;
+    top: -3px;
+    transition: 0.6s;
+  }
+  main#productList .content .wrapper #sidebar ul {
+    background-color: #fff;
+    position: relative;
+    top: 1px;
+    z-index: 1;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: 0.6s;
+  }
+  main#productList .content .wrapper #sidebar ul li {
+    line-height: 35px;
+    height: 35px;
+    border: 1px solid #717071;
+    border-top: none;
+  }
+  main#productList .content .wrapper #sidebar ul li .title {
+    line-height: 35px;
+  }
+  main#productList .content .wrapper #sidebar ul li .title::after {
+    display: none;
+  }
+  main#productList .content .wrapper #sidebar ul li.active ol {
+    margin-bottom: 0 !important;
+  }
+  main#productList .content .wrapper #sidebar ul li.active ol li {
+    line-height: 35px;
+    height: 35px;
+    border: 1px solid #717071;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  main#productList .content .wrapper #sidebar ul li.active ol li.active {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  main#productList .content .wrapper #sidebar ul li.active ol li:nth-child(1) {
+    border-top: 1px solid #717071;
+  }
+  main#productList .content .wrapper #sidebar ul li.active ol li:last-child {
+    border-bottom: none;
+  }
+  main#productList .content .wrapper #sidebar.active ul {
+    transform: scaleY(1);
   }
   main#productList .content .wrapper #productList_main {
     width: 100%;
@@ -10265,6 +10363,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#productList .content .wrapper #productList_main .title {
     flex-wrap: wrap;
+    margin-bottom: 35px;
   }
   main#productList .content .wrapper #productList_main .title h2 {
     text-align: center;
@@ -10277,7 +10376,13 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     width: 100%;
   }
   main#productList .content .wrapper #productList_main .item {
-    width: 100%;
+    width: calc(50% - 7.5px);
+  }
+  main#productList .content .wrapper #productList_main .item .photo {
+    height: 125px;
+  }
+  main#productList .content .wrapper #productList_main .item p {
+    line-height: 1.5;
   }
   main#productCompare #page {
     background: #006AC6;
@@ -10341,7 +10446,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     padding: 30px 0;
   }
   main#product #page {
-    background: #006AC6;
+    display: none;
   }
   main#product #page .wrapper a {
     display: inline-block;
@@ -10365,32 +10470,31 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     display: none;
   }
   main#product #introduction {
-    padding-top: 30px;
+    padding-top: 0;
     max-width: unset;
     padding-bottom: 30px;
-    width: calc(100% - 100px);
-    margin: 0 50px;
+    width: calc(100% - 60px);
+    margin: 0 30px;
   }
   main#product #introduction .photo {
-    width: 100%;
+    width: calc(100% + 60px);
     margin-bottom: 30px;
+    margin-left: -30px;
+    margin-right: -30px;
   }
   main#product #introduction .photo h2 {
     order: 1;
-    display: block;
+    display: none;
   }
   main#product #introduction .photo .thumbnail {
-    width: 100%;
-    order: 3;
-    margin-top: 2px;
-    margin-right: 0;
-  }
-  main#product #introduction .photo .thumbnail .arrow_down {
     display: none;
   }
   main#product #introduction .photo .main_photo {
     order: 2;
     width: 100%;
+  }
+  main#product #introduction .photo .main_photo::after {
+    display: none;
   }
   main#product #introduction .text {
     width: 100%;

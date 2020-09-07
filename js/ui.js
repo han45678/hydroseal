@@ -520,5 +520,9 @@ $(function () {
     });
 
     $("main#home #service .content a .item .text").height($("main#home #service .content a .item .text").height())
+
+    $("#sidebar .title_m").click(function () {
+        $("#sidebar").toggleClass('active');
+    });
     
 });
