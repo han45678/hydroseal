@@ -15,6 +15,9 @@
                 <a href="../productList"><u>拜鐵膜52BC003 POLYOL</u></a>
             </div>
         </div>
+        <a href="../productList" id="back">
+            <img src="../image/back.svg" alt="">
+        </a>
         <div id="introduction" class="wrapper">
             <div class="photo">
                 <h2>Type 拜鐵膜52BC003 POLYOL</h2>

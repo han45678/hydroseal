@@ -85,7 +85,8 @@
         </div>
         <div id="map">
             <div class="wrapper">
-                <img src="../image/map.jpg" alt="">
+                <img class="pc" src="../image/map.jpg" alt="">
+                <img class="m" src="../image/map2.jpg" alt="">
                 <div id="jp" class="item coordinate">
                     <span class="icon"></span>
                     <div class="view">

@@ -4658,6 +4658,10 @@ main#productCompare .content .wrapper #productCompare_main .item .download a:hov
   color: #fff;
 }
 
+main#product #back {
+  display: none;
+}
+
 main#product #page {
   background: #006AC6;
 }
@@ -10076,7 +10080,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    margin-top: 40px;
+    padding: 40px 0 10px 0;
   }
   main#owner #owner_menu {
     background-color: transparent;
@@ -10370,6 +10374,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    display: none;
   }
   main#productList .content .wrapper #productList_main .title .btn {
     margin-bottom: 15px;
@@ -10406,7 +10411,12 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     width: 100%;
   }
   main#productCompare .content .wrapper #sidebar {
-    display: none;
+    margin-left: 40px;
+    width: 60px;
+    padding-top: 45px;
+  }
+  main#productCompare .content .wrapper #sidebar .characteristic {
+    height: 180px;
   }
   main#productCompare .content .wrapper #productCompare_main {
     padding-top: 30px;
@@ -10414,13 +10424,12 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     flex-wrap: wrap;
     justify-content: space-between;
     margin-right: 30px;
-    margin-left: 30px;
-    width: calc(100% - 60px);
+    margin-left: 0;
+    width: calc(100% - 130px);
   }
   main#productCompare .content .wrapper #productCompare_main .item {
     width: calc(100% - 30px);
     padding: 15px;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 50px;
   }
   main#productCompare .content .wrapper #productCompare_main .item p {
@@ -10437,13 +10446,8 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     font-weight: 500;
     line-height: 24px;
   }
-  main#productCompare .content .wrapper #productCompare_main .item .title,
-  main#productCompare .content .wrapper #productCompare_main .item .description,
-  main#productCompare .content .wrapper #productCompare_main .item .characteristic,
-  main#productCompare .content .wrapper #productCompare_main .item .application,
-  main#productCompare .content .wrapper #productCompare_main .item .download {
-    height: auto;
-    padding: 30px 0;
+  main#productCompare .content .wrapper #productCompare_main .item .characteristic {
+    height: 180px;
   }
   main#product #page {
     display: none;
@@ -10468,6 +10472,18 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#product #page .wrapper a.active::before {
     display: none;
+  }
+  main#product #back {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #006AC6;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 1;
   }
   main#product #introduction {
     padding-top: 0;
@@ -10601,7 +10617,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    margin-top: 40px;
+    padding: 40px 0 10px 0;
   }
   main#achievement .achievement_menu {
     background-color: transparent;
@@ -10666,7 +10682,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     right: 15px;
   }
   main#achievement .big_banner .content {
-    height: 720px;
+    height: 660px;
   }
   main#achievement .big_banner .content .text {
     width: calc(100% - 100px);
@@ -10771,58 +10787,54 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
   }
   main#achievement #map .wrapper {
     position: relative;
-    justify-content: center;
+    padding: 0;
+    width: 100%;
   }
   main#achievement #map .wrapper img {
-    display: none;
-  }
-  main#achievement #map .wrapper .item {
-    position: static;
-    width: 50%;
-    height: auto;
-    background-color: transparent;
-    padding: 15px 0;
-  }
-  main#achievement #map .wrapper .item::after {
-    display: none;
-  }
-  main#achievement #map .wrapper .item .view {
     width: 100%;
-    height: auto;
-    position: static;
-    text-align: center;
-    box-shadow: none;
-    display: block;
   }
-  main#achievement #map .wrapper .item .view::before {
+  main#achievement #map .wrapper img.pc {
     display: none;
   }
-  main#achievement #map .wrapper .item .view h4 {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.6428571px;
+  main#achievement #map .wrapper .item#jp {
+    right: 18%;
+    top: 25%;
   }
-  main#achievement #map .wrapper .item .view a {
-    margin-bottom: 5px;
+  main#achievement #map .wrapper .item#kr {
+    right: 36%;
+    top: 25%;
+  }
+  main#achievement #map .wrapper .item#tw {
+    right: 47.35%;
+    top: 46.5%;
+  }
+  main#achievement #map .wrapper .item#cn {
+    right: 66.35%;
+    top: 46.5%;
+  }
+  main#achievement #map .wrapper .item#sg {
+    right: 72.35%;
+    top: 81.5%;
   }
   main#achievement .wrapper {
-    padding-left: 50px;
-    padding-right: 50px;
-    width: calc(100% - 100px);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: calc(100% - 60px);
   }
   main#achievement .wrapper .content {
-    width: calc(100% - 100px);
     margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
   }
   main#achievement .wrapper .content .item {
-    width: 100%;
+    width: calc(50% - 6px);
+    margin-left: 0;
+    margin-right: 0;
   }
   main#achievement .wrapper .content .item .text p {
+    font-size: 14px;
     text-align: center;
   }
   main#achievement #planning .title {
@@ -10835,14 +10847,7 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     padding-right: 100px;
   }
   main#achievement #planning .title .wrapper h4 {
-    width: 100%;
-    color: #006ac6;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: 0.7142856px;
-    margin-bottom: 50px;
+    display: none;
   }
   main#achievement #planning .title .wrapper #menu_button {
     cursor: pointer;
@@ -10895,12 +10900,17 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     margin-bottom: 50px;
   }
   main#achievement #planning .content .wrapper {
-    padding-left: 50px;
-    padding-right: 50px;
-    width: calc(100% - 100px);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: calc(100% - 60px);
   }
   main#achievement #planning .content .wrapper .item {
-    width: 100%;
+    width: calc(50% - 7px);
+    box-shadow: 0px 0px 10px 3px #cccccc;
+  }
+  main#achievement #planning .content .wrapper .item .text {
+    padding-left: 7px;
+    padding-right: 7px;
   }
   main#achievement #baytecPmB h3 {
     color: rgba(0, 0, 0, 0.7);
@@ -10913,12 +10923,15 @@ body#proxy main #benefit .item:nth-child(2), body#proxy main #benefit .item:nth-
     margin-bottom: 60px;
   }
   main#achievement #baytecPmB .wrapper .content {
-    width: calc(100% - 50px - 50px);
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
   }
   main#achievement #baytecPmB .wrapper .content .item {
-    width: 100%;
+    width: calc(50% - 6px);
+    margin-left: 0;
+    margin-right: 0;
   }
   main#achievement #baytecPmB .wrapper .content .item .text p {
     text-align: center;
